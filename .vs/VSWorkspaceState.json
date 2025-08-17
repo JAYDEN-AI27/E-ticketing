@@ -4,9 +4,10 @@
     "\\Demo",
     "\\Demo\\Demo",
     "\\Demo\\Demo\\Controllers",
+    "\\Demo\\Demo\\Models",
     "\\Demo\\Demo\\Views",
     "\\Demo\\Demo\\wwwroot"
   ],
-  "SelectedNode": "\\Demo\\Demo\\wwwroot\\photos",
+  "SelectedNode": "\\Demo\\Demo\\Demo.csproj",
   "PreviewInSolutionExplorer": false
 }
