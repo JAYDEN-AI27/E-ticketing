@@ -21,7 +21,10 @@ public class DB : DbContext
 
 public class User
 {
-    [Key, MaxLength(100)]
+    [Key,MaxLength(4)]
+    public string UserId { get; set; }
+
+    [MaxLength(100)]
     public string Email { get; set; }
     [MaxLength(100)]
     public string Hash { get; set; }
@@ -48,7 +51,7 @@ public class Member: User
 
 public class Order
 {
-    [Key,MaxLength(4)]
+    [Key]
     public int OrderID { get; set; }
     public DateTime OrderDate { get; set; }
     [Precision(5,2)]
