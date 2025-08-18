@@ -4811,11 +4811,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Demo.csproj",
       "projectName": "Demo",
       "projectPath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
+      "projectName": "Demo",
+      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
+      "packagesPath": "C:\\Users\\lizhe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
