@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Views\\Account",
-    "\\Views\\Account\\NewFolder"
+    "\\Demo",
+    "\\Demo\\Properties"
   ],
+  "SelectedNode": "\\Demo\\Demo.csproj.user",
   "PreviewInSolutionExplorer": false
 }
