@@ -22,16 +22,22 @@
         {
             <div>
                 @User.Identity.Name |
-                @(User.IsInRole("Admin")  ? "Admin"  : "")
+                @(User.IsInRole("Admin") ? "Admin" : "")
                 @(User.IsInRole("Member") ? "Member" : "")
             </div>
         }
 
         @if (User.IsInRole("Member"))
         {
-            var photoURL = db.Members.Find(User.Identity!.Name)!.PhotoURL;
-            <img src="/photos/@photoURL">
+            var email = User.Identity?.Name;
+            var member = email != null ? db.Members.Find(email) : null;
+
+            if (!string.IsNullOrEmpty(member?.PhotoURL))
+            {
+                <img src="/photos/@member.PhotoURL" />
+            }
         }
+
     </header>
 
     <nav>

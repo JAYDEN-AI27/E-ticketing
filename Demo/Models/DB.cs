@@ -22,11 +22,11 @@ public class DB : DbContext
 
 public class User
 {
-    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int UserId { get; set; }
-
-    [MaxLength(100)]
+    [Key, EmailAddress, MaxLength(100)]
     public string Email { get; set; }
+
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity), MaxLength(100)]
+    public int UserId { get; set; }
     [MaxLength(100)]
     public string Hash { get; set; }
     [MaxLength(100)]
@@ -47,7 +47,7 @@ public class Admin : User
 public class Member : User
 {
     [MaxLength(100)]
-    public string PhotoURL { get; set; }
+    public string? PhotoURL { get; set; }
 }
 
 public class Order

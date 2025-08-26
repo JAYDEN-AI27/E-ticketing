@@ -86,165 +86,165 @@ public class HomeController : Controller
         return View();
     }
 
-    // POST: Home/Demo2
-    [HttpPost]
-    public IActionResult Demo2(EventVM vm)
-    {
-        // Server-side custom validation for date
-        // Range: 30 days before and 30 days after today
-        if (ModelState.IsValid("Date"))
-        {
-            // TODO
-            var a = DateTime.Today.AddDays(-30).ToDateOnly();
-            var b = DateTime.Today.AddDays(+30).ToDateOnly();
+//    // POST: Home/Demo2
+//    [HttpPost]
+//    public IActionResult Demo2(EventVM vm)
+//    {
+//        // Server-side custom validation for date
+//        // Range: 30 days before and 30 days after today
+//        if (ModelState.IsValid("Date"))
+//        {
+//            // TODO
+//            var a = DateTime.Today.AddDays(-30).ToDateOnly();
+//            var b = DateTime.Today.AddDays(+30).ToDateOnly();
 
-            if (vm.Date < a || vm.Date > b)
-            {
-                ModelState.AddModelError("Date", "Date out of range.");
-            }
-        }
+//            if (vm.Date < a || vm.Date > b)
+//            {
+//                ModelState.AddModelError("Date", "Date out of range.");
+//            }
+//        }
 
-        if (ModelState.IsValid)
-        {
-            Event e = new()
-            {
-                Date = vm.Date,
-                Time = vm.Time,
-                Name = vm.Name,
-            };
-            db.Events.Add(e);
-            db.SaveChanges();
+//        if (ModelState.IsValid)
+//        {
+//            Event e = new()
+//            {
+//                Date = vm.Date,
+//                Time = vm.Time,
+//                Name = vm.Name,
+//            };
+//            db.Events.Add(e);
+//            db.SaveChanges();
 
-            TempData["Info"] = $"Event <b>#{e.Id}</b> inserted.";
-            return RedirectToAction();
-        }
+//            TempData["Info"] = $"Event <b>#{e.Id}</b> inserted.";
+//            return RedirectToAction();
+//        }
 
-        return View(vm);
-    }
+//        return View(vm);
+//    }
 
-    // ------------------------------------------------------------------------
+//    // ------------------------------------------------------------------------
 
-    // GET: Home/Demo3
-    public IActionResult Demo3()
-    {
-        var model = db.Events;
-        return View(model);
-    }
+//    // GET: Home/Demo3
+//    public IActionResult Demo3()
+//    {
+//        var model = db.Events;
+//        return View(model);
+//    }
 
-    // POST: Home/Delete
-    public IActionResult Delete(int id)
-    {
-        db.Events.Where(e => e.Id == id).ExecuteDelete();
-        TempData["Info"] = $"Event <b>#{id}</b> deleted.";
-        return RedirectToAction("Demo3");
-    }
+//    // POST: Home/Delete
+//    public IActionResult Delete(int id)
+//    {
+//        db.Events.Where(e => e.Id == id).ExecuteDelete();
+//        TempData["Info"] = $"Event <b>#{id}</b> deleted.";
+//        return RedirectToAction("Demo3");
+//    }
 
-    // POST: Home/Truncate
-    [HttpPost]
-    public ActionResult Truncate()
-    {
-        // TODO
-        db.Database.ExecuteSqlRaw("TRUNCATE TABLE Events");
+//    // POST: Home/Truncate
+//    [HttpPost]
+//    public ActionResult Truncate()
+//    {
+//        // TODO
+//        db.Database.ExecuteSqlRaw("TRUNCATE TABLE Events");
 
-        TempData["Info"] = "Events truncated.";
+//        TempData["Info"] = "Events truncated.";
 
-        return RedirectToAction("Demo3");
-    }
-            
-    // POST: Home/Import
-    [HttpPost]
-    public IActionResult Import(IFormFile file)
-    {
-        if (file != null
-            && file.FileName.EndsWith(".txt")
-            && file.ContentType == "text/plain")
-        {
-            int n = ImportEvents(file);
-            TempData["Info"] = $"{n} events imported.";
-        }
+//        return RedirectToAction("Demo3");
+//    }
 
-        return RedirectToAction("Demo3");
-    }
+//    // POST: Home/Import
+//    [HttpPost]
+//    public IActionResult Import(IFormFile file)
+//    {
+//        if (file != null
+//            && file.FileName.EndsWith(".txt")
+//            && file.ContentType == "text/plain")
+//        {
+//            int n = ImportEvents(file);
+//            TempData["Info"] = $"{n} events imported.";
+//        }
 
-    private int ImportEvents(IFormFile file)
-    {
-        // Read from uploaded file --> import events
-        // Return number new events inserted
-        // TODO
-        using var stream = file.OpenReadStream();
-        using var reader = new StreamReader(stream);
+//        return RedirectToAction("Demo3");
+//    }
 
-        while (!reader.EndOfStream)
-        {
-            var line = reader.ReadLine() ?? "";
+//    private int ImportEvents(IFormFile file)
+//    {
+//        // Read from uploaded file --> import events
+//        // Return number new events inserted
+//        // TODO
+//        using var stream = file.OpenReadStream();
+//        using var reader = new StreamReader(stream);
 
-            if (line.Trim() == "") continue;
+//        while (!reader.EndOfStream)
+//        {
+//            var line = reader.ReadLine() ?? "";
 
-            var data = line.Split("\t", StringSplitOptions.TrimEntries);
+//            if (line.Trim() == "") continue;
 
-            db.Events.Add(new()
-            {
-                Date = DateOnly.Parse(data[0]),
-                Name = data[1],
-            });
-        }
+//            var data = line.Split("\t", StringSplitOptions.TrimEntries);
 
-        return db.SaveChanges();
-    }
+//            db.Events.Add(new()
+//            {
+//                Date = DateOnly.Parse(data[0]),
+//                Name = data[1],
+//            });
+//        }
 
-    // ------------------------------------------------------------------------
+//        return db.SaveChanges();
+//    }
 
-    // GET: Home/Demo4
-    public IActionResult Demo4(int month, int year)
-    {
-        // Default min and max to current year
-        // --> Read from events if available
-        int min = DateTime.Today.Year;
-        int max = DateTime.Today.Year;
+//    // ------------------------------------------------------------------------
 
-        if (db.Events.Any())
-        {
-            min = db.Events.Min(e => e.Date.Year);
-            max = db.Events.Max(e => e.Date.Year);
-        }
+//    // GET: Home/Demo4
+//    public IActionResult Demo4(int month, int year)
+//    {
+//        // Default min and max to current year
+//        // --> Read from events if available
+//        int min = DateTime.Today.Year;
+//        int max = DateTime.Today.Year;
 
-        // If month or year is out of range
-        // --> Redirect with current month and max year
-        if (month < 1 || month > 12 || year < min || year > max)
-        {
-            month = DateTime.Today.Month;
-            year  = max;
-            return RedirectToAction(null, new { month, year });
-        }
+//        if (db.Events.Any())
+//        {
+//            min = db.Events.Min(e => e.Date.Year);
+//            max = db.Events.Max(e => e.Date.Year);
+//        }
 
-        // Pass month and year to UI
-        ViewBag.Month = month;
-        ViewBag.Year  = year;
+//        // If month or year is out of range
+//        // --> Redirect with current month and max year
+//        if (month < 1 || month > 12 || year < min || year > max)
+//        {
+//            month = DateTime.Today.Month;
+//            year = max;
+//            return RedirectToAction(null, new { month, year });
+//        }
 
-        // For selection lists
-        ViewBag.MonthList = hp.GetMonthList();
-        ViewBag.YearList  = hp.GetYearList(min, max);
+//        // Pass month and year to UI
+//        ViewBag.Month = month;
+//        ViewBag.Year = year;
 
-        // ********** Working with dictionary **********
+//        // For selection lists
+//        ViewBag.MonthList = hp.GetMonthList();
+//        ViewBag.YearList = hp.GetYearList(min, max);
 
-        var dict = new Dictionary<DateOnly, List<Event>>();
+//        // ********** Working with dictionary **********
 
-        // First day (a) and last day (b) of the month
-        // TODO
-        var a = new DateOnly(year, month, 1);
-        var b = a.AddMonths(+1).AddDays(-1);
+//        var dict = new Dictionary<DateOnly, List<Event>>();
 
-        // Adjustment --> first day = Monday, last day = Sunday
-        // TODO
-        while (a.DayOfWeek != DayOfWeek.Monday) a = a.AddDays(-1);
-        while (b.DayOfWeek != DayOfWeek.Sunday) b = b.AddDays(+1);
+//        // First day (a) and last day (b) of the month
+//        // TODO
+//        var a = new DateOnly(year, month, 1);
+//        var b = a.AddMonths(+1).AddDays(-1);
 
-        // Fill dictionary with keys (dates) and values (events)
-        // TODO
-        for (var d = a; d <= b; d = d.AddDays(+1))
-        {
-            dict[d] = db.Events.Where(e => e.Date == d).ToList();
-        }
-        return View(dict);
-    }
+//        // Adjustment --> first day = Monday, last day = Sunday
+//        // TODO
+//        while (a.DayOfWeek != DayOfWeek.Monday) a = a.AddDays(-1);
+//        while (b.DayOfWeek != DayOfWeek.Sunday) b = b.AddDays(+1);
+
+//        // Fill dictionary with keys (dates) and values (events)
+//        // TODO
+//        for (var d = a; d <= b; d = d.AddDays(+1))
+//        {
+//            dict[d] = db.Events.Where(e => e.Date == d).ToList();
+//        }
+//        return View(dict);
+//    }
 }

@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddSqlServer<DB>($@"
     Data Source=(LocalDB)\MSSQLLocalDB;
-    AttachDbFilename={builder.Environment.ContentRootPath}\DB.mdf;
+    AttachDbFilename={builder.Environment.ContentRootPath}\ETicketing_DB.mdf;
 ");
 builder.Services.AddScoped<Helper>();
 builder.Services.AddAuthentication().AddCookie();

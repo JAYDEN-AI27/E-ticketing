@@ -27,6 +27,7 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult Login(LoginVM vm, string? returnURL)
     {
+
         var u = db.Users.Find(vm.Email);
 
         if (u == null || !hp.VerifyPassword(u.Hash, vm.Password))
@@ -39,15 +40,20 @@ public class AccountController : Controller
             TempData["Info"] = "Login successfully.";
 
             hp.SignIn(u!.Email, u.Role, vm.RememberMe);
-            
+
             if (string.IsNullOrEmpty(returnURL))
-            {
+            
                 return RedirectToAction("Index", "Home");
-            }
+
+            return Redirect(returnURL);
+            
         }
-        
+
         return View(vm);
     }
+
+    //return View(vm);
+    //}
 
     // GET: Account/Logout
     public IActionResult Logout(string? returnURL)
@@ -77,6 +83,11 @@ public class AccountController : Controller
         return !db.Users.Any(u => u.Email == email);
     }
 
+    public bool CheckUserId(int userId)
+    {
+        return !db.Users.Any(u => u.UserId == userId);
+    }
+
     // GET: Account/Register
     public IActionResult Register()
     {
@@ -93,6 +104,12 @@ public class AccountController : Controller
             ModelState.AddModelError("Email", "Duplicated Email.");
         }
 
+        if (ModelState.IsValid("UserId") &&
+            db.Users.Any(u => u.UserId == vm.UserId))
+        {
+            ModelState.AddModelError("UserId", "Duplicated User ID.");
+        }
+
         if (ModelState.IsValid("Photo"))
         {
             var err = hp.ValidatePhoto(vm.Photo);
@@ -103,6 +120,7 @@ public class AccountController : Controller
         {
             db.Members.Add(new()
             {
+                UserId = vm.UserId,
                 Email = vm.Email,
                 Hash = hp.HashPassword(vm.Password),
                 Name = vm.Name,
@@ -158,6 +176,7 @@ public class AccountController : Controller
 
         var vm = new UpdateProfileVM
         {
+            UserId = m.UserId,
             Email = m.Email,
             Name = m.Name,
             PhotoURL = m.PhotoURL,
@@ -211,7 +230,7 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult ResetPassword(ResetPasswordVM vm)
     {
-        var u = db.Users.Find(vm.Email);
+        var u = db.Users.FirstOrDefault(user => user.Email == vm.Email);
 
         if (u == null)
         {

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Event>
+﻿@* @model IEnumerable<Event>
 
 @{
     ViewBag.Title = "Home | Demo 3 - Import Events";
@@ -25,12 +25,12 @@
         <tr>
             <td>@e.Id</td>
             @* TODO *@
-            <td>@e.Date</td>
+    @*         <td>@e.Date</td>
             <td>@e.Time</td>
             <td>@e.Name</td>
             <td>
                 <button data-post="/Home/Delete/@e.Id">Delete</button>
             </td>
         </tr>
-    }
-</table>
+    } 
+ </table> *@
