@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DDgR9KH8zzQ=",
+  "dgSpecHash": "GhDXetHFoWE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lizhe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lizhe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -92,9 +92,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'SixLabors.ImageSharp' 3.1.10 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
-      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\Demo.csproj",
+      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\Demo.csproj",
+      "filePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
       "libraryId": "SixLabors.ImageSharp",
       "targetGraphs": [
         "net9.0"

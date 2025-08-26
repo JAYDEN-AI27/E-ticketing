@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\",
+  "WorkspaceRootPath": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,80 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAPwAAAAAAAAAAAAAABMBAAAbAAAAAAAAAA==",
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Models\\DB.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\DB.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Models\\DB.cs",
+              "RelativeToolTip": "Demo\\Models\\DB.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwDEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T17:20:45.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.txt",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Users.txt",
-              "RelativeDocumentMoniker": "Demo\\Users.txt",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Users.txt",
-              "RelativeToolTip": "Demo\\Users.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-01T16:52:01.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T16:43:01.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Helper.cs",
-              "RelativeDocumentMoniker": "Demo\\Helper.cs",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\Helper.cs",
-              "RelativeToolTip": "Demo\\Helper.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAJ8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T15:22:30.086Z",
+              "WhenOpened": "2025-08-26T02:18:04.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\appsettings.json",
-              "RelativeDocumentMoniker": "Demo\\appsettings.json",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\appsettings.json",
-              "RelativeToolTip": "Demo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-01T14:34:00.843Z",
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Helper.cs",
+              "RelativeDocumentMoniker": "Demo\\Helper.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Helper.cs",
+              "RelativeToolTip": "Demo\\Helper.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:34:48.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Demo\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WMS-08\\Demo\\Demo\\appsettings.Development.json",
-              "RelativeToolTip": "Demo\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-01T14:33:59.336Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:34:41.968Z"
             },
             {
               "$type": "Bookmark",

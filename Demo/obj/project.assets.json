@@ -4811,11 +4811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\Demo.csproj",
+      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\lizhe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\obj\\",
+      "outputPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
