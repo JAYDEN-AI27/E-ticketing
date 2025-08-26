@@ -69,12 +69,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.Users [Data]",
+              "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WEBMOBILEASSIGNMENT_DEMO_ETICKETING_DB.MDF/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WEBMOBILEASSIGNMENT_DEMO_ETICKETING_DB.MDF/True/SqlTable/dbo.Users.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-26T13:38:00.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T13:38:00.808Z"
             },
             {
               "$type": "Document",
@@ -86,8 +85,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T13:36:39.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T13:36:39.152Z"
             },
             {
               "$type": "Document",
@@ -99,8 +97,7 @@
               "RelativeToolTip": "Views\\Home\\Demo2.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T05:32:11.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T05:32:11.998Z"
             },
             {
               "$type": "Document",
@@ -112,8 +109,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T05:30:04.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T05:30:04.276Z"
             },
             {
               "$type": "Document",
@@ -134,8 +130,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-21T04:48:15.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:48:15.094Z"
             },
             {
               "$type": "Document",
@@ -147,8 +142,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T08:27:32.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T08:27:32.257Z"
             },
             {
               "$type": "Document",
@@ -173,8 +167,7 @@
               "RelativeToolTip": "Views\\Home\\Demo4.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T07:51:40.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T07:51:40.095Z"
             },
             {
               "$type": "Document",
@@ -186,8 +179,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T04:44:01.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T04:44:01.735Z"
             },
             {
               "$type": "Document",
@@ -199,8 +191,7 @@
               "RelativeToolTip": "Views\\Shared\\_RadioButtonList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T08:48:06.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T08:48:06.881Z"
             },
             {
               "$type": "Document",
@@ -212,8 +203,7 @@
               "RelativeToolTip": "Views\\Home\\Demo3.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T04:27:39.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T04:27:39.091Z"
             },
             {
               "$type": "Document",
@@ -225,8 +215,7 @@
               "RelativeToolTip": "Migrations\\20250826044441_CreateDB.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T04:44:41.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T04:44:41.827Z"
             },
             {
               "$type": "Document",
