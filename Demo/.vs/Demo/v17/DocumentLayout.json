@@ -3,20 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Migrations\\20250826044441_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250826044441_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WEBMOBILEASSIGNMENT_DEMO_ETICKETING_DB.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,14 +42,6 @@
       "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:views\\home\\demo3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\views\\shared\\_radiobuttonlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:views\\shared\\_radiobuttonlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -48,6 +51,10 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WMS_08_DEMO_DEMO_DB.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\migrations\\20250826044441_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05A13DF-D90B-4FA8-AA5E-F2A315518829}|Demo.csproj|solutionrelative:migrations\\20250826044441_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,76 +64,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250826044441_CreateDB.cs",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Migrations\\20250826044441_CreateDB.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250826044441_CreateDB.cs",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Migrations\\20250826044441_CreateDB.cs",
-              "RelativeToolTip": "Migrations\\20250826044441_CreateDB.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T04:44:41.827Z",
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WEBMOBILEASSIGNMENT_DEMO_ETICKETING_DB.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-26T13:38:00.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T04:44:01.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Demo3.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo3.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Demo3.cshtml",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo3.cshtml",
-              "RelativeToolTip": "Views\\Home\\Demo3.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T04:27:39.091Z",
+              "WhenOpened": "2025-08-26T13:36:39.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_RadioButtonList.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_RadioButtonList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_RadioButtonList.cshtml",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_RadioButtonList.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_RadioButtonList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T08:48:06.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Demo4.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo4.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Demo4.cshtml",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo4.cshtml",
-              "RelativeToolTip": "Views\\Home\\Demo4.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T07:51:40.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Demo2.cshtml",
               "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo2.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Demo2.cshtml",
@@ -139,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -152,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WMS_08_DEMO_DEMO_DB.MDF/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WMS_08_DEMO_DEMO_DB.MDF/True/SqlTable/dbo.Users.sql",
@@ -161,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -174,7 +139,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T08:27:32.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Helper.cs",
+              "RelativeDocumentMoniker": "Helper.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Helper.cs",
+              "RelativeToolTip": "Helper.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T08:27:35.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Demo4.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo4.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Demo4.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo4.cshtml",
+              "RelativeToolTip": "Views\\Home\\Demo4.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-23T07:51:40.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:44:01.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "_RadioButtonList.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_RadioButtonList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_RadioButtonList.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_RadioButtonList.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_RadioButtonList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-23T08:48:06.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Demo3.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo3.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Demo3.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Demo3.cshtml",
+              "RelativeToolTip": "Views\\Home\\Demo3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T04:27:39.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250826044441_CreateDB.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Migrations\\20250826044441_CreateDB.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250826044441_CreateDB.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Migrations\\20250826044441_CreateDB.cs",
+              "RelativeToolTip": "Migrations\\20250826044441_CreateDB.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:44:41.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Extensions.cs",
               "RelativeDocumentMoniker": "Extensions.cs",
@@ -182,34 +238,7 @@
               "RelativeToolTip": "Extensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T08:27:42.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Helper.cs",
-              "RelativeDocumentMoniker": "Helper.cs",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Helper.cs",
-              "RelativeToolTip": "Helper.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwJAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T08:27:35.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T08:27:32.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T08:27:42.578Z"
             },
             {
               "$type": "Bookmark",
