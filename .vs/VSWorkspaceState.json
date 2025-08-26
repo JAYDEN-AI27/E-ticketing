@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Demo",
-    "\\Demo\\Properties"
+    "\\Demo\\bin",
+    "\\Demo\\bin\\Debug",
+    "\\Demo\\bin\\Release",
+    "\\Demo\\Controllers"
   ],
-  "SelectedNode": "\\Demo\\Demo.csproj.user",
+  "SelectedNode": "\\Demo.sln",
   "PreviewInSolutionExplorer": false
 }
