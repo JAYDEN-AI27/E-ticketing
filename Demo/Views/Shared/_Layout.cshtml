@@ -29,8 +29,8 @@
 
         @if (User.IsInRole("Member"))
         {
-            var email = User.Identity?.Name;
-            var member = email != null ? db.Members.Find(email) : null;
+            var name = User.Identity?.Name;
+            var member = name != null ? db.Members.Find(name) : null;
 
             if (!string.IsNullOrEmpty(member?.PhotoURL))
             {
