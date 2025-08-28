@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-26T13:36:39.152Z",
               "EditorCaption": ""
@@ -99,7 +99,8 @@
               "RelativeToolTip": "Views\\Home\\Demo2.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T05:32:11.998Z"
+              "WhenOpened": "2025-08-21T05:32:11.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +112,8 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T05:30:04.276Z"
+              "WhenOpened": "2025-08-21T05:30:04.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
