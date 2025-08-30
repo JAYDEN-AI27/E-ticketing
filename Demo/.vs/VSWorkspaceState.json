@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Demo",
+    "\\Demo\\bin",
+    "\\Demo\\bin\\Debug",
+    "\\Demo\\bin\\Release",
+    "\\Demo\\Controllers"
   ],
   "SelectedNode": "\\Demo.sln",
   "PreviewInSolutionExplorer": false
