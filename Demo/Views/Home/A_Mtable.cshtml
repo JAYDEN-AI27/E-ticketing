@@ -37,15 +37,15 @@
         <th></th>
     </tr>
 
-    @foreach (var s in Model)
+    @foreach (var m in Model)
     {
         <tr>
-            <td>@s.PhotoURL</td>
-            <td>@s.UserId</td>
-            <td>@s.Name</td>
-            <td>@s.Email</td>
+            <td>@m.PhotoURL</td>
+            <td>@m.UserId</td>
+            <td>@m.Name</td>
+            <td>@m.Email</td>
             <td>
-                <button data-get="/Home/Detail/@s.UserId">Detail</button>
+                <button data-get="/Home/Detail/@m.Email">Detail</button>
             </td>
         </tr>
     }

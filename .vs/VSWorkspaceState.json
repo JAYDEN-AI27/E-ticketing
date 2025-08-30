@@ -4,8 +4,9 @@
     "\\Demo",
     "\\Demo\\Models",
     "\\Demo\\Views",
+    "\\Demo\\Views\\Home",
     "\\Demo\\Views\\Shared"
   ],
-  "SelectedNode": "\\Demo\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Demo\\Views\\Home\\Demo4.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -82,12 +82,12 @@ public class HomeController : Controller
     // ------------------------------------------------------------------------
 
     // GET: Home/Demo5
-    public IActionResult Demo5(string? name, string? sort, string? dir, int page = 1)
+    public IActionResult Member_table(string? name, string? sort, string? dir, int page = 1)
     {
         // (1) Searching ------------------------
         ViewBag.Name = name = name?.Trim() ?? "";
 
-        var searched = db.Members.Where(s => s.Name.Contains(name));
+        var searched = db.Members.Where(m => m.Name.Contains(name));
 
         // (2) Sorting --------------------------
         ViewBag.Sort = sort;
@@ -95,7 +95,7 @@ public class HomeController : Controller
 
         Func<Member, object> fn = sort switch
         {
-            "Profile photo" => m => m.PhotoURL,
+            "Photo" => m => m.PhotoURL,
             "Id" => m => m.UserId,
             "Name" => m => m.Name,
             "Email" => m => m.Email,
@@ -121,7 +121,7 @@ public class HomeController : Controller
 
         if (Request.IsAjax())
         {
-            return PartialView("A_MTable", m);
+            return PartialView("A_Mtable", m);
         }
 
         return View(m);
