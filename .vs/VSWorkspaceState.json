@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Demo",
+    "\\Demo\\Models",
     "\\Demo\\Views",
     "\\Demo\\Views\\Shared"
   ],
-  "SelectedNode": "\\Demo.sln",
+  "SelectedNode": "\\Demo\\Models\\DB.cs",
   "PreviewInSolutionExplorer": false
 }
