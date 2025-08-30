@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Demo.Models;
 
@@ -13,39 +14,68 @@ public class DB : DbContext
     public DbSet<User> Users { get; set; }
     public DbSet<Admin> Admins { get; set; }
     public DbSet<Member> Members { get; set; }
-    public DbSet<Event> Events { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<Ticket> Tickets { get; set; }
 }
 
 // Entity Classes -------------------------------------------------------------
 
 public class User
 {
-    [Key, MaxLength(100)]
+    [Key, EmailAddress, MaxLength(100)]
     public string Email { get; set; }
+
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity), MaxLength(100)]
+    public int UserId { get; set; }
     [MaxLength(100)]
     public string Hash { get; set; }
     [MaxLength(100)]
     public string Name { get; set; }
 
     public string Role => GetType().Name;
+    // TODO
+    public List<Order> Orders { get; set; } = [];
 }
 
+// TODO
 public class Admin : User
 {
 
 }
 
+// TODO
 public class Member : User
 {
     [MaxLength(100)]
-    public string PhotoURL { get; set; }
+    public string? PhotoURL { get; set; }
 }
 
-public class Event
+public class Order
 {
-    public int Id { get; set; }
-    public DateOnly Date { get; set; }
-    public TimeOnly Time { get; set; }
+    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int OrderID { get; set; }
+    public DateTime OrderDate { get; set; }
+    [Precision(5, 2)]
+    public decimal Amount { get; set; }
+
+    public User User { get; set; }
+    public List<Ticket> Tickets { get; set; } = [];
+}
+
+public class Ticket
+{
+    [Key, MaxLength(4)]
+    public string TicketID { get; set; }
     [MaxLength(100)]
-    public string Name { get; set; }
+    public string Type { get; set; }
+    [Precision(4, 2)]
+    public decimal UnitPrice { get; set; }
+    public int Stock { get; set; }
+    public DateTime DepartureTime { get; set; }
+    [MaxLength(100)]
+    public string Source { get; set; }
+    [MaxLength(100)]
+    public string Destination { get; set; }
+
+    public List<Order> Orders { get; set; } = [];
 }

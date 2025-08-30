@@ -981,7 +981,7 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
-      "SixLabors.ImageSharp/3.1.10": {
+      "SixLabors.ImageSharp/3.1.11": {
         "type": "package",
         "compile": {
           "lib/net6.0/SixLabors.ImageSharp.dll": {
@@ -3556,10 +3556,10 @@
         "readme.md"
       ]
     },
-    "SixLabors.ImageSharp/3.1.10": {
-      "sha512": "R1HEPcqx3v+kvlOTPouP0g/Nzzud9pHtjlgGbFax3Ivaz8kkaGfS2EPfyDGpmfoTUQ3nQ5wxdhYyYa9fwYA9cw==",
+    "SixLabors.ImageSharp/3.1.11": {
+      "sha512": "JfPLyigLthuE50yi6tMt7Amrenr/fA31t2CvJyhy/kQmfulIBAqo5T/YFUSRHtuYPXRSaUHygFeh6Qd933EoSw==",
       "type": "package",
-      "path": "sixlabors.imagesharp/3.1.10",
+      "path": "sixlabors.imagesharp/3.1.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3568,7 +3568,7 @@
         "lib/net6.0/SixLabors.ImageSharp.dll",
         "lib/net6.0/SixLabors.ImageSharp.xml",
         "sixlabors.imagesharp.128.png",
-        "sixlabors.imagesharp.3.1.10.nupkg.sha512",
+        "sixlabors.imagesharp.3.1.11.nupkg.sha512",
         "sixlabors.imagesharp.nuspec"
       ]
     },
@@ -4800,7 +4800,7 @@
     "net9.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.6",
-      "SixLabors.ImageSharp >= 3.1.10",
+      "SixLabors.ImageSharp >= 3.1.11",
       "X.PagedList.Mvc.Core >= 10.5.7"
     ]
   },
@@ -4811,11 +4811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\Demo.csproj",
+      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\lizhe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WMS-08\\Demo\\Demo\\obj\\",
+      "outputPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4867,7 +4867,7 @@
           },
           "SixLabors.ImageSharp": {
             "target": "Package",
-            "version": "[3.1.10, )"
+            "version": "[3.1.11, )"
           },
           "X.PagedList.Mvc.Core": {
             "target": "Package",
@@ -4896,17 +4896,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SixLabors.ImageSharp' 3.1.10 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
-      "libraryId": "SixLabors.ImageSharp",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

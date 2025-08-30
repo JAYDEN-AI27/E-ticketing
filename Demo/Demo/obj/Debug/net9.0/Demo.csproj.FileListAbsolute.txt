@@ -173,3 +173,17 @@ C:\Users\lizhe\OneDrive\桌面\WMS-08\Demo\Demo\obj\Debug\net9.0\refint\Demo.dll
 C:\Users\lizhe\OneDrive\桌面\WMS-08\Demo\Demo\obj\Debug\net9.0\Demo.pdb
 C:\Users\lizhe\OneDrive\桌面\WMS-08\Demo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
 C:\Users\lizhe\OneDrive\桌面\WMS-08\Demo\Demo\obj\Debug\net9.0\ref\Demo.dll
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.csproj.AssemblyReference.cache
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.AssemblyInfoInputs.cache
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.AssemblyInfo.cs
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.csproj.CoreCompileInputs.cache
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.RazorAssemblyInfo.cache
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.RazorAssemblyInfo.cs
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.sourcelink.json
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.dll
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\refint\Demo.dll
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.pdb
