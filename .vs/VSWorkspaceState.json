@@ -6,6 +6,6 @@
     "\\Demo\\Views",
     "\\Demo\\Views\\Shared"
   ],
-  "SelectedNode": "\\Demo\\Models\\DB.cs",
+  "SelectedNode": "\\Demo\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

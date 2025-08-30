@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Net.Mail;
 using System.Reflection.Metadata.Ecma335;
+using X.PagedList.Extensions;
 
 namespace Demo.Controllers;
 
@@ -80,47 +81,52 @@ public class HomeController : Controller
 
     // ------------------------------------------------------------------------
 
-    // GET: Home/Demo2
-    public IActionResult Demo2()
+    // GET: Home/Demo5
+    public IActionResult Demo5(string? name, string? sort, string? dir, int page = 1)
     {
-        return View();
+        // (1) Searching ------------------------
+        ViewBag.Name = name = name?.Trim() ?? "";
+
+        var searched = db.Members.Where(s => s.Name.Contains(name));
+
+        // (2) Sorting --------------------------
+        ViewBag.Sort = sort;
+        ViewBag.Dir = dir;
+
+        Func<Member, object> fn = sort switch
+        {
+            "Profile photo" => m => m.PhotoURL,
+            "Id" => m => m.UserId,
+            "Name" => m => m.Name,
+            "Email" => m => m.Email,
+            _ => m => m.UserId,
+        };
+
+        var sorted = dir == "des" ?
+                     searched.OrderByDescending(fn) :
+                     searched.OrderBy(fn);
+
+        // (3) Paging ---------------------------
+        if (page < 1)
+        {
+            return RedirectToAction(null, new { name, sort, dir, page = 1 });
+        }
+
+        var m = sorted.ToPagedList(page, 10);
+
+        if (page > m.PageCount && m.PageCount > 0)
+        {
+            return RedirectToAction(null, new { name, sort, dir, page = m.PageCount });
+        }
+
+        if (Request.IsAjax())
+        {
+            return PartialView("A_MTable", m);
+        }
+
+        return View(m);
     }
-
-//    // POST: Home/Demo2
-//    [HttpPost]
-//    public IActionResult Demo2(EventVM vm)
-//    {
-//        // Server-side custom validation for date
-//        // Range: 30 days before and 30 days after today
-//        if (ModelState.IsValid("Date"))
-//        {
-//            // TODO
-//            var a = DateTime.Today.AddDays(-30).ToDateOnly();
-//            var b = DateTime.Today.AddDays(+30).ToDateOnly();
-
-//            if (vm.Date < a || vm.Date > b)
-//            {
-//                ModelState.AddModelError("Date", "Date out of range.");
-//            }
-//        }
-
-//        if (ModelState.IsValid)
-//        {
-//            Event e = new()
-//            {
-//                Date = vm.Date,
-//                Time = vm.Time,
-//                Name = vm.Name,
-//            };
-//            db.Events.Add(e);
-//            db.SaveChanges();
-
-//            TempData["Info"] = $"Event <b>#{e.Id}</b> inserted.";
-//            return RedirectToAction();
-//        }
-
-//        return View(vm);
-//    }
+}
 
 //    // ------------------------------------------------------------------------
 
@@ -247,4 +253,4 @@ public class HomeController : Controller
 //        }
 //        return View(dict);
 //    }
-}
+
