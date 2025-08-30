@@ -44,10 +44,7 @@
         <a href="/">Index</a>
         <a href="/Home/Email">Email</a>
         <a href="/Home/Demo1">Demo 1</a>
-        <a href="/Home/Demo2">Demo 2</a>
-        <a href="/Home/Demo3">Demo 3</a>
-        <a href="/Home/Demo4">Demo 4</a>
-        <a href="/Ticket/Index2">Ticket</a>
+       
 
         <div></div>
 
@@ -65,6 +62,11 @@
         @if (User.IsInRole("Member"))
         {
             <a href="/Account/UpdateProfile">Update Profile</a>
+        }
+
+        @if (User.IsInRole("Admin"))
+        {
+            <a href="/Ticket/Index2">Ticket</a>
         }
     </nav>
 

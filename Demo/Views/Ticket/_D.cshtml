@@ -14,6 +14,8 @@
     Page @Model.PageNumber of @Model.PageCount
 </p>
 
+<button data-get="/Ticket/Insert">Insert</button>
+
 <table class="table">
     <tr>
         @foreach (var f in fields)
@@ -39,8 +41,9 @@
 
     @foreach (var s in Model)
     {
+       
         <tr>
-            <button data-get="/Ticket/Insert/@s.TicketID">Insert</button>
+           
             <td>@s.TicketID</td>
             <td>@s.Type</td>
             <td>@s.UnitPrice</td>
@@ -48,7 +51,7 @@
             <td>@s.DepartureTime</td>
             <td>@s.Source</td>
             <td>@s.Destination</td>
-            
+           
             <td>
                 <button data-get="/Ticket/Detail/@s.TicketID">Detail</button>
                 <button data-get="/Ticket/Update/@s.TicketID">Update</button>
