@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "dgSpecHash": "MSkXLuwF8/E=",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo.csproj",
@@ -92,6 +93,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "GhDXetHFoWE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
+  "expectedPackageFiles": [
+>>>>>>> Stashed changes
     "C:\\Users\\lizhe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lizhe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\lizhe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -174,6 +181,9 @@
     "C:\\Users\\lizhe\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\lizhe\\.nuget\\packages\\x.pagedlist\\10.5.7\\x.pagedlist.10.5.7.nupkg.sha512",
     "C:\\Users\\lizhe\\.nuget\\packages\\x.pagedlist.mvc.core\\10.5.7\\x.pagedlist.mvc.core.10.5.7.nupkg.sha512"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   ],
   "logs": [
@@ -182,9 +192,15 @@
       "level": "Warning",
       "message": "Package 'SixLabors.ImageSharp' 3.1.10 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "projectPath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo.csproj",
+=======
+      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
+>>>>>>> Stashed changes
 =======
       "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo.csproj",
       "warningLevel": 1,

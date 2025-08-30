@@ -4,12 +4,15 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
 =======
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +26,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,6 +53,7 @@
               "$type": "Document",
               "DocumentIndex": 0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "Title": "ViewModels.cs",
               "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Models\\ViewModels.cs",
               "RelativeDocumentMoniker": "Demo\\Models\\ViewModels.cs",
@@ -56,6 +63,8 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T07:57:50.389Z",
 =======
+=======
+>>>>>>> Stashed changes
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
@@ -77,6 +86,9 @@
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-30T08:01:42.653Z",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "EditorCaption": ""
             },
@@ -84,7 +96,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
               "Title": "Member_table.cshtml",
               "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Home\\Member_table.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Home\\Member_table.cshtml",
@@ -98,6 +113,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_Layout.cshtml",
@@ -105,7 +123,11 @@
               "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Demo\\Views\\Shared\\_Layout.cshtml",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAArAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDUAAAAUAAAAAAAAAA==",
+>>>>>>> Stashed changes
 =======
               "ViewState": "AgIAAB0AAAAAAAAAAAAmwDUAAAAUAAAAAAAAAA==",
 >>>>>>> Stashed changes
