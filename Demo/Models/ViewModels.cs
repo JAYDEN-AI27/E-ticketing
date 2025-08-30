@@ -131,3 +131,36 @@ public class EmailVM
 //    [StringLength(100)]
 //    public string Name { get; set; }
 //}
+
+public class TicketVM
+{
+    [StringLength(4)]
+    [RegularExpression(@"^T\d{3}$", ErrorMessage = "Invalid {0}. (Format: T001)")]
+    [Remote("CheckId", "Ticket", ErrorMessage = "Duplicated {0}.")]
+    [Display(Name = "Ticket ID")]
+    public string TicketID { get; set; }
+
+    [Required]
+    [StringLength(50)]
+    public string Type { get; set; }
+
+    [Range(0, 9999.99, ErrorMessage = "{0} must be between {1} and {2}.")]
+    [Display(Name = "Unit Price")]
+    public decimal UnitPrice { get; set; }
+
+    [Range(0, int.MaxValue, ErrorMessage = "{0} must be a positive number.")]
+    public int Stock { get; set; }
+
+    [DataType(DataType.DateTime)]
+    [Display(Name = "Departure Time")]
+    public DateTime DepartureTime { get; set; }
+
+    [Required]
+    [StringLength(100)]
+    public string Source { get; set; }
+
+    [Required]
+    [StringLength(100)]
+    public string Destination { get; set; }
+
+}
