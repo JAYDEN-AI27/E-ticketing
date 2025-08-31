@@ -9,11 +9,11 @@ wwwroot\js\jquery.unobtrusive-ajax.min.js
 wwwroot\js\jquery.validate.min.js
 wwwroot\js\jquery.validate.unobtrusive.min.js
 wwwroot\photos\admin.jpg
+wwwroot\photos\jenniek.jpg
+wwwroot\photos\jisoo.jpg
 wwwroot\photos\m1.jpg
 wwwroot\photos\m2.jpg
 wwwroot\photos\photo.jpg
-wwwroot\photos\jenniek.jpg
-wwwroot\photos\jisoo.jpg
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\wwwroot\css\app.css
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\wwwroot\css\pager.css
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\wwwroot\js\app.js
