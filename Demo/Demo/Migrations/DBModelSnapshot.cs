@@ -30,12 +30,11 @@ namespace Demo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
 
-                    b.Property<decimal>("Amount")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)");
-
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool>("Paid")
+                        .HasColumnType("bit");
 
                     b.Property<string>("UserEmail")
                         .IsRequired()
@@ -151,21 +150,6 @@ namespace Demo.Migrations
                     b.UseTphMappingStrategy();
                 });
 
-            modelBuilder.Entity("OrderTicket", b =>
-                {
-                    b.Property<int>("OrdersOrderID")
-                        .HasColumnType("int");
-
-                    b.Property<string>("TicketsTicketID")
-                        .HasColumnType("nvarchar(4)");
-
-                    b.HasKey("OrdersOrderID", "TicketsTicketID");
-
-                    b.HasIndex("TicketsTicketID");
-
-                    b.ToTable("OrderTicket");
-                });
-
             modelBuilder.Entity("Demo.Models.Admin", b =>
                 {
                     b.HasBaseType("Demo.Models.User");
@@ -198,13 +182,13 @@ namespace Demo.Migrations
             modelBuilder.Entity("Demo.Models.OrderLine", b =>
                 {
                     b.HasOne("Demo.Models.Order", "Order")
-                        .WithMany()
+                        .WithMany("OrderLines")
                         .HasForeignKey("OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Demo.Models.Ticket", "Ticket")
-                        .WithMany()
+                        .WithMany("Lines")
                         .HasForeignKey("TicketID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -214,19 +198,14 @@ namespace Demo.Migrations
                     b.Navigation("Ticket");
                 });
 
-            modelBuilder.Entity("OrderTicket", b =>
+            modelBuilder.Entity("Demo.Models.Order", b =>
                 {
-                    b.HasOne("Demo.Models.Order", null)
-                        .WithMany()
-                        .HasForeignKey("OrdersOrderID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("OrderLines");
+                });
 
-                    b.HasOne("Demo.Models.Ticket", null)
-                        .WithMany()
-                        .HasForeignKey("TicketsTicketID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+            modelBuilder.Entity("Demo.Models.Ticket", b =>
+                {
+                    b.Navigation("Lines");
                 });
 
             modelBuilder.Entity("Demo.Models.User", b =>

@@ -57,11 +57,10 @@ public class Order
     [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int OrderID { get; set; }
     public DateTime OrderDate { get; set; }
-    [Precision(5, 2)]
-    public decimal Amount { get; set; }
+    public bool Paid { get; set; }
 
     public User User { get; set; }
-    public List<Ticket> Tickets { get; set; } = [];
+    public List<OrderLine> OrderLines { get; set; } = [];
 }
 
 public class Ticket
@@ -79,7 +78,7 @@ public class Ticket
     [MaxLength(100)]
     public string Destination { get; set; }
 
-    public List<Order> Orders { get; set; } = [];
+    public List<OrderLine> Lines { get; set; } = [];
 }
 
 public class OrderLine
