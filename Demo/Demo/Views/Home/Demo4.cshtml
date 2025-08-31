@@ -1,4 +1,4 @@
-﻿@model Dictionary<DateOnly, List<Event>>
+﻿@* @model Dictionary<DateOnly, List<Event>>
 
 @{
     ViewBag.Title = "Home | Demo 4 - Calendar Layout";
@@ -68,7 +68,7 @@
     <h3>@arr[0]</h3>
 
     @* Display dictionary items (date and its events) *@
-    @foreach (var (date, events) in Model)
+    @*@foreach (var (date, events) in Model)
     {
         string c = date.Month == month ? "" : "x";
 
@@ -88,4 +88,4 @@
         // TODO
         $('select').change(else => $(e.target.form).submit());
     </script>
-}
+} *@

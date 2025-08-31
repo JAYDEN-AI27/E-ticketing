@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddSqlServer<DB>($@"
     Data Source=(LocalDB)\MSSQLLocalDB;
-    AttachDbFilename={builder.Environment.ContentRootPath}\E-ticketing_DB.mdf;
+    AttachDbFilename={builder.Environment.ContentRootPath}\E-ticketing.mdf;
 ");
 builder.Services.AddScoped<Helper>();
 builder.Services.AddAuthentication().AddCookie();

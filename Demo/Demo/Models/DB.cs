@@ -16,6 +16,8 @@ public class DB : DbContext
     public DbSet<Member> Members { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<Ticket> Tickets { get; set; }
+    public DbSet<OrderLine> OrderLines { get; set; }
+
 }
 
 // Entity Classes -------------------------------------------------------------
@@ -25,7 +27,7 @@ public class User
     [Key, EmailAddress, MaxLength(100)]
     public string Email { get; set; }
 
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity), MaxLength(100)]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int UserId { get; set; }
     [MaxLength(100)]
     public string Hash { get; set; }
@@ -78,4 +80,21 @@ public class Ticket
     public string Destination { get; set; }
 
     public List<Order> Orders { get; set; } = [];
+}
+
+public class OrderLine
+{
+    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
+    [Precision(6, 2)]
+    public decimal Price { get; set; }
+    public int Quantity { get; set; }
+
+    // Foreign Keys
+    public int OrderID { get; set; }
+    public string TicketID { get; set; }
+
+    // Navigation Properties
+    public Order Order { get; set; }
+    public Ticket Ticket { get; set; }
 }
