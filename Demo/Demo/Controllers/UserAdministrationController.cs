@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using X.PagedList.Extensions;
 
@@ -14,6 +15,7 @@ public class UserAdministrationController : Controller
     }
 
     //Ask option
+    [Authorize(Roles ="Admin")]
     public IActionResult askAM()
     {
         return View();
@@ -111,6 +113,20 @@ public class UserAdministrationController : Controller
 
         return View(m);
     }
+
+    public IActionResult Detail(string email)
+    {
+        var admin = db.Admins.FirstOrDefault(a => a.Email == email);
+        if (admin != null)
+            return View("Detail", admin);
+
+        var member = db.Members.FirstOrDefault(m => m.Email == email);
+        if (member != null)
+            return View("Detail", member);
+
+        return NotFound();
+    }
+
 
 }
 

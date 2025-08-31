@@ -40,12 +40,14 @@
     @foreach (var m in Model)
     {
         <tr>
-            <td>@m.PhotoURL</td>
+            <td><img src="~/photos/@m.PhotoURL" alt="Profile Photo" style="max-width:100px; max-height:100px;"></td>
             <td>@m.UserId</td>
             <td>@m.Name</td>
             <td>@m.Email</td>
             <td>
-                <button data-get="/Home/Detail/@m.Email">Detail</button>
+                <a asp-controller="UserAdministration" asp-action="Detail" asp-route-email="@m.Email">
+                    Detail
+                </a>
             </td>
         </tr>
     }
