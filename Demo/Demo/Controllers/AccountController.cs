@@ -235,44 +235,52 @@ public class AccountController : Controller
         return View();
     }
 
-    private void SendResetPasswordEmail(User u, string password)
+private void SendResetPasswordEmail(User u, string password)
+{
+    if (u == null) throw new ArgumentNullException(nameof(u));
+
+    var mail = new MailMessage
     {
-        var mail = new MailMessage();
-        mail.To.Add(new MailAddress(u.Email, u.Name));
-        mail.Subject = "Reset Password";
-        mail.IsBodyHtml = true;
+        Subject = "Reset Password",
+        IsBodyHtml = true
+    };
 
-        // TODO
-        var url = Url.Action("Login", "Account", null, "https");
+    mail.To.Add(new MailAddress(u.Email ?? throw new ArgumentNullException(nameof(u.Email)), u.Name));
 
-        // TODO
-        var path = u switch
-        {
-            Admin => Path.Combine(en.WebRootPath, "photos", "admin.jpg"),
-            Member m => Path.Combine(en.WebRootPath, "photos", m.PhotoURL),
-            _ => "",
-        };
+    // (1) Url
+    var url = Url.Action("Login", "Account", null, "https");
 
+    // (2) Path (
+    string? path = u switch
+    {
+        Admin => Path.Combine(en.WebRootPath ?? string.Empty, "photos", "admin.jpg"),
+        Member m when !string.IsNullOrWhiteSpace(m.PhotoURL)
+            => Path.Combine(en.WebRootPath ?? string.Empty, "photos", m.PhotoURL),
+        _ => null
+    };
+
+    if (!string.IsNullOrEmpty(path) && System.IO.File.Exists(path))
+    {
         var att = new Attachment(path);
-        mail.Attachments.Add(att);
         att.ContentId = "photo";
-        // TODO
-
-        mail.Body = $@"
-            <img src='cid:photo' style='width: 200px; height: 200px;
-                                        border: 1px solid #333'>
-            <p>Dear {u.Name},<p>
-            <p>Your password has been reset to:</p>
-            <h1 style='color: red'>{password}</h1>
-            <p>
-                Please <a href='{url}'>login</a>
-                with your new password.
-            </p>
-            <p>From, 🐱 Super Admin</p>
-        ";
-
-        // TODO
-
-        hp.SendEmail(mail);
+        mail.Attachments.Add(att);
     }
+
+    // (3) Body
+    mail.Body = $@"
+        <img src='cid:photo' style='width: 200px; height: 200px;
+                                    border: 1px solid #333'>
+        <p>Dear {u.Name},<p>
+        <p>Your password has been reset to:</p>
+        <h1 style='color: red'>{password}</h1>
+        <p>
+            Please <a href='{url}'>login</a>
+            with your new password.
+        </p>
+        <p>From, 🐱 Super Admin</p>
+    ";
+
+    // (4) Send
+    hp.SendEmail(mail);
+}
 }

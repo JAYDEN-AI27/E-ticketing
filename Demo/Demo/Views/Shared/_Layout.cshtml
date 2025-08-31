@@ -32,6 +32,13 @@
             var photoURL = db.Members.Find(User.Identity!.Name)!.PhotoURL;
             <img src="/photos/@photoURL">
         }
+
+        @if (User.IsInRole("Admin"))
+        {
+            var photoURL = db.Admins.Find(User.Identity!.Name)!.PhotoURL;
+            <img src="/photos/@photoURL">
+        }
+
     </header>
 
     <nav>
@@ -56,6 +63,13 @@
         {
             <a href="/Account/UpdateProfile">Update Profile</a>
         }
+
+        @if (User.IsInRole("Admin"))
+        {
+            <a href="/UserAdministration/MTable">User Administration</a>
+            <a href="/Account/UpdateProfile">Update Profile</a>
+        }
+
     </nav>
 
     <main>

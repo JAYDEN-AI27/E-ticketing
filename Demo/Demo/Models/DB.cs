@@ -35,6 +35,10 @@ public class User
     public string Name { get; set; }
 
     public string Role => GetType().Name;
+
+    [MaxLength(100)]
+    public string? PhotoURL { get; set; }
+
     // TODO
     public List<Order> Orders { get; set; } = [];
 }
@@ -48,8 +52,7 @@ public class Admin : User
 // TODO
 public class Member : User
 {
-    [MaxLength(100)]
-    public string? PhotoURL { get; set; }
+
 }
 
 public class Order

@@ -67,11 +67,25 @@ public class Helper
         return file;
     }
 
-    public void DeletePhoto(string file, string folder)
+    public void DeletePhoto(string? file, string folder)
     {
-        file = Path.GetFileName(file);
-        var path = Path.Combine(en.WebRootPath, folder, file);
-        File.Delete(path);
+        if (string.IsNullOrWhiteSpace(file)) return;
+
+        var fileName = Path.GetFileName(file);
+
+        var path = Path.Combine(en.WebRootPath, folder, fileName);
+
+        if (File.Exists(path))
+        {
+            try
+            {
+                File.Delete(path);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[DeletePhoto] Delete Failed: {ex.Message}");
+            }
+        }
     }
 
     // ------------------------------------------------------------------------

@@ -1,77 +1,107 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\",
+  "WorkspaceRootPath": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\controllers\\useradministrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\useradministrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\home\\demo3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\demo3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\useradministration\\askam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\useradministration\\askam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\home\\demo2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\useradministration\\_at.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\useradministration\\_at.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\useradministration\\_mt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\useradministration\\_mt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\useradministration\\mtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\useradministration\\mtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\useradministration\\atable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\useradministration\\atable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\home\\demo2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\demo2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831021228_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Migrations\\20250831021228_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Migrations\\20250831015951_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\home\\demo1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\home\\demo1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\demo1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\home\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\demo4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\home\\demo3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\demo3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\home\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WEBMOBILEASSIGNMENT_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\migrations\\20250831021228_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\migrations\\20250831021228_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\lizhe\\onedrive\\\u684C\u9762\\webmobileassignment\\demo\\demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -82,82 +112,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAdministrationController.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Controllers\\UserAdministrationController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\UserAdministrationController.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Controllers\\UserAdministrationController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\UserAdministrationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T19:04:54.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AT.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\_AT.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\UserAdministration\\_AT.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\_AT.cshtml",
+              "RelativeToolTip": "Demo\\Views\\UserAdministration\\_AT.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T18:59:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "askAM.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\askAM.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\UserAdministration\\askAM.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\askAM.cshtml",
+              "RelativeToolTip": "Demo\\Views\\UserAdministration\\askAM.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T18:48:35.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20250831021228_CreateDB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831021228_CreateDB.cs",
-              "RelativeDocumentMoniker": "Demo\\Migrations\\20250831021228_CreateDB.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831021228_CreateDB.cs",
-              "RelativeToolTip": "Demo\\Migrations\\20250831021228_CreateDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T02:12:28.508Z",
+              "Title": "ATable.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\ATable.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\UserAdministration\\ATable.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\ATable.cshtml",
+              "RelativeToolTip": "Demo\\Views\\UserAdministration\\ATable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T18:58:24.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250831015951_CreateDB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs",
-              "RelativeDocumentMoniker": "Demo\\Migrations\\20250831015951_CreateDB.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs",
-              "RelativeToolTip": "Demo\\Migrations\\20250831015951_CreateDB.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T01:59:52.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Demo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswFAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T11:32:27.656Z",
+              "WhenOpened": "2025-08-30T11:24:53.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Email.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Email.cshtml",
-              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Email.cshtml",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Email.cshtml",
-              "RelativeToolTip": "Demo\\Views\\Home\\Email.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\MTable.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\UserAdministration\\MTable.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\MTable.cshtml",
+              "RelativeToolTip": "Demo\\Views\\UserAdministration\\MTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T11:32:24.316Z",
+              "WhenOpened": "2025-08-31T17:30:01.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_MT.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\_MT.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\UserAdministration\\_MT.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\UserAdministration\\_MT.cshtml",
+              "RelativeToolTip": "Demo\\Views\\UserAdministration\\_MT.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T17:32:40.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:34:41.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Demo1.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo1.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo1.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Home\\Demo1.cshtml",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo1.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo1.cshtml",
               "RelativeToolTip": "Demo\\Views\\Home\\Demo1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-30T11:32:18.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Demo2.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo2.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Demo2.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo2.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Demo2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T11:28:41.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Models\\DB.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\DB.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Models\\DB.cs",
+              "RelativeToolTip": "Demo\\Models\\DB.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T09:58:11.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Helper.cs",
+              "RelativeDocumentMoniker": "Demo\\Helper.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Helper.cs",
+              "RelativeToolTip": "Demo\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:34:48.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Demo4.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo4.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo4.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Home\\Demo4.cshtml",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo4.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo4.cshtml",
               "RelativeToolTip": "Demo\\Views\\Home\\Demo4.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -166,76 +285,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Demo3.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo3.cshtml",
-              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Demo3.cshtml",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo3.cshtml",
-              "RelativeToolTip": "Demo\\Views\\Home\\Demo3.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T11:28:43.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Demo2.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo2.cshtml",
-              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Demo2.cshtml",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo2.cshtml",
-              "RelativeToolTip": "Demo\\Views\\Home\\Demo2.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T11:28:41.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Demo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA+wB8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T11:25:04.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Demo\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Demo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T11:24:53.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\appsettings.json",
-              "RelativeDocumentMoniker": "Demo\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\appsettings.json",
-              "RelativeToolTip": "Demo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-30T10:41:12.424Z",
+              "Title": "Demo3.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo3.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Demo3.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Demo3.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Demo3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T11:28:43.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Email.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Email.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Email.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Email.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T11:32:24.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T11:32:27.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Program.cs",
               "RelativeDocumentMoniker": "Demo\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Program.cs",
               "RelativeToolTip": "Demo\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -244,24 +354,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "ViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\ViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Models\\ViewModels.cs",
               "RelativeDocumentMoniker": "Demo\\Models\\ViewModels.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\ViewModels.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Models\\ViewModels.cs",
               "RelativeToolTip": "Demo\\Models\\ViewModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T10:19:59.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LIZHE_ONEDRIVE_\u684C\u9762_WEBMOBILEASSIGNMENT_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-31T11:37:32.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Extensions.cs",
               "RelativeDocumentMoniker": "Demo\\Extensions.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Extensions.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Extensions.cs",
               "RelativeToolTip": "Demo\\Extensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -270,54 +390,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\DB.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\DB.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\DB.cs",
-              "RelativeToolTip": "Demo\\Models\\DB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T09:58:11.301Z",
+              "DocumentIndex": 22,
+              "Title": "Users.txt",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Users.txt",
+              "RelativeDocumentMoniker": "Demo\\Users.txt",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Users.txt",
+              "RelativeToolTip": "Demo\\Users.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-31T11:39:59.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Helper.cs",
-              "RelativeDocumentMoniker": "Demo\\Helper.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Helper.cs",
-              "RelativeToolTip": "Demo\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "20250831015951_CreateDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250831015951_CreateDB.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T17:34:48.3Z",
+              "WhenOpened": "2025-08-31T01:59:52.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250831021228_CreateDB.cs",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Migrations\\20250831021228_CreateDB.cs",
+              "RelativeDocumentMoniker": "Demo\\Migrations\\20250831021228_CreateDB.cs",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Migrations\\20250831021228_CreateDB.cs",
+              "RelativeToolTip": "Demo\\Migrations\\20250831021228_CreateDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T02:12:28.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\appsettings.json",
+              "RelativeDocumentMoniker": "Demo\\appsettings.json",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\appsettings.json",
+              "RelativeToolTip": "Demo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-30T10:41:12.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Demo.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Demo.csproj",
+              "DocumentMoniker": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
               "RelativeDocumentMoniker": "Demo\\Demo.csproj",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Demo.csproj",
+              "ToolTip": "C:\\Users\\lizhe\\OneDrive\\\u684C\u9762\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
               "RelativeToolTip": "Demo\\Demo.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-08-30T10:09:56.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T17:34:41.968Z",
-              "EditorCaption": ""
             }
           ]
         }
