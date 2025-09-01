@@ -30,8 +30,8 @@ namespace Demo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
 
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("OrderDate")
+                        .HasColumnType("date");
 
                     b.Property<bool>("Paid")
                         .HasColumnType("bit");
@@ -135,6 +135,10 @@ namespace Demo.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("PhotoURL")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
@@ -160,10 +164,6 @@ namespace Demo.Migrations
             modelBuilder.Entity("Demo.Models.Member", b =>
                 {
                     b.HasBaseType("Demo.Models.User");
-
-                    b.Property<string>("PhotoURL")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
 
                     b.HasDiscriminator().HasValue("Member");
                 });

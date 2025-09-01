@@ -212,4 +212,28 @@ public class Helper
 
         return new SelectList(list);
     }
+
+    // ------------------------------------------------------------------------
+    // Shopping Cart Helper Functions
+    // ------------------------------------------------------------------------
+
+    public Dictionary<string, int> GetCart()
+    {
+        
+        return ct.HttpContext!.Session.Get<Dictionary<string, int>>("Cart") ?? [];
+    }
+
+    public void SetCart(Dictionary<string, int>? dict = null)
+    {
+        if (dict == null)
+        {
+            
+            ct.HttpContext!.Session.Remove("Cart");
+        }
+        else
+        {
+            
+            ct.HttpContext!.Session.Set("Cart", dict);
+        }
+    }
 }

@@ -59,9 +59,9 @@ public class Order
 {
     [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int OrderID { get; set; }
-    public DateTime OrderDate { get; set; }
+    public DateOnly OrderDate { get; set; }
     public bool Paid { get; set; }
-
+    public string UserEmail { get; set; }
     public User User { get; set; }
     public List<OrderLine> OrderLines { get; set; } = [];
 }

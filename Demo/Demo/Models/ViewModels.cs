@@ -118,20 +118,6 @@ public class EmailVM
     public bool IsBodyHtml { get; set; }
 }
 
-//public class EventVM
-//{
-//    // TODO
-//    [DataType(DataType.Date)]
-//    public DateOnly Date { get; set; }
-
-//    // TODO
-//    [DataType(DataType.Time)]
-//    public TimeOnly Time { get; set; }
-
-//    [StringLength(100)]
-//    public string Name { get; set; }
-//}
-
 public class TicketVM
 {
     [StringLength(4)]
@@ -162,5 +148,12 @@ public class TicketVM
     [Required]
     [StringLength(100)]
     public string Destination { get; set; }
+}
 
+// Shopping Cart
+public class CartItem
+{
+    public Ticket Ticket { get; set; }
+    public int Quantity { get; set; }
+    public decimal Subtotal { get; set; }
 }

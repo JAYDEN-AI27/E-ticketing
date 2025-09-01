@@ -10,14 +10,17 @@ builder.Services.AddSqlServer<DB>($@"
 builder.Services.AddScoped<Helper>();
 builder.Services.AddAuthentication().AddCookie();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession();
+
 
 var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 // Culture = en-MY, ms-MY, zh-CN, ja-JP, ko-KR, etc.
-// TODO
 app.UseRequestLocalization("en-MY");
+app.UseSession();
+
 
 app.MapDefaultControllerRoute();
 app.Run();

@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Product | Index";
+}
+@model IEnumerable<Ticket>
+
+<table class="table">
+<tr>
+    <th>Type</th>
+    <th>Price</th>
+    <th>Available Seat</th>
+    <th>Departure Date Time</th>
+    <th>Source</th>
+    <th>Destination</th>
+    <th>Action</th>
+</tr>
+
+    <tr>
+        @foreach (var p in Model)
+        {
+            if(p.Stock == 0)
+            {
+                continue;
+            }
+            else
+            {
+                <td>@p.Type</td>
+                <td>RM @p.UnitPrice</td>
+                <td>@p.Stock</td>
+                <td>@p.DepartureTime</td>
+                <td>@p.Source</td>
+                <td>@p.Destination</td>
+                <td><button data-get="/Product/ProductDetail/@p.TicketID">Detail</button></td>
+            }
+            
+        }
+    </tr>
+
+</table>
+
+

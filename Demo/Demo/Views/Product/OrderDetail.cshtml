@@ -1,0 +1,68 @@
+﻿@model Order
+
+@{
+    ViewBag.Title = "Product | Order Detail";
+}
+
+<form class="form">
+    <label>Order Id</label>
+    <span>@Model.OrderID</span>
+    <br>
+
+    <label>Date</label>
+    
+    <span>@Model.OrderDate.ToString("yyyy-MM-dd")</span>
+    <br>
+
+    <label>Paid</label>
+    
+    <span>@(Model.Paid ? "Yes" : "No")</span>
+    <br>
+</form>
+
+<p>
+    <button data-get="/Product/Order">Back</button>
+</p>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Ticket Type</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+    </tr>
+
+    @{
+       
+        int count = 0;
+        decimal total = 0.00m;
+    }
+
+    @foreach (OrderLine ol in Model.OrderLines)
+    {
+        // Calculate subtotal, count and total
+        
+        decimal subtotal = ol.Price * ol.Quantity;
+        count += ol.Quantity;
+        total += subtotal;
+
+        <tr>
+            <td>@ol.Id</td>
+            <td>
+                @ol.Ticket.Type
+            </td>
+            <td>@ol.Price</td>
+            <td>@ol.Quantity</td>
+            <td>@subtotal</td>
+        </tr>
+    }
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="bold">@count</td>
+        <td class="bold">@total</td>
+    </tr>
+</table>
