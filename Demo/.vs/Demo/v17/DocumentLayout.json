@@ -1,56 +1,72 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\ticket\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\ticket\\ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\ticket\\ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\ticket\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\ticket\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\ticket\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\ticket\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\ticket\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\ticket\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\product\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\product\\ordercomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\ordercomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\product\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\controllers\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\ordercomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\ordercomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\shoppingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Tickets.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,23 +79,23 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\beeyenn\\onedrive - universiti tunku abdul rahman\\documents\\github\\e-ticketing\\demo\\demo\\migrations\\20250901033139_addnewcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\migrations\\20250901033139_addnewcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\migrations\\20250901033139_addnewcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,17 +106,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\Ticket.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\Ticket.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\Ticket.cs",
+              "RelativeToolTip": "Demo\\Controllers\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:20:53.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Insert.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Insert.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Insert.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Insert.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Ticket\\Insert.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T02:20:42.477Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Ticket.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Ticket.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Ticket.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Ticket.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Ticket\\Ticket.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T02:20:40.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Update.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Update.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Update.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Ticket\\Update.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T02:20:39.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Detail.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Detail.cshtml",
               "RelativeToolTip": "Demo\\Views\\Ticket\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-02T14:57:10.542Z",
               "EditorCaption": ""
@@ -109,9 +181,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "OrderDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderDetail.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\OrderDetail.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderDetail.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderDetail.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\OrderDetail.cshtml",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwDIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -120,11 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Order.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Order.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Order.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\Order.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Order.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Order.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\Order.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -132,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "OrderComplete.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderComplete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderComplete.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\OrderComplete.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderComplete.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderComplete.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\OrderComplete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -144,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "dbo.OrderLines.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.OrderLines.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.OrderLines.sql",
@@ -153,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Users.sql",
@@ -162,11 +234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "20250901033139_AddNewColumn.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250901033139_AddNewColumn.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250901033139_AddNewColumn.cs",
               "RelativeDocumentMoniker": "Demo\\Migrations\\20250901033139_AddNewColumn.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250901033139_AddNewColumn.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250901033139_AddNewColumn.cs",
               "RelativeToolTip": "Demo\\Migrations\\20250901033139_AddNewColumn.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -174,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "dbo.Orders.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Orders.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Orders.sql",
@@ -183,11 +255,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ShoppingCart.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ShoppingCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ShoppingCart.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\ShoppingCart.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ShoppingCart.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ShoppingCart.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\ShoppingCart.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -195,24 +267,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\ViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\ViewModels.cs",
               "RelativeDocumentMoniker": "Demo\\Models\\ViewModels.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\ViewModels.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\ViewModels.cs",
               "RelativeToolTip": "Demo\\Models\\ViewModels.cs",
               "ViewState": "AgIAAHgAAAAAAAAAAAAYwHgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T03:09:59.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T03:09:59.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Helper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Helper.cs",
               "RelativeDocumentMoniker": "Demo\\Helper.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Helper.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Helper.cs",
               "RelativeToolTip": "Demo\\Helper.cs",
               "ViewState": "AgIAANcAAAAAAAAAAAAqwOoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -220,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Program.cs",
               "RelativeDocumentMoniker": "Demo\\Program.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Program.cs",
               "RelativeToolTip": "Demo\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -232,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Extensions.cs",
               "RelativeDocumentMoniker": "Demo\\Extensions.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Extensions.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Extensions.cs",
               "RelativeToolTip": "Demo\\Extensions.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAA5wCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -244,70 +315,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ProductDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ProductDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ProductDetail.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\ProductDetail.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ProductDetail.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\ProductDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T02:48:56.39Z"
+              "WhenOpened": "2025-09-01T02:48:56.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Demo\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Demo\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T02:35:44.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Demo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvy8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-01T02:32:50.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T02:23:37.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T02:18:19.09Z",
+              "WhenOpened": "2025-09-01T02:23:37.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T02:18:19.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "dbo.Tickets.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Tickets.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_GITHUB_E_TICKETING_DEMO_DEMO_E_TICKETING.MDF/True/SqlTable/dbo.Tickets.sql",
@@ -316,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "DB.cs",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\DB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\DB.cs",
               "RelativeDocumentMoniker": "Demo\\Models\\DB.cs",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\DB.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\DB.cs",
               "RelativeToolTip": "Demo\\Models\\DB.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Users.txt",
-              "DocumentMoniker": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Users.txt",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Users.txt",
               "RelativeDocumentMoniker": "Demo\\Users.txt",
-              "ToolTip": "C:\\Users\\beeyenn\\OneDrive - Universiti Tunku Abdul Rahman\\Documents\\GitHub\\E-ticketing\\Demo\\Demo\\Users.txt",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Users.txt",
               "RelativeToolTip": "Demo\\Users.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",

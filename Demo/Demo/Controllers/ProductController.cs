@@ -21,7 +21,6 @@ public class ProductController : Controller
             return View(m);
         }
 
-    [Authorize(Roles = "Member")]
     public IActionResult ProductDetail(string id)
     {
 
@@ -35,6 +34,7 @@ public class ProductController : Controller
     }
 
     [HttpPost]
+    [Authorize(Roles = "Member")]
     public IActionResult UpdateCart(string TicketId, int quantity)
     {
         

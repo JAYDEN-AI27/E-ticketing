@@ -46,12 +46,15 @@
         <a href="/Home/Email">Email</a>
         <a href="/Home/Demo1">Demo 1</a>
         <a href="/Product/Index">Product</a>
-        <a href="/Ticket/Ticket">Ticket</a>
 
-        <a href="/Product/ShoppingCart">Shopping Cart</a>
         @if (User.IsInRole("Member"))
         {
+            <a href="/Product/ShoppingCart">Shopping Cart</a>
             <a href="/Product/Order">Order History</a>
+        }
+        @if (User.IsInRole("Admin"))
+        {
+            <a href="/Ticket/Ticket">Ticket Maintenance</a>
         }
 
         <div></div>

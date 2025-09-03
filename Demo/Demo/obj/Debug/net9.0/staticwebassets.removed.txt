@@ -1,7 +1,7 @@
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.validate.unobtrusive.min.js
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.validate.min.js
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.unobtrusive-ajax.min.js
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.min.js
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\js\app.js
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\css\pager.css
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\css\app.css
+C:\Users\beeyenn\OneDrive - Universiti Tunku Abdul Rahman\Documents\GitHub\E-ticketing\Demo\Demo\wwwroot\css\app.css
+C:\Users\beeyenn\OneDrive - Universiti Tunku Abdul Rahman\Documents\GitHub\E-ticketing\Demo\Demo\wwwroot\css\pager.css
+C:\Users\beeyenn\OneDrive - Universiti Tunku Abdul Rahman\Documents\GitHub\E-ticketing\Demo\Demo\wwwroot\js\app.js
+C:\Users\beeyenn\OneDrive - Universiti Tunku Abdul Rahman\Documents\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.min.js
+C:\Users\beeyenn\OneDrive - Universiti Tunku Abdul Rahman\Documents\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.unobtrusive-ajax.min.js
+C:\Users\beeyenn\OneDrive - Universiti Tunku Abdul Rahman\Documents\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.validate.min.js
+C:\Users\beeyenn\OneDrive - Universiti Tunku Abdul Rahman\Documents\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.validate.unobtrusive.min.js

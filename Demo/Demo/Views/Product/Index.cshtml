@@ -11,18 +11,18 @@
     <th>Departure Date Time</th>
     <th>Source</th>
     <th>Destination</th>
-    <th>Action</th>
+    <th></th>
 </tr>
 
-    <tr>
-        @foreach (var p in Model)
+    @foreach (var p in Model)
         {
             if(p.Stock == 0)
             {
                 continue;
-            }
-            else
-            {
+        }
+        else
+        {
+            <tr>
                 <td>@p.Type</td>
                 <td>RM @p.UnitPrice</td>
                 <td>@p.Stock</td>
@@ -30,11 +30,8 @@
                 <td>@p.Source</td>
                 <td>@p.Destination</td>
                 <td><button data-get="/Product/ProductDetail/@p.TicketID">Detail</button></td>
-            }
-            
+            </tr>
         }
-    </tr>
+        }
 
 </table>
-
-
