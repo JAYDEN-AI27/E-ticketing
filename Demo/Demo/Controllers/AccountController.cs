@@ -150,10 +150,9 @@ public class AccountController : Controller
     }
 
     // GET: Account/UpdateProfile
-    [Authorize(Roles = "Member")]
     public IActionResult UpdateProfile()
     {
-        var m = db.Members.Find(User.Identity!.Name);
+        var m = db.Users.Find(User.Identity!.Name);
         if (m == null) return RedirectToAction("Index", "Home");
 
         var vm = new UpdateProfileVM
@@ -167,11 +166,11 @@ public class AccountController : Controller
     }
 
     // POST: Account/UpdateProfile
-    [Authorize(Roles = "Member")]
+    //[Authorize(Roles = "Member")]
     [HttpPost]
     public IActionResult UpdateProfile(UpdateProfileVM vm)
     {
-        var m = db.Members.Find(User.Identity!.Name);
+        var m = db.Users.Find(User.Identity!.Name);
         if (m == null) return RedirectToAction("Index", "Home");
 
         if (vm.Photo != null)
