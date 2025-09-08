@@ -21,7 +21,7 @@ public class TicketController : Controller
 
     public IActionResult Ticket(string? type,string? source,string? destination, string? sort, string? dir, int page = 1)
     {
-        // (1) 搜索 ------------------------
+        // (1) searching ------------------------
         ViewBag.Type = type = type?.Trim() ?? "";
         ViewBag.Source = source = source?.Trim() ?? "";
         ViewBag.Destination = destination = destination?.Trim() ?? "";

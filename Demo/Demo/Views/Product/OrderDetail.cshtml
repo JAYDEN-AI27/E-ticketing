@@ -26,8 +26,10 @@
 
 <table class="table">
     <tr>
-        <th>Id</th>
+        <th>Order Id</th>
         <th>Ticket Type</th>
+        <th>Source >> Destination</th>
+        <th>Departure DateTime</th>
         <th>Price</th>
         <th>Quantity</th>
         <th>Subtotal</th>
@@ -49,9 +51,9 @@
 
         <tr>
             <td>@ol.Id</td>
-            <td>
-                @ol.Ticket.Type
-            </td>
+            <td>@ol.Ticket.Type</td>
+            <td>@ol.Ticket.Source >> @ol.Ticket.Destination</td>
+            <td>@ol.Ticket.DepartureTime</td>
             <td>@ol.Price</td>
             <td>@ol.Quantity</td>
             <td>@subtotal</td>
@@ -59,6 +61,8 @@
     }
 
     <tr>
+        <td></td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>

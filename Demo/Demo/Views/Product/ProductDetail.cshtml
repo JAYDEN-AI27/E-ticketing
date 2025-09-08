@@ -33,6 +33,22 @@
     <span>@Model.UnitPrice</span>
     <br>
 
+    <label>Available Seat</label>
+    <span>@Model.Stock</span>
+    <br>
+
+    <label>Departure DateTime</label>
+    <span>@Model.DepartureTime</span>
+    <br>
+
+    <label>Source</label>
+    <span>@Model.Source</span>
+    <br>
+
+    <label>Destination</label>
+    <span>@Model.Destination</span>
+    <br>
+
     @Html.DropDownList("Quantity", list, "")
     @Html.Hidden("TicketID", Model.TicketID)
     @{

@@ -1,37 +1,24 @@
 ﻿@{
-    ViewBag.Title = "Product | Index";
+    ViewBag.Title = "Product | Catalog";
 }
-@model IEnumerable<Ticket>
 
-<table class="table">
-<tr>
-    <th>Type</th>
-    <th>Price</th>
-    <th>Available Seat</th>
-    <th>Departure Date Time</th>
-    <th>Source</th>
-    <th>Destination</th>
-    <th></th>
-</tr>
+<form data-ajax="true"
+      data-ajax-update="#target"
+      data-ajax-loading="#loader"
+      id="f">
+    @Html.TextBox("type", "",
+    new { type = "search", autofocus = "", data_trim = "", placeholder = "TYPE" })
 
-    @foreach (var p in Model)
-        {
-            if(p.Stock == 0)
-            {
-                continue;
-        }
-        else
-        {
-            <tr>
-                <td>@p.Type</td>
-                <td>RM @p.UnitPrice</td>
-                <td>@p.Stock</td>
-                <td>@p.DepartureTime</td>
-                <td>@p.Source</td>
-                <td>@p.Destination</td>
-                <td><button data-get="/Product/ProductDetail/@p.TicketID">Detail</button></td>
-            </tr>
-        }
-        }
+    @Html.TextBox("source", "",
+        new { type = "search", autofocus = "", data_trim = "", placeholder = "SOURCE" })
 
-</table>
+    @Html.TextBox("destination", "",
+        new { type = "search", autofocus = "", data_trim = "", placeholder = "DESTINATION" })
+
+    <button>Search</button>
+    <img src="/images/loader.gif" id="loader" style="display: none">
+</form>
+
+<div id="target">
+    <partial name="_Index">
+</div>

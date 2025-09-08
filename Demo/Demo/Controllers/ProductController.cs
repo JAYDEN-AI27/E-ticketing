@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Azure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using static Demo.Models.TicketVM;
+using System.Globalization;
+using X.PagedList.Extensions;
 
 namespace Demo.Controllers;
 
@@ -15,10 +17,52 @@ public class ProductController : Controller
         this.db = db;
         this.hp = hp;
     }
-    public IActionResult Index()
+    public IActionResult Index(string? type, string? source, string? destination, string? sort, string? dir, int page = 1)
         {
-            var m = db.Tickets;
-            return View(m);
+        ViewBag.Type = type = type?.Trim() ?? "";
+        ViewBag.Source = source = source?.Trim() ?? "";
+        ViewBag.Destination = destination = destination?.Trim() ?? "";
+
+        var searched = db.Tickets
+            .Where(s => string.IsNullOrEmpty(type) || s.Type.Contains(type))
+            .Where(s => string.IsNullOrEmpty(source) || s.Source.Contains(source))
+            .Where(s => string.IsNullOrEmpty(destination) || s.Destination.Contains(destination));
+
+        ViewBag.Sort = sort;
+        ViewBag.Dir = dir;
+
+        Func<Ticket, object> fn = sort switch
+        {
+            "Type" => s => s.Type,
+            "Price" => s => s.UnitPrice,
+            "Available Seat" => s => s.Stock,
+            "Departure DateTime" => s => s.DepartureTime,
+            "Source" => s => s.Source,
+            "Destination" => s => s.Destination,
+            _ => s => s.TicketID,
+        };
+
+        var sorted = dir == "des" ?
+                     searched.OrderByDescending(fn) :
+                     searched.OrderBy(fn);
+
+        if (page < 1)
+        {
+            return RedirectToAction(null, new { type, sort, dir, page = 1 });
+        }
+
+        var m = sorted.ToPagedList(page, 10);
+
+        if (page > m.PageCount && m.PageCount > 0)
+        {
+            return RedirectToAction(null, new { type, sort, dir, page = m.PageCount });
+        }
+
+        if (Request.IsAjax())
+        {
+            return PartialView("_Index", m);
+        }
+        return View(m);
         }
 
     public IActionResult ProductDetail(string id)
