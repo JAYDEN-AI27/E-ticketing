@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Order>
+
+@{
+    ViewBag.Title = "Order | Order History";
+}
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Date</th>
+        <th>Paid</th>
+        <th>Count</th>
+        <th>Total</th>
+        <th></th>
+    </tr>
+    @foreach (Order o in Model)
+    {
+        <tr>
+            <td>@o.OrderID</td>
+            <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
+            <td>@(o.Paid ? "Yes" : "No")</td>
+
+
+            @* Calculate count and total *@
+            <td>@o.OrderLines.Sum(ol => ol.Quantity)</td>
+            <td>@o.OrderLines.Sum(ol => ol.Price * ol.Quantity)</td>
+
+            <td>
+                <button data-get="/Product/OrderDetail/@o.OrderID">Detail</button>
+            </td>
+        </tr>
+    }
+</table>

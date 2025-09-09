@@ -1,0 +1,91 @@
+﻿@* @model Dictionary<DateOnly, List<Event>>
+
+@{
+    ViewBag.Title = "Home | Demo 4 - Calendar Layout";
+}
+
+@section head {
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        .cal {
+            display: grid;
+            grid: auto / repeat(7, 1fr);
+            border: 1px solid #999;
+        }
+
+        .cal > h3 {
+            border: 1px solid #999;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .cal > div {
+            border: 1px solid #999;
+            padding: 5px;
+            min-height: 80px;
+        }
+
+        .cal > div.x {
+            background-color: #ccc;
+        }
+    </style>
+}
+
+<form>
+    @Html.DropDownList("Month", (SelectList)ViewBag.MonthList)
+    @Html.DropDownList("Year" , (SelectList)ViewBag.YearList)
+    <button>Submit</button>
+</form>
+
+@{
+    // Get selected month and year
+    int month = ViewBag.Month;
+    int year  = ViewBag.Year;
+
+    // Update heading (e.g. December 2024)
+    // TODO
+    string heading = new DateOnly(year, month, 1).ToString("MMMM yyyy");
+
+    // Make day names culture-aware
+    // TODO
+    string[] arr = System.Globalization.CultureInfo.CurrentCulture
+                         .DateTimeFormat.DayNames;
+}
+
+<h2>@heading</h2>
+
+<div class="cal">
+    <h3>@arr[1]</h3>
+    <h3>@arr[2]</h3>
+    <h3>@arr[3]</h3>
+    <h3>@arr[4]</h3>
+    <h3>@arr[5]</h3>
+    <h3>@arr[6]</h3>
+    <h3>@arr[0]</h3>
+
+    @* Display dictionary items (date and its events) *@
+    @*@foreach (var (date, events) in Model)
+    {
+        string c = date.Month == month ? "" : "x";
+
+        <div class="@c">
+            <div class="badge">@date.Day</div>
+            @foreach (var e in events)
+            {
+                <div>@e.Name</div>
+            }
+        </div>
+    }
+</div>
+
+@section foot {
+    <script>
+        // Submit form if select list changed
+        // TODO
+        $('select').change(else => $(e.target.form).submit());
+    </script>
+} *@

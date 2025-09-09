@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Demo",
+    "\\Demo\\Demo",
+    "\\Demo\\Demo\\Views",
+    "\\Demo\\Demo\\Views\\Home",
+    "\\Demo\\Demo\\Views\\Shared",
+    "\\Demo\\Demo\\Views\\UserAdministration"
+  ],
+  "SelectedNode": "\\Demo\\Demo\\Views\\UserAdministration\\_MT.cshtml",
+  "PreviewInSolutionExplorer": false
+}

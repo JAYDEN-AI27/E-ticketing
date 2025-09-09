@@ -1,0 +1,27 @@
+﻿@model object
+@{
+    ViewBag.Title = "User | Detail";
+}
+
+@if (Model is Demo.Models.Admin admin)
+{
+    <h2>Admin Detail</h2>
+    <table class="table detail">
+        <tr><th>Profile Photo</th><td><img src="~/photos/@admin.PhotoURL" alt="Profile Photo" style="max-width:250px; max-height:250px;"></td></tr>
+        <tr><th>User Id</th><td>@admin.UserId</td></tr>
+        <tr><th>Name</th><td>@admin.Name</td></tr>
+        <tr><th>Email</th><td>@admin.Email</td></tr>
+        <tr><th>Role</th><td>@admin.Role</td></tr>
+    </table>
+}
+else if (Model is Demo.Models.Member member)
+{
+    <h2>Member Detail</h2>
+    <table class="table detail">
+        <tr><th>Profile Photo</th><td><img src="~/photos/@member.PhotoURL" alt="Profile Photo" style="max-width:250px; max-height:250px;"></td></tr>
+        <tr><th>User Id</th><td>@member.UserId</td></tr>
+        <tr><th>Name</th><td>@member.Name</td></tr>
+        <tr><th>Email</th><td>@member.Email</td></tr>
+        <tr><th>Role</th><td>@member.Role</td></tr>
+    </table>
+}

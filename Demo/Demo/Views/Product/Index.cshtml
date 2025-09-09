@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Product | Catalog";
+}
+
+<form data-ajax="true"
+      data-ajax-update="#target"
+      data-ajax-loading="#loader"
+      id="f">
+    @Html.TextBox("type", "",
+    new { type = "search", autofocus = "", data_trim = "", placeholder = "TYPE" })
+
+    @Html.TextBox("source", "",
+        new { type = "search", autofocus = "", data_trim = "", placeholder = "SOURCE" })
+
+    @Html.TextBox("destination", "",
+        new { type = "search", autofocus = "", data_trim = "", placeholder = "DESTINATION" })
+
+    <button>Search</button>
+    <img src="/images/loader.gif" id="loader" style="display: none">
+</form>
+
+<div id="target">
+    <partial name="_Index">
+</div>
