@@ -56,7 +56,7 @@ ScaffoldingReadMe.txt
 *.backup
 *.log
 *.dmp
-*.ldf
+#*.ldf
 
 # Publish
 [Pp]ublish/
