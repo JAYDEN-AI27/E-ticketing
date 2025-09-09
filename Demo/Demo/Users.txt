@@ -1,4 +1,0 @@
-﻿a1@gmail.com	1	AQAAAAIAAYagAAAAEGyBGBzs6LQiyNF3QVuXc6Cz0yVIGikGDI6GdsXMFG6eDzkN0617JG54Tz/Zp/V35g==	Jennie Kim	Admin	jenniek.jpg
-a2@gmail.com	2	AQAAAAIAAYagAAAAEGyBGBzs6LQiyNF3QVuXc6Cz0yVIGikGDI6GdsXMFG6eDzkN0617JG54Tz/Zp/V35g==	Kim Ji-Soo	Admin	jisoo.jpg
-m1@gmail.com	3	AQAAAAIAAYagAAAAEGyBGBzs6LQiyNF3QVuXc6Cz0yVIGikGDI6GdsXMFG6eDzkN0617JG54Tz/Zp/V35g==	Lalisa Manoban	Member	m1.jpg
-m2@gmail.com	4	AQAAAAIAAYagAAAAEGyBGBzs6LQiyNF3QVuXc6Cz0yVIGikGDI6GdsXMFG6eDzkN0617JG54Tz/Zp/V35g==	Roseanne Park	Member	m2.jpg
