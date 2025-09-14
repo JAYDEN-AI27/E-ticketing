@@ -72,7 +72,7 @@ public class Ticket
     public string TicketID { get; set; }
     [MaxLength(100)]
     public string Type { get; set; }
-    [Precision(4, 2)]
+    [Precision(6, 2)]
     public decimal UnitPrice { get; set; }
     public int Stock { get; set; }
     public DateTime DepartureTime { get; set; }
