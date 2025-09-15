@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Payment | Cards";
+}
+
+@model IEnumerable<Payment>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <tr>
+            <th>Card Number</th>
+            <th>CCV</th>
+            <th>Expired Month</th>
+            <th>Expired Year</th>
+            <th></th>
+           
+        </tr>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.CardNum</td>
+                <td>@p.Ccv</td>
+                <td>@p.Expired_month</td>
+                <td>@p.Expired_year</td>
+                <td> 
+                    <button data-get="/Payment/Update/@p.Id">Update</button>
+                    <button data-post="/Payment/Delete/@p.Id">Delete</button>
+                </td>
+
+            </tr>
+        }
+
+    </table>
+}
+else
+{
+    <p>No card found.Please add a new card</p>
+}
+
+<button data-get="/Payment/Insert">Insert</button>
+

@@ -1,0 +1,44 @@
+﻿@model ChooseCardVM
+
+@{
+    ViewBag.Title = "Choose a card";
+}
+
+@if (Model.Payments.Any())
+{
+    <form class="form" method="post" asp-action="SelectCard">
+
+        <input type="hidden" name="orderId" value="@ViewBag.OrderID" />
+
+        <table class="table">
+            <tr>
+                <th></th>
+                <th>Card Number</th>
+                <th>CCV</th>
+                <th>Expired Month</th>
+                <th>Expired Year</th>
+            </tr>
+            @foreach (var p in Model.Payments)
+            {
+                <tr>
+                    <td>
+                        <input type="radio"
+                               asp-for="SelectedPaymentId"
+                               value="@p.Id" />
+                    </td>
+                    <td>@p.CardNum</td>
+                    <td>@p.Ccv</td>
+                    <td>@p.Expired_month</td>
+                    <td>@p.Expired_year</td>
+                </tr>
+            }
+        </table>
+        <div><button type="submit">Use This Card</button></div>
+    </form>
+}
+else
+{
+    <p>No card to select.Please pay at counter</p>
+}
+
+<button data-get="/Product/OrderComplete/@ViewBag.OrderID">Pay at counter</button>

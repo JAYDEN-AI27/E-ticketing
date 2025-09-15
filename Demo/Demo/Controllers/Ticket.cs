@@ -198,16 +198,24 @@ public class TicketController : Controller
 
     // POST: Ticket/Delete
     [HttpPost]
-    public IActionResult Delete(string? id)
+    public IActionResult ChangeStatus(string? id)
     {
         if (!string.IsNullOrEmpty(id))
         {
             var s = db.Tickets.Find(id);
             if (s != null)
             {
-                db.Tickets.Remove(s);
+                if(s.Status == true)
+                {
+                    s.Status = false;
+                    TempData["Info"] = "Record Deactivate.";
+                }
+                else
+                {
+                    s.Status = true;
+                    TempData["Info"] = "Record Activate.";
+                }
                 db.SaveChanges();
-                TempData["Info"] = "Record deleted.";
             }
         }
 

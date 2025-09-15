@@ -25,7 +25,9 @@
             </td>
             <td>@i.Ticket.UnitPrice</td>
             <td>
-                <form method="post"
+                <form data-ajax="true"
+                      data-ajax-update="#target" 
+                      method="post"
                       action="/Product/UpdateCart">
                     @Html.DropDownList("Quantity", list, "")
                     @Html.Hidden("TicketID", i.Ticket.TicketID)

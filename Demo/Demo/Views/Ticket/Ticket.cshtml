@@ -27,7 +27,7 @@
     <script>
         let timer = null;
 
-        $('#name').on('input', e => {
+        $('#type').on('input', e => {
             clearTimeout(timer);
             timer = setTimeout(() => $(e.target.form).submit(), 500);
         });

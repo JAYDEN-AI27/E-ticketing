@@ -73,6 +73,7 @@ public class ProductController : Controller
                 .FirstOrDefault(p => p.TicketID == id);
 
         //if (m == null) return RedirectToAction("Order");
+        if (Request.IsAjax()) return PartialView("_ProductDetail", m);
 
         return View(m);
     }
@@ -113,7 +114,7 @@ public class ProductController : Controller
                     Subtotal = p.UnitPrice * cart[p.TicketID],
                 });
 
-        //if (Request.IsAjax()) return PartialView("_ShoppingCart", m);
+        if (Request.IsAjax()) return PartialView("_ShoppingCart", m);
 
         return View(m);
     }
@@ -164,9 +165,7 @@ public class ProductController : Controller
 
         // Continue with other processing
         // For example: payment, etc.
-
-        
-        return RedirectToAction("OrderComplete", new { id =order.OrderID });
+        return RedirectToAction("ChooseCard", "Payment", new { orderId = order.OrderID });
     }
 
     public IActionResult OrderComplete(int id)

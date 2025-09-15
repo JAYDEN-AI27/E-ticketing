@@ -78,6 +78,43 @@ namespace Demo.Migrations
                     b.ToTable("OrderLines");
                 });
 
+            modelBuilder.Entity("Demo.Models.Payment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CardNum")
+                        .IsRequired()
+                        .HasMaxLength(16)
+                        .HasColumnType("nvarchar(16)");
+
+                    b.Property<string>("Ccv")
+                        .IsRequired()
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)");
+
+                    b.Property<int>("Expired_month")
+                        .HasMaxLength(2)
+                        .HasColumnType("int");
+
+                    b.Property<int>("Expired_year")
+                        .HasMaxLength(2)
+                        .HasColumnType("int");
+
+                    b.Property<string>("MemberEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MemberEmail");
+
+                    b.ToTable("Payments");
+                });
+
             modelBuilder.Entity("Demo.Models.Ticket", b =>
                 {
                     b.Property<string>("TicketID")
@@ -96,6 +133,9 @@ namespace Demo.Migrations
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.Property<int>("Stock")
                         .HasColumnType("int");
@@ -196,6 +236,17 @@ namespace Demo.Migrations
                     b.Navigation("Order");
 
                     b.Navigation("Ticket");
+                });
+
+            modelBuilder.Entity("Demo.Models.Payment", b =>
+                {
+                    b.HasOne("Demo.Models.Member", "Member")
+                        .WithMany()
+                        .HasForeignKey("MemberEmail")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Member");
                 });
 
             modelBuilder.Entity("Demo.Models.Order", b =>

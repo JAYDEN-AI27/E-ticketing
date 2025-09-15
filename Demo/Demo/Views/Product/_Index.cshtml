@@ -40,7 +40,7 @@
     @if (Model.Any()){
         @foreach (var p in Model)
         {
-            if (p.Stock == 0)
+            if (p.Stock == 0 || p.Status == false)
             {
                 continue;
             }

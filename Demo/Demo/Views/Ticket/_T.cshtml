@@ -54,7 +54,14 @@
                 <td>
                     <button data-get="/Ticket/Detail/@s.TicketID">Detail</button>
                     <button data-get="/Ticket/Update/@s.TicketID">Update</button>
-                    <button data-post="/Ticket/Delete/@s.TicketID">Delete</button>
+                    @if(s.Status == true)
+                    {
+                        <button data-post="/Ticket/ChangeStatus/@s.TicketID">Deactive</button>
+                    }
+                    else
+                    {
+                        <button data-post="/Ticket/ChangeStatus/@s.TicketID">Active</button>
+                    }
                 </td>
             </tr>
         }

@@ -17,6 +17,7 @@ public class DB : DbContext
     public DbSet<Order> Orders { get; set; }
     public DbSet<Ticket> Tickets { get; set; }
     public DbSet<OrderLine> OrderLines { get; set; }
+    public DbSet<Payment> Payments { get; set; }
 
 }
 
@@ -81,6 +82,8 @@ public class Ticket
     [MaxLength(100)]
     public string Destination { get; set; }
 
+    public bool Status { get; set; }
+
     public List<OrderLine> Lines { get; set; } = [];
 }
 
@@ -99,4 +102,22 @@ public class OrderLine
     // Navigation Properties
     public Order Order { get; set; }
     public Ticket Ticket { get; set; }
+}
+
+public class Payment
+{
+    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
+    [MaxLength(16)]
+    public string CardNum { get; set; }
+    [MaxLength(3)]
+    public string Ccv { get; set; }
+    [MaxLength(2)]
+    public int Expired_year { get; set; }
+    [MaxLength(2)]
+    public int Expired_month { get; set; }
+
+    public string MemberEmail { get; set; }
+    public Member Member { get; set; }
+
 }
