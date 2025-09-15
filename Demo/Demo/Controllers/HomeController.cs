@@ -73,8 +73,8 @@ public class HomeController : Controller
     // ------------------------------------------------------------------------
 
     // GET: Home/Demo1
-    public IActionResult Demo1()
-    {
-        return View();
-    }
+    //public IActionResult Demo1()
+    //{
+    //    return View();
+    //}
 }

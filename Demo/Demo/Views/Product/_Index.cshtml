@@ -50,7 +50,7 @@
                     <td>@p.Type</td>
                     <td>RM @p.UnitPrice</td>
                     <td>@p.Stock</td>
-                    <td>@p.DepartureTime</td>
+                    <td>@p.DepartureTime.ToString("dd/MM/yyyy HH:mm tt")</td>
                     <td>@p.Source</td>
                     <td>@p.Destination</td>
                     <td><button data-get="/Product/ProductDetail/@p.TicketID">Detail</button></td>

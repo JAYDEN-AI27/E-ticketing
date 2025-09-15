@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\home\\demo1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\demo1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\controllers\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\views\\ticket\\ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\ticket\\ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250914033814_Changes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Migrations\\20250914033814_Changes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +69,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250910022731_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Migrations\\20250910022731_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\user\\github\\e-ticketing\\demo\\demo\\migrations\\20250914033814_changes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\migrations\\20250914033814_changes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +90,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T02:31:23.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T02:30:54.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\_Index.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Product\\_Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\_Index.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Product\\_Index.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T02:27:40.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T02:20:42.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderDetail.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Product\\OrderDetail.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\OrderDetail.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Product\\OrderDetail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T02:20:30.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Demo1.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo1.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Demo1.cshtml",
+              "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Home\\Demo1.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Demo1.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T02:19:11.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Update.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Update.cshtml",
@@ -74,12 +176,11 @@
               "RelativeToolTip": "Demo\\Views\\Ticket\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T03:43:38.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:43:38.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Detail.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Detail.cshtml",
@@ -87,12 +188,11 @@
               "RelativeToolTip": "Demo\\Views\\Ticket\\Detail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T03:43:33.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:43:33.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Ticket.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Ticket.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Ticket.cshtml",
@@ -100,12 +200,11 @@
               "RelativeToolTip": "Demo\\Views\\Ticket\\Ticket.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T03:43:28.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:43:28.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Insert.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Ticket\\Insert.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Ticket\\Insert.cshtml",
@@ -113,12 +212,11 @@
               "RelativeToolTip": "Demo\\Views\\Ticket\\Insert.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T03:40:05.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:40:05.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "20250914033814_Changes.cs",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250914033814_Changes.cs",
               "RelativeDocumentMoniker": "Demo\\Migrations\\20250914033814_Changes.cs",
@@ -126,12 +224,11 @@
               "RelativeToolTip": "Demo\\Migrations\\20250914033814_Changes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T03:38:14.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:38:14.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Demo\\appsettings.Development.json",
@@ -143,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\appsettings.json",
               "RelativeDocumentMoniker": "Demo\\appsettings.json",
@@ -155,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "20250910022731_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Migrations\\20250910022731_InitialCreate.cs",
               "RelativeDocumentMoniker": "Demo\\Migrations\\20250910022731_InitialCreate.cs",
@@ -166,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "DB.cs",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Models\\DB.cs",
               "RelativeDocumentMoniker": "Demo\\Models\\DB.cs",
@@ -174,12 +271,11 @@
               "RelativeToolTip": "Demo\\Models\\DB.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAIwEoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T02:26:35.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T02:26:35.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Program.cs",
               "RelativeDocumentMoniker": "Demo\\Program.cs",
@@ -187,25 +283,24 @@
               "RelativeToolTip": "Demo\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T02:24:52.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T02:24:52.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\Ticket.cs",
               "RelativeDocumentMoniker": "Demo\\Controllers\\Ticket.cs",
               "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\Ticket.cs",
               "RelativeToolTip": "Demo\\Controllers\\Ticket.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAkwHEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T02:22:55.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Demo\\Controllers\\ProductController.cs",
