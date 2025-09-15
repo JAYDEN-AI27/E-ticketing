@@ -22,3 +22,14 @@
 <div id="target">
     <partial name="_Index">
 </div>
+
+@section foot {
+    <script>
+        let timer = null;
+
+        $('#type,#source,#destination').on('input', e => {
+            clearTimeout(timer);
+            timer = setTimeout(() => $(e.target.form).submit(), 500);
+        });
+    </script>
+}
