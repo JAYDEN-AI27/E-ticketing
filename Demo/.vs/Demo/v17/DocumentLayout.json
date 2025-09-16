@@ -83,7 +83,7 @@
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\GitHub\\E-ticketing\\Demo\\Demo\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-15T07:10:16.372Z",
               "EditorCaption": ""
@@ -98,8 +98,7 @@
               "RelativeToolTip": "Demo\\Views\\Product\\_Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T06:59:32.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:59:32.973Z"
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "Demo\\Views\\Ticket\\Ticket.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T03:43:28.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:43:28.736Z"
             },
             {
               "$type": "Document",
