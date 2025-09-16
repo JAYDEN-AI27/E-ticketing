@@ -56,24 +56,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Demo2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vMi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Demo3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vMy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Demo4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vNC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/ChooseCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDaG9vc2VDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/ShowCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTaG93Q2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/Index.cshtml]
@@ -102,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_ShoppingCart.cshtml]
