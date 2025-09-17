@@ -3,11 +3,12 @@
     "",
     "\\Demo",
     "\\Demo\\Demo",
+    "\\Demo\\Demo\\Controllers",
     "\\Demo\\Demo\\Views",
     "\\Demo\\Demo\\Views\\Home",
     "\\Demo\\Demo\\Views\\Shared",
     "\\Demo\\Demo\\Views\\UserAdministration"
   ],
-  "SelectedNode": "\\Demo\\Demo\\Views\\UserAdministration\\_MT.cshtml",
+  "SelectedNode": "\\Demo\\Demo\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
