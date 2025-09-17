@@ -151,6 +151,9 @@ namespace Demo.Migrations
                     b.Property<int>("LocationId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Sales")
+                        .HasColumnType("int");
+
                     b.Property<string>("Source")
                         .IsRequired()
                         .HasMaxLength(100)

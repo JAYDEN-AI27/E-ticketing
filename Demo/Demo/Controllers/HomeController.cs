@@ -23,7 +23,11 @@ public class HomeController : Controller
     // GET: Home/Index
     public IActionResult Index()
     {
-        return View();
+        var p = db.Tickets.ToList();
+
+        var sorted = p.OrderByDescending(p => p.Sales)
+                      .Take(5);
+        return View(sorted);
     }
 
     // ------------------------------------------------------------------------

@@ -83,6 +83,7 @@ public class Ticket
     public string Destination { get; set; }
 
     public bool Status { get; set; }
+    public int Sales { get; set; }
     public int LocationId { get; set; }
 
     public List<OrderLine> Lines { get; set; } = [];

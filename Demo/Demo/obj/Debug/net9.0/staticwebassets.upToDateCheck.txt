@@ -2,6 +2,7 @@ wwwroot\css\app.css
 wwwroot\css\pager.css
 wwwroot\images\favicon.png
 wwwroot\images\loader.gif
+wwwroot\images\Logo.png
 wwwroot\images\photo.jpg
 wwwroot\js\app.js
 wwwroot\js\jquery.min.js

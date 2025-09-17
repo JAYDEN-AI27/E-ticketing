@@ -146,11 +146,9 @@ public class ProductController : Controller
             var p = db.Tickets.Find(TicketId);
             if (p == null) continue;
 
-            if (p.Stock >= quantity)
-            {
-                p.Stock -= quantity;
-            }
-
+            p.Stock -= quantity;
+            p.Sales += quantity;
+            
             order.OrderLines.Add(new()
             {
                 Price = p.UnitPrice,
@@ -193,7 +191,7 @@ public class ProductController : Controller
     [Authorize(Roles = "Member")]
     public IActionResult OrderDetail(int id)
     {
-        // TODO
+        
         var m = db.Orders
                 .Include(o => o.OrderLines)
                 .ThenInclude(ol => ol.Ticket)
