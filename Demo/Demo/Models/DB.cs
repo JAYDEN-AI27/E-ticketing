@@ -18,7 +18,7 @@ public class DB : DbContext
     public DbSet<Ticket> Tickets { get; set; }
     public DbSet<OrderLine> OrderLines { get; set; }
     public DbSet<Payment> Payments { get; set; }
-
+    public DbSet<Location> Locations { get; set; }
 }
 
 // Entity Classes -------------------------------------------------------------
@@ -83,8 +83,10 @@ public class Ticket
     public string Destination { get; set; }
 
     public bool Status { get; set; }
+    public int LocationId { get; set; }
 
     public List<OrderLine> Lines { get; set; } = [];
+    public Location Location { get; set; }
 }
 
 public class OrderLine
@@ -121,3 +123,14 @@ public class Payment
     public Member Member { get; set; }
 
 }
+
+public class Location
+{
+    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
+    public double Latitude { get; set; }
+    public double Longitude { get; set; }
+    public List<Ticket> Tickets { get; set; } = [];
+}
+
+

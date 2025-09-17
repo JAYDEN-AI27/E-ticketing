@@ -148,6 +148,8 @@ public class TicketVM
     [Required]
     [StringLength(100)]
     public string Destination { get; set; }
+    public double Latitude { get; set; }
+    public double Longitude { get; set; }
 }
 
 // Shopping Cart

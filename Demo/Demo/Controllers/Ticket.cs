@@ -1,4 +1,5 @@
 ﻿using Azure;
+using Demo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +20,7 @@ public class TicketController : Controller
         this.en = en;
     }
 
-    public IActionResult Ticket(string? type,string? source,string? destination, string? sort, string? dir, int page = 1)
+    public IActionResult Ticket(string? type, string? source, string? destination, string? sort, string? dir, int page = 1)
     {
         // (1) searching ------------------------
         ViewBag.Type = type = type?.Trim() ?? "";
@@ -39,7 +40,7 @@ public class TicketController : Controller
         {
             "TicketID" => s => s.TicketID,
             "Type" => s => s.Type,
-            "UnitPrice" => s => s.UnitPrice, 
+            "UnitPrice" => s => s.UnitPrice,
             "Stock" => s => s.Stock,
             "DepartureTime" => s => s.DepartureTime,
             "Source" => s => s.Source,
@@ -80,7 +81,8 @@ public class TicketController : Controller
             return RedirectToAction("Ticket");
         }
 
-        var model = db.Tickets.Find(id);
+        var model = db.Tickets.Include(t => t.Location)
+                              .FirstOrDefault(t => t.TicketID == id);
         if (model == null)
         {
             return RedirectToAction("Ticket");
@@ -107,7 +109,7 @@ public class TicketController : Controller
     [HttpPost]
     public IActionResult Insert(TicketVM vm)
     {
-        
+
         if (db.Tickets.Any(s => s.TicketID == vm.TicketID.Trim().ToUpper()))
         {
             ModelState.AddModelError("TicketID", "Duplicated Ticket ID.");
@@ -115,7 +117,7 @@ public class TicketController : Controller
 
         if (ModelState.IsValid)
         {
-            var ticket = new Ticket() 
+            var ticket = new Ticket()
             {
                 TicketID = vm.TicketID.Trim().ToUpper(),
                 Type = vm.Type.Trim().ToUpper(),
@@ -124,9 +126,19 @@ public class TicketController : Controller
                 DepartureTime = vm.DepartureTime,
                 Source = vm.Source,
                 Destination = vm.Destination,
+                Status = true,
+
+                Location = new Location
+                {
+                    Latitude = vm.Latitude,
+                    Longitude = vm.Longitude,
+                }
             };
 
             db.Tickets.Add(ticket);
+
+
+
             db.SaveChanges();
             TempData["Info"] = "Record inserted.";
             return RedirectToAction("Ticket");
@@ -143,7 +155,8 @@ public class TicketController : Controller
             return RedirectToAction("Ticket");
         }
 
-        var s = db.Tickets.Find(id);
+        var s = db.Tickets.Include(t => t.Location)
+                          .FirstOrDefault(t => t.TicketID == id);
         if (s == null)
         {
             return RedirectToAction("Ticket");
@@ -157,7 +170,9 @@ public class TicketController : Controller
             Stock = s.Stock,
             DepartureTime = s.DepartureTime,
             Source = s.Source,
-            Destination = s.Destination
+            Destination = s.Destination,
+            Latitude = s.Location.Latitude,
+            Longitude = s.Location.Longitude
         };
 
 
@@ -173,7 +188,8 @@ public class TicketController : Controller
             return RedirectToAction("Ticket");
         }
 
-        var s = db.Tickets.Find(vm.TicketID);
+        var s = db.Tickets.Include(t => t.Location)
+                          .FirstOrDefault(t => t.TicketID == vm.TicketID);
         if (s == null)
         {
             return RedirectToAction("Ticket");
@@ -187,6 +203,8 @@ public class TicketController : Controller
             s.DepartureTime = vm.DepartureTime;
             s.Source = vm.Source;
             s.Destination = vm.Destination;
+            s.Location.Latitude = vm.Latitude;
+            s.Location.Longitude = vm.Longitude;
 
             db.SaveChanges();
             TempData["Info"] = "Record updated.";
@@ -205,7 +223,7 @@ public class TicketController : Controller
             var s = db.Tickets.Find(id);
             if (s != null)
             {
-                if(s.Status == true)
+                if (s.Status == true)
                 {
                     s.Status = false;
                     TempData["Info"] = "Record Deactivate.";

@@ -18,7 +18,7 @@ public class ProductController : Controller
         this.hp = hp;
     }
     public IActionResult Index(string? type, string? source, string? destination, string? sort, string? dir, int page = 1)
-        {
+    {
         ViewBag.Type = type = type?.Trim() ?? "";
         ViewBag.Source = source = source?.Trim() ?? "";
         ViewBag.Destination = destination = destination?.Trim() ?? "";
@@ -63,14 +63,15 @@ public class ProductController : Controller
             return PartialView("_Index", m);
         }
         return View(m);
-        }
+    }
 
     public IActionResult ProductDetail(string id)
     {
 
         ViewBag.Cart = hp.GetCart();
         var m = db.Tickets
-                .FirstOrDefault(p => p.TicketID == id);
+                .Include(t => t.Location)
+                .FirstOrDefault(t => t.TicketID == id);
 
         //if (m == null) return RedirectToAction("Order");
         if (Request.IsAjax()) return PartialView("_ProductDetail", m);
@@ -82,17 +83,17 @@ public class ProductController : Controller
     [Authorize(Roles = "Member")]
     public IActionResult UpdateCart(string TicketId, int quantity)
     {
-        
+
         var cart = hp.GetCart();
 
         if (quantity >= 1 && quantity <= 10)
         {
-            
+
             cart[TicketId] = quantity;
         }
         else
         {
-            
+
             cart.Remove(TicketId);
         }
 
@@ -103,7 +104,7 @@ public class ProductController : Controller
 
     public IActionResult ShoppingCart()
     {
-        
+
         var cart = hp.GetCart();
         var m = db.Tickets
                 .Where(p => cart.Keys.Contains(p.TicketID))
@@ -139,7 +140,7 @@ public class ProductController : Controller
         db.Orders.Add(order);
 
         // 3. Create [OrderLine] (child record)
-        
+
         foreach (var (TicketId, quantity) in cart)
         {
             var p = db.Tickets.Find(TicketId);
@@ -159,7 +160,7 @@ public class ProductController : Controller
         }
 
         // 4. Save changes + clear shopping cart
-        
+
         db.SaveChanges();
         hp.SetCart();
 
@@ -178,7 +179,7 @@ public class ProductController : Controller
     [Authorize(Roles = "Member")]
     public IActionResult Order()
     {
-        
+
         var m = db.Orders
                 .Include(o => o.OrderLines)
                 .ThenInclude(ol => ol.Ticket)
@@ -205,4 +206,3 @@ public class ProductController : Controller
     }
 }
 
- 

@@ -22,6 +22,25 @@ namespace Demo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Demo.Models.Location", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("Latitude")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Longitude")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Locations");
+                });
+
             modelBuilder.Entity("Demo.Models.Order", b =>
                 {
                     b.Property<int>("OrderID")
@@ -129,6 +148,9 @@ namespace Demo.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int>("LocationId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Source")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -150,6 +172,8 @@ namespace Demo.Migrations
                         .HasColumnType("decimal(6,2)");
 
                     b.HasKey("TicketID");
+
+                    b.HasIndex("LocationId");
 
                     b.ToTable("Tickets");
                 });
@@ -247,6 +271,22 @@ namespace Demo.Migrations
                         .IsRequired();
 
                     b.Navigation("Member");
+                });
+
+            modelBuilder.Entity("Demo.Models.Ticket", b =>
+                {
+                    b.HasOne("Demo.Models.Location", "Location")
+                        .WithMany("Tickets")
+                        .HasForeignKey("LocationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Location");
+                });
+
+            modelBuilder.Entity("Demo.Models.Location", b =>
+                {
+                    b.Navigation("Tickets");
                 });
 
             modelBuilder.Entity("Demo.Models.Order", b =>

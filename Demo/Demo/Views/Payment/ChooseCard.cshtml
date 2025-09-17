@@ -33,7 +33,7 @@
                 </tr>
             }
         </table>
-        <div><button type="submit">Use This Card</button></div>
+        <section><button type="submit">Use This Card</button></section>
     </form>
 }
 else
@@ -41,4 +41,5 @@ else
     <p>No card to select.Please pay at counter</p>
 }
 
+<br>
 <button data-get="/Product/OrderComplete/@ViewBag.OrderID">Pay at counter</button>
