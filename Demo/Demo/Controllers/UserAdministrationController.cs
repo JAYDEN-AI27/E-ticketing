@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;
 using X.PagedList.Extensions;
 
@@ -8,10 +9,12 @@ namespace Demo.Controllers;
 public class UserAdministrationController : Controller
 {
     private readonly DB db;
+    private readonly Helper hp;
 
-    public UserAdministrationController(DB db)
+    public UserAdministrationController(DB db, Helper hp)
     {
         this.db = db;
+        this.hp = hp;
     }
 
     //Ask option
@@ -127,6 +130,147 @@ public class UserAdministrationController : Controller
         return NotFound();
     }
 
+    public bool CheckMemberEmail(string email)
+    {
+        // TODO
+        return !db.Members.Any(m => m.Email == email);
+    }
+
+    // GET: Home/Insert Member
+    public IActionResult InsertMember()
+    {
+        return View();
+    }
+
+    // POST: Home/Insert Member
+    [HttpPost]
+    public IActionResult InsertMember(RegisterVM vm)
+    {
+        // TODO
+        if (!ModelState.IsValid)
+        {
+            return View(vm);
+        }
+
+        if (db.Members.Any(m => m.Email == vm.Email)) 
+        {
+            ModelState.AddModelError("Email", "Duplicated Email");
+        }
+
+        if (ModelState.IsValid)
+        {
+            db.Members.Add(new()
+            {
+                Email = vm.Email,
+                Name = vm.Name.Trim(),
+                Hash = hp.HashPassword(vm.Password),
+                PhotoURL = hp.SavePhoto(vm.Photo, "photos"),
+            });
+            db.SaveChanges();
+
+            TempData["Info"] = "Record inserted.";
+            return RedirectToAction("MTable");
+        }
+
+        return View(vm);
+    }
+    // GET: Home/Insert Admin
+    public IActionResult InsertAdmin()
+    {
+        return View();
+    }
+
+    // POST: Home/Insert Admin
+    [HttpPost]
+    public IActionResult InsertAdmin(RegisterVM vm)
+    {
+        // TODO
+        if (!ModelState.IsValid)
+        {
+            return View(vm);
+        }
+
+        if (db.Admins.Any(a => a.Email == vm.Email))
+        {
+            ModelState.AddModelError("Email", "Duplicated Email");
+        }
+
+        if (ModelState.IsValid)
+        {
+            db.Admins.Add(new()
+            {
+                Email = vm.Email,
+                Name = vm.Name.Trim(),
+                Hash = hp.HashPassword(vm.Password),
+                PhotoURL = hp.SavePhoto(vm.Photo, "photos"),
+            });
+            db.SaveChanges();
+
+            TempData["Info"] = "Record inserted.";
+            return RedirectToAction("ATable");
+        }
+
+        return View(vm);
+    }
+    // GET: Home/Update Member
+    public IActionResult UpdateMember(string? email)
+    {
+        var m = db.Members.Find(email);
+
+        if (m == null)
+        {
+            return RedirectToAction("MTable");
+        }
+
+        // TODO
+        var vm = new UpdateProfileVM
+        {
+            Name = m.Name,
+            PhotoURL = m.PhotoURL,
+            Photo = null,
+        };
+
+        return View(vm); // TODO
+    }
+
+    // POST: Home/Update Member
+    [HttpPost]
+    public IActionResult UpdateMember(UpdateProfileVM vm)
+    {
+        var m = db.Members.Find(vm.Email);
+
+        if (m == null)
+        {
+            return RedirectToAction("MTable");
+        }
+
+        if (ModelState.IsValid)
+        {
+            m.Name = vm.Name.Trim();
+            if (vm.Photo != null)
+
+            {
+                var error = hp.ValidatePhoto(vm.Photo);
+                if (!string.IsNullOrEmpty(error))
+                {
+                    ModelState.AddModelError("Photo", error);
+                    return View(vm);
+                }
+
+                hp.DeletePhoto(m.PhotoURL, "photos");
+
+                var fileName = hp.SavePhoto(vm.Photo, "photos");
+                m.PhotoURL = fileName;
+            }
+
+            db.SaveChanges();
+
+            TempData["Info"] = "Record updated.";
+            return RedirectToAction("MTable");
+        }
+
+        return View(vm);
+    }
 
 }
 

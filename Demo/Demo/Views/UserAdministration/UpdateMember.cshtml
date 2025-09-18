@@ -1,0 +1,27 @@
+﻿@model UpdateProfileVM
+
+@{
+    ViewBag.Title = "User Administration | Update Member";
+}
+
+<form method="post" class="form" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" data-trim>
+    <span asp-validation-for="Name"></span>
+
+
+    <label asp-for="Photo"></label>
+    <label class="upload">
+        <small>Select New Photo...</small>
+        <input asp-for="Photo" accept="image/jpeg,image/png" hidden>
+        <img src="@(string.IsNullOrEmpty(Model.PhotoURL) ? "/images/photo.jpg" : $"/photos/{Model.PhotoURL}")" alt=" = "Upload Placeholder">
+    </label>
+    <span asp-validation-for="Photo"></span>
+
+    <section>
+        <button type="submit">Update</button>
+        <button type="reset">Reset</button>
+    </section>
+</form>

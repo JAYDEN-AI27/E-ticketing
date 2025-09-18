@@ -1,0 +1,44 @@
+﻿@model RegisterVM
+
+@{
+    ViewBag.Title = "User Administration | Insert Admin";
+}
+
+
+<form method="post" class="form" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" autofocus placeholder="Enter email: (xxx@gmailcom)">
+    <span asp-validation-for="Email"></span>
+
+    <label asp-for="Password"></label>
+    <input asp-for="Password" type="password" placeholder="Enter Password">
+    <span asp-validation-for="Password"></span>
+
+    <label asp-for="Confirm"></label>
+    <input asp-for="Confirm" type="password" placeholder="Confirm Password">
+    <span asp-validation-for="Confirm"></span>
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" data-trim placeholder="Full Name">
+    <span asp-validation-for="Name"></span>
+
+    <label asp-for="Photo"></label>
+    <label class="upload">
+        <small>Select Photo...</small>
+        <input asp-for="Photo" accept="image/jpeg,image/png" hidden>
+        <img src="/images/photo.jpg">
+    </label>
+    <span asp-validation-for="Photo"></span>
+
+    <section>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </section>
+
+</form>
+
+
+
+

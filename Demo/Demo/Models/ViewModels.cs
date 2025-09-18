@@ -23,10 +23,6 @@ public class LoginVM
 
 public class RegisterVM
 {
-    [Required]
-    [Display(Name = "User ID")]
-    [Remote("CheckUserId", "Account", ErrorMessage = "Duplicated {0}.")]
-    public int UserId { get; set; }
 
     [StringLength(100)]
     [EmailAddress]
@@ -78,14 +74,13 @@ public class UpdatePasswordVM
 
 public class UpdateProfileVM
 {
-    [Display(Name = "User ID")]
-    public int? UserId { get; set; }
 
     [Display(Name = "Email")]
     public string? Email { get; set; }
 
     [StringLength(100)]
     [Required]
+    [Display(Name = "Full Name")]
     public string Name { get; set; }
 
     [Display(Name = "Current Photo")]

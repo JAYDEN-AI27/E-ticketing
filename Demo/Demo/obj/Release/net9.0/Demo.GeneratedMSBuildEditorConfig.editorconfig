@@ -52,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGVQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Demo1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vMS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -160,8 +156,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/InsertAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXEluc2VydEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/InsertMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXEluc2VydE1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/MTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXE1UYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/UpdateMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXFVwZGF0ZU1lbWJlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/_AT.cshtml]

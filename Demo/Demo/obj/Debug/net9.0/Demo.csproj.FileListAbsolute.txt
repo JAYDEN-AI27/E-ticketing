@@ -333,7 +333,6 @@ C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\rj
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\scopedcss\bundle\Demo.styles.css
-C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-91pho55had.gz
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\compressed\22a9juuqxd-azd544o43i.gz
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\compressed\ch7szu10ds-getg8mlsvl.gz
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\compressed\lmksg1up3f-o1o13a6vjx.gz
@@ -352,3 +351,4 @@ C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\De
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\ref\Demo.dll
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-hoybx1bus6.gz
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-hoybx1bus6.gz
