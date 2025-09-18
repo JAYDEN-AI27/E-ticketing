@@ -62,13 +62,13 @@
         @if (User.Identity.IsAuthenticated)
         {
             <a href="/Account/Logout">Logout</a>
-            <a href="/Account/UpdatePassword">Update Password</a>
+            <a href="/Account/UpdatePassword">Reset Password</a>
         }
         else
         {
             <a href="/Account/Login">Login</a>
             <a href="/Account/Register">Register</a>
-            <a href="/Account/ResetPassword">Reset Password</a>
+            <a href="/Account/ResetPassword">Forgot Password</a>
         }
         @if (User.IsInRole("Member"))
         {

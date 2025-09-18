@@ -29,7 +29,7 @@ public class AccountController : Controller
     {
         var u = db.Users.Find(vm.Email);
 
-        if (u == null || !hp.VerifyPassword(u.Hash, vm.Password))
+        if (u == null || !hp.VerifyPassword(u.Hash, vm.Password) || u.Status == false)
         {
             ModelState.AddModelError("", "Login credentials not matched.");
         }
@@ -107,6 +107,7 @@ public class AccountController : Controller
                 Hash = hp.HashPassword(vm.Password),
                 Name = vm.Name,
                 PhotoURL = hp.SavePhoto(vm.Photo, "photos"),
+                Status = true
             });
             db.SaveChanges();
 
@@ -143,7 +144,8 @@ public class AccountController : Controller
             db.SaveChanges();
 
             TempData["Info"] = "Password updated.";
-            return RedirectToAction();
+            hp.SignOut();
+            return RedirectToAction("Login");
         }
 
         return View();
@@ -282,4 +284,30 @@ private void SendResetPasswordEmail(User u, string password)
     // (4) Send
     hp.SendEmail(mail);
 }
+
+    [HttpPost]
+    public IActionResult ChangeUserStatus(string? email)
+    {
+        if (!string.IsNullOrEmpty(email))
+        {
+            var s = db.Users.Find(email);
+            if (s != null)
+            {
+                if (s.Status == true)
+                {
+                    s.Status = false;
+                    TempData["Info"] = "User Deactivate.";
+                }
+                else
+                {
+                    s.Status = true;
+                    TempData["Info"] = "User Activate.";
+                }
+                db.SaveChanges();
+            }
+        }
+
+        var referer = Request.Headers.Referer.ToString();
+        return !string.IsNullOrEmpty(referer) ? Redirect(referer) : RedirectToAction("Index");
+    }
 }

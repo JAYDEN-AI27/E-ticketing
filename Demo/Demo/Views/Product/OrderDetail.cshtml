@@ -14,6 +14,11 @@
     <span>@Model.OrderDate.ToString("yyyy-MM-dd")</span>
     <br>
 
+    <label>Status</label>
+
+    <span>@(Model.Status ? "Success" : "Cancelled")</span>
+    <br>
+
     <label>Paid</label>
     
     <span>@(Model.Paid ? "Yes" : "No")</span>
@@ -22,6 +27,10 @@
 
 <p>
     <button data-get="/Product/Order">Back</button>
+    @if(Model.Status == true)
+    {
+        <button data-post="/Product/ChangeStatus/@Model.OrderID">Cancel Order</button>
+    }
 </p>
 
 <table class="table">

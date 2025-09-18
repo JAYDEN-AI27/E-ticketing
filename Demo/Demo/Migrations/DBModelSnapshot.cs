@@ -55,6 +55,9 @@ namespace Demo.Migrations
                     b.Property<bool>("Paid")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.Property<string>("UserEmail")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)");
@@ -205,6 +208,9 @@ namespace Demo.Migrations
                     b.Property<string>("PhotoURL")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()

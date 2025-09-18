@@ -238,6 +238,6 @@ public class TicketController : Controller
         }
 
         var referer = Request.Headers.Referer.ToString();
-        return !string.IsNullOrEmpty(referer) ? Redirect(referer) : RedirectToAction("Tciket");
+        return !string.IsNullOrEmpty(referer) ? Redirect(referer) : RedirectToAction("Ticket");
     }
 }

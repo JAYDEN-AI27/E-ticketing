@@ -45,9 +45,22 @@
             <td>@m.Name</td>
             <td>@m.Email</td>
             <td>
-                <a asp-controller="UserAdministration" asp-action="Detail" asp-route-email="@m.Email">
-                    Detail
-                </a>
+               
+                <button data-get="/UserAdministration/Detail/?email=@m.Email">Detail</button>
+                @if (m.Status == true)
+                {
+                    <button class="badge-danger"
+                            data-post="/Account/ChangeUserStatus/?email=@m.Email">
+                        Deactive
+                    </button>
+                }
+                else
+                {
+                    <button class="badge-success"
+                            data-post="/Account/ChangeUserStatus/?email=@m.Email">
+                        Active
+                    </button>
+                }
             </td>
         </tr>
     }

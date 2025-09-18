@@ -68,17 +68,4 @@ public class HomeController : Controller
 
         return View(vm);
     }
-
-
-
-
-    // ------------------------------------------------------------------------
-    // DateTime Demos
-    // ------------------------------------------------------------------------
-
-    // GET: Home/Demo1
-    //public IActionResult Demo1()
-    //{
-    //    return View();
-    //}
 }

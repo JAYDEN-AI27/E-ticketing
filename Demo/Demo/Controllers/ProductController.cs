@@ -73,7 +73,7 @@ public class ProductController : Controller
                 .Include(t => t.Location)
                 .FirstOrDefault(t => t.TicketID == id);
 
-        //if (m == null) return RedirectToAction("Order");
+        if (m == null) return RedirectToAction("Index");
         if (Request.IsAjax()) return PartialView("_ProductDetail", m);
 
         return View(m);
@@ -135,6 +135,7 @@ public class ProductController : Controller
         {
             OrderDate = DateTime.Today.ToDateOnly(),
             Paid = false,
+            Status = true,
             UserEmail = User.Identity!.Name!,
         };
         db.Orders.Add(order);
@@ -163,7 +164,6 @@ public class ProductController : Controller
         hp.SetCart();
 
         // Continue with other processing
-        // For example: payment, etc.
         return RedirectToAction("ChooseCard", "Payment", new { orderId = order.OrderID });
     }
 
@@ -202,5 +202,24 @@ public class ProductController : Controller
 
         return View(m);
     }
-}
 
+    [HttpPost]
+    public IActionResult ChangeStatus(int? id)
+    {
+        if (id != null && id !=0)
+        {
+            var s = db.Orders.Find(id);
+            if (s != null)
+            {
+               
+              s.Status = false;
+              TempData["Info"] = "Order Cancelled.";
+              
+                db.SaveChanges();
+            }
+        }
+
+        var referer = Request.Headers.Referer.ToString();
+        return !string.IsNullOrEmpty(referer) ? Redirect(referer) : RedirectToAction("OrderDetail");
+    }
+}

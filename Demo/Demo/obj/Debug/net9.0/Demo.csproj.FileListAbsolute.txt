@@ -122,7 +122,6 @@ C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\rjimswa.dswa.cache.j
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\scopedcss\bundle\Demo.styles.css
-C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-91pho55had.gz
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\compressed\22a9juuqxd-6ydxnrtiio.gz
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\compressed\ch7szu10ds-getg8mlsvl.gz
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\compressed\lmksg1up3f-m9qm4tazc0.gz
@@ -352,3 +351,4 @@ C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\re
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.pdb
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\ref\Demo.dll
+C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-hoybx1bus6.gz

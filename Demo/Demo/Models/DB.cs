@@ -39,18 +39,18 @@ public class User
 
     [MaxLength(100)]
     public string? PhotoURL { get; set; }
+    public bool Status { get; set; }
 
-    // TODO
+  
     public List<Order> Orders { get; set; } = [];
 }
 
-// TODO
+
 public class Admin : User
 {
 
 }
 
-// TODO
 public class Member : User
 {
 
@@ -62,6 +62,7 @@ public class Order
     public int OrderID { get; set; }
     public DateOnly OrderDate { get; set; }
     public bool Paid { get; set; }
+    public bool Status { get; set; }
     public string UserEmail { get; set; }
     public User User { get; set; }
     public List<OrderLine> OrderLines { get; set; } = [];

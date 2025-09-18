@@ -3,9 +3,11 @@
 }
 @model IEnumerable<Ticket>
 
-<h1>Selling Fast</h1>
+@{var availableTickets = Model.Where(t => t.Sales != 0 && t.Status == true);}
 
-@if (Model.Any())
+<p>Selling Fast</p>
+
+@if (availableTickets.Any())
 {
     <table class="table">
         <thead>
@@ -15,17 +17,15 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var ticket in Model)
+            @foreach (var t in availableTickets)
             {
-                if (ticket.Sales != 0 && ticket.Status == true)
-                {
                     <tr>
-                        <td><a href="/Product/ProductDetail/@ticket.TicketID">@ticket.Type</a></td>
+                        <td><a href="/Product/ProductDetail/@t.TicketID">@t.Type</a></td>
                         <td>
-                            <span class="badge badge-success">@ticket.Stock</span>
+                            <span class="badge badge-danger">@(t.Stock != 0 ? t.Stock : "Sold Out")</span>
                         </td>
                     </tr>
-                }
+                
             }
         </tbody>
     </table>
