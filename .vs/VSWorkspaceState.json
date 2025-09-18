@@ -9,6 +9,6 @@
     "\\Demo\\Demo\\Views\\Shared",
     "\\Demo\\Demo\\Views\\UserAdministration"
   ],
-  "SelectedNode": "\\Demo\\Demo\\Views\\UserAdministration\\UpdateMember.cshtml",
+  "SelectedNode": "\\Demo\\Demo\\Controllers\\UserAdministrationController.cs",
   "PreviewInSolutionExplorer": false
 }
