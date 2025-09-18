@@ -165,6 +165,7 @@ public class UserAdministrationController : Controller
                 Name = vm.Name.Trim(),
                 Hash = hp.HashPassword(vm.Password),
                 PhotoURL = hp.SavePhoto(vm.Photo, "photos"),
+                Status = true
             });
             db.SaveChanges();
 
@@ -203,6 +204,7 @@ public class UserAdministrationController : Controller
                 Name = vm.Name.Trim(),
                 Hash = hp.HashPassword(vm.Password),
                 PhotoURL = hp.SavePhoto(vm.Photo, "photos"),
+                Status = true
             });
             db.SaveChanges();
 
@@ -273,4 +275,4 @@ public class UserAdministrationController : Controller
     }
 
 }
-
+

@@ -44,10 +44,11 @@
     <nav>
         <a href="/">Index</a>
         <a href="/Product/Index">Product</a>
+        <a href="/Product/ShoppingCart">Shopping Cart</a>
 
         @if (User.IsInRole("Member"))
         {
-            <a href="/Product/ShoppingCart">Shopping Cart</a>
+           
             <a href="/Product/Order">Order History</a>
             <a href="/Payment/ShowCard">Payment</a>
             <a href="/Home/Email">FAQ</a>

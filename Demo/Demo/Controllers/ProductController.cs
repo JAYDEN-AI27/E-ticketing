@@ -80,7 +80,6 @@ public class ProductController : Controller
     }
 
     [HttpPost]
-    [Authorize(Roles = "Member")]
     public IActionResult UpdateCart(string TicketId, int quantity)
     {
 

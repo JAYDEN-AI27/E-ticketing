@@ -22,6 +22,7 @@ wwwroot\photos\jisoo.jpg
 wwwroot\photos\m1.jpg
 wwwroot\photos\m2.jpg
 wwwroot\photos\photo.jpg
+wwwroot\photos\b08cd38e0a5c4ddbaa187bc4f30a2e8a.jpg
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\js\jquery.validate.unobtrusive.min.js
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\css\app.css
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\wwwroot\css\pager.css
