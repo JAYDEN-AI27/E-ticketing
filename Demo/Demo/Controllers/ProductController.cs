@@ -174,33 +174,61 @@ public class ProductController : Controller
 
     // GET: Product/Order
     [Authorize(Roles = "Member")]
-    public IActionResult Order()
+    public IActionResult Order(string? search, string? sort = "Order ID", string? dir = "desc", int page = 1)
     {
+        var query = db.Orders
+            .Include(o => o.OrderLines)
+            .ThenInclude(ol => ol.Ticket)
+            .Where(o => o.UserEmail == User.Identity!.Name);
 
-        var m = db.Orders
-                .Include(o => o.OrderLines)
-                .ThenInclude(ol => ol.Ticket)
-                .Where(o => o.UserEmail == User.Identity!.Name)
-                .OrderByDescending(o => o.OrderID);
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            query = query.Where(o => o.OrderID.ToString().Contains(search));
+        }
 
-        return View(m);
+        // Sorting
+        query = sort switch
+        {
+            "Date" => dir == "asc" ? query.OrderBy(o => o.OrderDate) : query.OrderByDescending(o => o.OrderDate),
+            "Paid" => dir == "asc" ? query.OrderBy(o => o.Paid) : query.OrderByDescending(o => o.Paid),
+            "Quantity" => dir == "asc"
+                ? query.OrderBy(o => o.OrderLines.Sum(ol => ol.Quantity))
+                : query.OrderByDescending(o => o.OrderLines.Sum(ol => ol.Quantity)),
+            "Total" => dir == "asc"
+                ? query.OrderBy(o => o.OrderLines.Sum(ol => ol.Price * ol.Quantity))
+                : query.OrderByDescending(o => o.OrderLines.Sum(ol => ol.Price * ol.Quantity)),
+            _ => dir == "asc" ? query.OrderBy(o => o.OrderID) : query.OrderByDescending(o => o.OrderID),
+        };
+
+        var paged = query.ToPagedList(page, 10);
+
+        ViewBag.Search = search;
+        ViewBag.Sort = sort;
+        ViewBag.Dir = dir;
+
+        if (Request.IsAjax())
+            return PartialView("_Order", paged);
+
+        return View(paged);
     }
+
+
 
     // GET: Product/OrderDetail
     [Authorize(Roles = "Member")]
     public IActionResult OrderDetail(int id)
     {
-        
         var m = db.Orders
-                .Include(o => o.OrderLines)
-                .ThenInclude(ol => ol.Ticket)
-                .FirstOrDefault(o => o.OrderID == id &&
-                o.UserEmail == User.Identity!.Name);
+            .Include(o => o.OrderLines)
+            .ThenInclude(ol => ol.Ticket)
+            .FirstOrDefault(o => o.OrderID == id &&
+                                 o.UserEmail == User.Identity!.Name);
 
         if (m == null) return RedirectToAction("Order");
 
         return View(m);
     }
+
 
     [HttpPost]
     public IActionResult ChangeStatus(int? id)

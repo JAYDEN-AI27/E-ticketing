@@ -1,0 +1,92 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<Order>
+
+@{
+    string[] fields = ["Order ID", "Date", "Paid", "Quantity", "Total"];
+}
+
+@Html.Hidden("sort", ViewBag.Sort, new { form = "orderForm" })
+@Html.Hidden("dir", ViewBag.Dir, new { form = "orderForm" })
+
+<p>
+    @Model.Count() of @Model.TotalItemCount record(s) |
+    Page @Model.PageNumber of @Model.PageCount
+</p>
+
+<table class="table">
+    <tr>
+        @foreach (var f in fields)
+        {
+            string d = "asc";
+            string c = "";
+
+            if (f == ViewBag.Sort)
+            {
+                d = ViewBag.Dir == "desc" ? "asc" : "desc";
+                c = ViewBag.Dir;
+            }
+
+            <th>
+                <a data-ajax="true"
+                   data-ajax-update="#target"
+                   data-ajax-loading="#loader"
+                   href="?search=@ViewBag.Search&sort=@f&dir=@d"
+                   class="@c">@f</a>
+            </th>
+        }
+        <th>Action</th>
+    </tr>
+
+    @if (Model.Any())
+    {
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>@o.OrderID</td>
+                <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
+                <td>@(o.Paid ? "Yes" : "No")</td>
+                <td>@o.OrderLines.Sum(ol => ol.Quantity)</td>
+                <td>@o.OrderLines.Sum(ol => ol.Price * ol.Quantity)</td>
+                <td>
+                    <a data-ajax="true"
+                       data-ajax-update="#target"
+                       data-ajax-loading="#loader"
+                       href="/Product/OrderDetail/@o.OrderID"
+                       class="btn btn-sm btn-primary">
+                        Detail
+                    </a>
+                </td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+            <td colspan="@(fields.Length + 1)" class="text-center text-muted">
+                No records found.
+            </td>
+        </tr>
+    }
+</table>
+
+@{
+    var options = PagedListRenderOptions.ClassicPlusFirstAndLast;
+    options.LinkToFirstPageFormat = "First";
+    options.LinkToLastPageFormat = "Last";
+    options.LinkToPreviousPageFormat = "Previous";
+    options.LinkToNextPageFormat = "Next";
+
+    var ajaxOptions = new AjaxOptions
+    {
+        HttpMethod = "get",
+        UpdateTargetId = "target",
+        LoadingElementId = "loader"
+    };
+}
+
+@Html.PagedListPager(
+Model,
+page => $"?search={ViewBag.Search}&sort={ViewBag.Sort}&dir={ViewBag.Dir}&page={page}",
+PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(options, ajaxOptions)
+)

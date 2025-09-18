@@ -1,33 +1,31 @@
-﻿@model IEnumerable<Order>
+﻿@model X.PagedList.IPagedList<Order>
 
 @{
     ViewBag.Title = "Order | Order History";
 }
 
-<table class="table">
-    <tr>
-        <th>Id</th>
-        <th>Date</th>
-        <th>Paid</th>
-        <th>Total Quantity</th>
-        <th>Total</th>
-        <th></th>
-    </tr>
-    @foreach (Order o in Model)
-    {
-        <tr>
-            <td>@o.OrderID</td>
-            <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
-            <td>@(o.Paid ? "Yes" : "No")</td>
+<form id="orderForm"
+      data-ajax="true"
+      data-ajax-update="#target"
+      data-ajax-loading="#loader">
+    @Html.TextBox("search", ViewBag.Search as string ?? "",
+    new { type = "search", placeholder = "Search Order ID..." })
 
+    <button type="submit">Search</button>
+    <img src="/images/loader.gif" id="loader" style="display: none" />
+</form>
 
-            @* Calculate count and total *@
-            <td>@o.OrderLines.Sum(ol => ol.Quantity)</td>
-            <td>@o.OrderLines.Sum(ol => ol.Price * ol.Quantity)</td>
+<div id="target">
+    <partial name="_Order" model="Model" />
+</div>
 
-            <td>
-                <button data-get="/Product/OrderDetail/@o.OrderID">Detail</button>
-            </td>
-        </tr>
-    }
-</table>
+@section foot {
+    <script>
+        let timer = null;
+
+        $('#search').on('input', e => {
+            clearTimeout(timer);
+            timer = setTimeout(() => $(e.target.form).submit(), 500);
+        });
+    </script>
+}
