@@ -49,6 +49,9 @@
             <td>
                
                 <button data-get="/UserAdministration/Detail/?email=@m.Email">Detail</button>
+
+                <button data-get="/UserAdministration/UpdateAdmin/?email=@m.Email">Update</button>
+
                 @if (m.Status == true)
                 {
                     <button class="badge-danger"

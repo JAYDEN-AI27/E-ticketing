@@ -273,6 +273,65 @@ public class UserAdministrationController : Controller
 
         return View(vm);
     }
+    // GET: Home/Update Admin
+    public IActionResult UpdateAdmin(string? email)
+    {
+        var a = db.Admins.Find(email);
+
+        if (a == null)
+        {
+            return RedirectToAction("ATable");
+        }
+
+        // TODO
+        var vm = new UpdateProfileVM
+        {
+            Name = a.Name,
+            PhotoURL = a.PhotoURL,
+            Photo = null,
+        };
+
+        return View(vm); // TODO
+    }
+
+    // POST: Home/Update Member
+    [HttpPost]
+    public IActionResult UpdateAdmin(UpdateProfileVM vm)
+    {
+        var a = db.Admins.Find(vm.Email);
+
+        if (a == null)
+        {
+            return RedirectToAction("ATable");
+        }
+
+        if (ModelState.IsValid)
+        {
+            a.Name = vm.Name.Trim();
+            if (vm.Photo != null)
+
+            {
+                var error = hp.ValidatePhoto(vm.Photo);
+                if (!string.IsNullOrEmpty(error))
+                {
+                    ModelState.AddModelError("Photo", error);
+                    return View(vm);
+                }
+
+                hp.DeletePhoto(a.PhotoURL, "photos");
+
+                var fileName = hp.SavePhoto(vm.Photo, "photos");
+                a.PhotoURL = fileName;
+            }
+
+            db.SaveChanges();
+
+            TempData["Info"] = "Record updated.";
+            return RedirectToAction("ATable");
+        }
+
+        return View(vm);
+    }
 
 }
 
