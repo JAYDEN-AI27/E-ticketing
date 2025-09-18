@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\tanju\\onedrive\\desktop\\inter\\e-ticketing\\demo\\demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\tanju\\onedrive\\desktop\\inter\\e-ticketing\\demo\\demo\\views\\product\\_order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\_order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\tanju\\onedrive\\desktop\\inter\\e-ticketing\\demo\\demo\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\tanju\\onedrive\\desktop\\inter\\e-ticketing\\demo\\demo\\views\\product\\_productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\_productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\tanju\\onedrive\\desktop\\inter\\e-ticketing\\demo\\demo\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\tanju\\onedrive\\desktop\\inter\\e-ticketing\\demo\\demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C1F077-6D9E-4EA9-90CB-7F0ADF4E1D2F}|Demo\\Demo.csproj|c:\\users\\tanju\\onedrive\\desktop\\inter\\e-ticketing\\demo\\demo\\views\\product\\_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -203,7 +203,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -211,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Order.cshtml",
               "DocumentMoniker": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\Demo\\Views\\Product\\Order.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\Order.cshtml",
@@ -224,13 +224,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Order.cshtml",
               "DocumentMoniker": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\Demo\\Views\\Product\\_Order.cshtml",
               "RelativeDocumentMoniker": "Demo\\Views\\Product\\_Order.cshtml",
               "ToolTip": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\Demo\\Views\\Product\\_Order.cshtml",
               "RelativeToolTip": "Demo\\Views\\Product\\_Order.cshtml",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAmwFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-18T15:28:11.478Z",
               "EditorCaption": ""
@@ -245,8 +245,7 @@
               "RelativeToolTip": "Demo\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T07:10:16.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T07:10:16.372Z"
             },
             {
               "$type": "Document",
@@ -258,8 +257,7 @@
               "RelativeToolTip": "Demo\\Views\\Product\\_ProductDetail.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAEQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T03:25:12.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T03:25:12.278Z"
             },
             {
               "$type": "Document",
@@ -271,12 +269,11 @@
               "RelativeToolTip": "Demo\\Views\\Product\\ProductDetail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T11:48:49.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T11:48:49.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\Demo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Demo\\Controllers\\ProductController.cs",
@@ -284,8 +281,7 @@
               "RelativeToolTip": "Demo\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAKwAAAAAAAAAAAAuwK4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T11:52:48.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T11:52:48.032Z"
             },
             {
               "$type": "Document",
@@ -297,8 +293,7 @@
               "RelativeToolTip": "Demo\\Views\\Product\\_Index.cshtml",
               "ViewState": "AgIAAEEAAAAAAAAAAAAmwE8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T06:59:32.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:59:32.973Z"
             },
             {
               "$type": "Document",
@@ -310,8 +305,7 @@
               "RelativeToolTip": "Demo\\Views\\Product\\_ShoppingCart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T04:48:42.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T04:48:42.887Z"
             },
             {
               "$type": "Document",
@@ -323,8 +317,7 @@
               "RelativeToolTip": "Demo\\Views\\Product\\OrderDetail.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAQwEoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T02:27:36.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T02:27:36.093Z"
             },
             {
               "$type": "Document",
@@ -336,8 +329,7 @@
               "RelativeToolTip": "Demo\\Views\\Product\\OrderComplete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T03:19:27.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T03:19:27.845Z"
             },
             {
               "$type": "Document",

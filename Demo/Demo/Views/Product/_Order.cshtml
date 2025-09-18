@@ -3,11 +3,11 @@
 @model IPagedList<Order>
 
 @{
-    string[] fields = ["Order ID", "Date", "Paid", "Quantity", "Total"];
+    string[] fields = ["OrderID", "Date", "Paid", "Quantity", "Total"];
 }
 
-@Html.Hidden("sort", ViewBag.Sort, new { form = "orderForm" })
-@Html.Hidden("dir", ViewBag.Dir, new { form = "orderForm" })
+@Html.Hidden("sort", "", new { form = "f" })
+@Html.Hidden("dir", "", new { form = "f" })
 
 <p>
     @Model.Count() of @Model.TotalItemCount record(s) |
@@ -31,40 +31,22 @@
                 <a data-ajax="true"
                    data-ajax-update="#target"
                    data-ajax-loading="#loader"
-                   href="?search=@ViewBag.Search&sort=@f&dir=@d"
-                   class="@c">@f</a>
+                   href="?search=@ViewBag.Search&sort=@f&dir=@d" class="@c">@f</a>
             </th>
         }
-        <th>Action</th>
+        <th></th>
     </tr>
 
-    @if (Model.Any())
-    {
-        @foreach (var o in Model)
-        {
-            <tr>
-                <td>@o.OrderID</td>
-                <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
-                <td>@(o.Paid ? "Yes" : "No")</td>
-                <td>@o.OrderLines.Sum(ol => ol.Quantity)</td>
-                <td>@o.OrderLines.Sum(ol => ol.Price * ol.Quantity)</td>
-                <td>
-                    <a data-ajax="true"
-                       data-ajax-update="#target"
-                       data-ajax-loading="#loader"
-                       href="/Product/OrderDetail/@o.OrderID"
-                       class="btn btn-sm btn-primary">
-                        Detail
-                    </a>
-                </td>
-            </tr>
-        }
-    }
-    else
+    @foreach (var o in Model)
     {
         <tr>
-            <td colspan="@(fields.Length + 1)" class="text-center text-muted">
-                No records found.
+            <td>@o.OrderID</td>
+            <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
+            <td>@(o.Paid ? "Yes" : "No")</td>
+            <td>@o.OrderLines.Sum(ol => ol.Quantity)</td>
+            <td>@o.OrderLines.Sum(ol => ol.Price * ol.Quantity)</td>
+            <td>
+                <button data-get="/Product/OrderDetail/@o.OrderID">Detail</button>
             </td>
         </tr>
     }
@@ -87,6 +69,6 @@
 
 @Html.PagedListPager(
 Model,
-page => $"?search={ViewBag.Search}&sort={ViewBag.Sort}&dir={ViewBag.Dir}&page={page}",
+p => $"?search={ViewBag.Search}&sort={ViewBag.Sort}&dir={ViewBag.Dir}&page={p}",
 PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(options, ajaxOptions)
 )
