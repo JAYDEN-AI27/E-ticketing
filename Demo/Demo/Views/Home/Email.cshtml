@@ -17,8 +17,10 @@
 <form class="form" method="post">
     <div asp-validation-summary="ModelOnly"></div>
 
-    <label asp-for="Email"></label>
-    <input asp-for="Email" autofocus>
+    <label asp-for="Email">Select Email</label>
+    <select asp-for="Email" asp-items="ViewBag.EmailList" class="form-control">
+        <option value="">-- Select an email --</option>
+    </select>
     <span asp-validation-for="Email"></span>
 
     <label asp-for="Subject"></label>
@@ -29,11 +31,6 @@
     <textarea asp-for="Body"></textarea>
     <span asp-validation-for="Body"></span>
 
-    <br>
-    <label>
-        <input asp-for="IsBodyHtml">
-        Format Body as HTML
-    </label>
     <br>
 
     <section>

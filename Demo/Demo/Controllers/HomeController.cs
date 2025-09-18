@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Net.Mail;
 using System.Reflection.Metadata.Ecma335;
@@ -23,7 +24,7 @@ public class HomeController : Controller
     // GET: Home/Index
     public IActionResult Index()
     {
-        var p = db.Tickets.ToList();
+        var p = db.Tickets.Where(t => t.Status == true).ToList();
 
         var sorted = p.OrderByDescending(p => p.Sales)
                       .Take(5);
@@ -35,7 +36,19 @@ public class HomeController : Controller
     // GET: Home/Email
     public IActionResult Email()
     {
-        return View();
+
+        var emailList = db.Admins
+        .Where(a => a.Status == true)
+        .Select(a => new SelectListItem
+        {
+            Value = a.Email,
+            Text = $"{a.Name} ({a.Email})"
+        })
+        .ToList();
+
+        ViewBag.EmailList = emailList;
+
+        return View("Email", new EmailVM());
     }
 
     // POST: Home/Email
@@ -45,21 +58,14 @@ public class HomeController : Controller
         if (ModelState.IsValid)
         {
             // Construct email
-            // TODO
+            
             var mail = new MailMessage();
             mail.To.Add(new MailAddress(vm.Email, "My Lovely"));
             mail.Subject = vm.Subject;
             mail.Body = vm.Body;
-            mail.IsBodyHtml = vm.IsBodyHtml;
-
-            // File attachment (optional)
-            // TODO
-            var path = Path.Combine(en.ContentRootPath, "Secret.pdf");
-            var att = new Attachment(path);
-            mail.Attachments.Add(att);
-
+           
             // Send email
-            // TODO
+            
             hp.SendEmail(mail);
 
             TempData["Info"] = "Email sent.";

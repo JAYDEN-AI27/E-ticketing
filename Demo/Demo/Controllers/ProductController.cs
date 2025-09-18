@@ -206,15 +206,32 @@ public class ProductController : Controller
     [HttpPost]
     public IActionResult ChangeStatus(int? id)
     {
-        if (id != null && id !=0)
+        if (id != null && id != 0)
         {
             var s = db.Orders.Find(id);
+
             if (s != null)
             {
-               
-              s.Status = false;
-              TempData["Info"] = "Order Cancelled.";
-              
+                var m = db.Orders
+                 .Include(o => o.OrderLines)
+                 .ThenInclude(ol => ol.Ticket)
+                 .FirstOrDefault(o => o.OrderID == id);
+
+
+                foreach (var orderLine in m.OrderLines)
+                {
+                    var ticket = orderLine.Ticket;
+                    if (ticket != null)
+                    {
+                        ticket.Stock += orderLine.Quantity;
+                        ticket.Sales -= orderLine.Quantity;
+                    }
+                }
+
+                s.Status = false;
+
+                TempData["Info"] = "Order Cancelled.";
+
                 db.SaveChanges();
             }
         }

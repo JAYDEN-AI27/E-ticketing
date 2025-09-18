@@ -110,7 +110,6 @@ public class EmailVM
     [Required]
     public string Body { get; set; }
 
-    public bool IsBodyHtml { get; set; }
 }
 
 public class TicketVM
