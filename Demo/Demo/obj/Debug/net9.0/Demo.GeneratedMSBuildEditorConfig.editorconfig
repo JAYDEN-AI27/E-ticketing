@@ -17,193 +17,193 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Demo
 build_property.RootNamespace = Demo
-build_property.ProjectDir = C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\
+build_property.ProjectDir = C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo
+build_property.MSBuildProjectDirectory = C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Account/AccessDenied.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Account/ForgotPassword.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Account/Login.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Account/Register.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Account/ResetPassword.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Account/UpdatePassword.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Account/UpdatePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGVQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Account/UpdateProfile.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Account/UpdateProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGVQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Email.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Home/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Home/Index.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/ChooseCard.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Payment/ChooseCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDaG9vc2VDYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/Insert.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Payment/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbnNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/ShowCard.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Payment/ShowCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTaG93Q2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Payment/Update.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Payment/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/Index.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/Order.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxPcmRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/OrderComplete.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/OrderComplete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxPcmRlckNvbXBsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/OrderDetail.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/OrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxPcmRlckRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/OrderHistory.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/OrderHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxPcmRlckhpc3RvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/ProductDetail.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/ProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/ShoppingCart.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/ShoppingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG9wcGluZ0NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_Index.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/_Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_Order.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/_Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_OrderHistory.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/_OrderHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfT3JkZXJIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_ProductDetail.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/_ProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Product/_ShoppingCart.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Product/_ShoppingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfU2hvcHBpbmdDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Shared/_CheckBoxList.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Shared/_CheckBoxList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DaGVja0JveExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Shared/_Layout.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Shared/_RadioButtonList.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Shared/_RadioButtonList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SYWRpb0J1dHRvbkxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Ticket/Detail.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Ticket/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Ticket/Insert.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Ticket/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XEluc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Ticket/Ticket.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Ticket/Ticket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XFRpY2tldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Ticket/Update.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Ticket/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/Ticket/_T.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/Ticket/_T.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XF9ULmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/askAM.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/askAM.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXGFza0FNLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/ATable.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/ATable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXEFUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/Detail.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/InsertAdmin.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/InsertAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXEluc2VydEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/InsertMember.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/InsertMember.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXEluc2VydE1lbWJlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/MTable.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/MTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXE1UYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/UpdateAdmin.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/UpdateAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXFVwZGF0ZUFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/UpdateMember.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/UpdateMember.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXFVwZGF0ZU1lbWJlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/_AT.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/_AT.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXF9BVC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/UserAdministration/_MT.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/UserAdministration/_MT.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFkbWluaXN0cmF0aW9uXF9NVC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/_ViewImports.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lizhe/OneDrive/桌面/WebMobileAssignment/Demo/Demo/Views/_ViewStart.cshtml]
+[C:/Users/tanju/OneDrive/Desktop/inter/E-ticketing/Demo/Demo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

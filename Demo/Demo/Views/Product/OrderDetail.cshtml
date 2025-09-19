@@ -26,8 +26,17 @@
 </form>
 
 <p>
-   
-    @if(Model.Status == true)
+    @if (User.IsInRole("Admin"))
+    {
+        <button data-get="/Product/OrderHistory">Back</button>
+    }
+    else
+    {
+        <button data-get="/Product/Order">Back</button>
+    }
+
+
+    @if (Model.Status == true && User.IsInRole("Member"))
     {
         <button data-post="/Product/ChangeStatus/@Model.OrderID">Cancel Order</button>
     }
