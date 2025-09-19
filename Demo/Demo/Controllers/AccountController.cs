@@ -9,12 +9,13 @@ public class AccountController : Controller
     private readonly DB db;
     private readonly IWebHostEnvironment en;
     private readonly Helper hp;
-
-    public AccountController(DB db, IWebHostEnvironment en, Helper hp)
+    private readonly EmailService es;
+    public AccountController(DB db, IWebHostEnvironment en, Helper hp, EmailService es)
     {
         this.db = db;
         this.en = en;
         this.hp = hp;
+        this.es = es;
     }
 
     // GET: Account/Login
@@ -202,41 +203,122 @@ public class AccountController : Controller
         return View(vm);
     }
 
-    // GET: Account/ResetPassword
-    public IActionResult ResetPassword()
+    // GET: Forget Password
+    [HttpGet]
+    public IActionResult ForgotPassword()
     {
         return View();
     }
 
-    // POST: Account/ResetPassword
+    // POST: Forget Password
+    [HttpPost]
+    public IActionResult ForgotPassword(string email)
+    {
+        var user = db.Users.FirstOrDefault(u => u.Email == email);
+        if (user == null)
+        {
+            ModelState.AddModelError("", "Email not found.");
+            return View();
+        }
+
+        // Generate token
+        string token = Guid.NewGuid().ToString();
+
+        // Save to DB with expiry (e.g. 1 hour)
+        db.PasswordResetTokens.Add(new PasswordResetToken
+        {
+            Email = email,
+            Token = token,
+            Expiry = DateTime.UtcNow.AddHours(1)
+        });
+        db.SaveChanges();
+
+        // Generate link
+        string resetLink = Url.Action("ResetPassword", "Account", new { token }, Request.Scheme)
+                           ?? "/Account/ResetPassword";
+
+        // Send email
+        es.SendEmail(email, "Password Reset",
+            $"Click <a href='{resetLink}'>here</a> to reset your password.");
+
+        TempData["Info"] = "Reset link sent. Please check your email.";
+        return RedirectToAction("Login");
+    }
+
+    [HttpGet]
+    public IActionResult ResetPassword(string token)
+    {
+        var reset = db.PasswordResetTokens.FirstOrDefault(t => t.Token == token && t.Expiry > DateTime.UtcNow);
+        if (reset == null)
+        {
+            TempData["Error"] = "Invalid or expired token.";
+            return RedirectToAction("ForgotPassword");
+        }
+
+        return View(new ResetPasswordVM { Token = token });
+    }
+
     [HttpPost]
     public IActionResult ResetPassword(ResetPasswordVM vm)
     {
-        var u = db.Users.Find(vm.Email);
-
-        if (u == null)
+        var reset = db.PasswordResetTokens.FirstOrDefault(t => t.Token == vm.Token && t.Expiry > DateTime.UtcNow);
+        if (reset == null)
         {
-            ModelState.AddModelError("Email", "Email not found.");
+            TempData["Error"] = "Invalid or expired token.";
+            return RedirectToAction("ForgotPassword");
         }
 
-        if (ModelState.IsValid)
+        var user = db.Users.Find(reset.Email);
+        if (user == null)
         {
-            string password = hp.RandomPassword();
-
-            u!.Hash = hp.HashPassword(password);
-            db.SaveChanges();
-
-            // Send reset password email
-            SendResetPasswordEmail(u, password);
-
-            TempData["Info"] = $"Password reset. Check your email.";
-            return RedirectToAction();
+            TempData["Error"] = "User not found.";
+            return RedirectToAction("ForgotPassword");
         }
 
-        return View();
+        // Update password
+        user.Hash = hp.HashPassword(vm.NewPassword);
+        db.PasswordResetTokens.Remove(reset); // delete token after use
+        db.SaveChanges();
+
+        TempData["Info"] = "Password reset successful. Please login.";
+        return RedirectToAction("Login");
     }
 
-private void SendResetPasswordEmail(User u, string password)
+    //// GET: Account/ResetPassword
+    //public IActionResult ResetPassword()
+    //{
+    //    return View();
+    //}
+
+    //// POST: Account/ResetPassword
+    //[HttpPost]
+    //public IActionResult ResetPassword(ResetPasswordVM vm)
+    //{
+    //    var u = db.Users.Find(vm.Email);
+
+    //    if (u == null)
+    //    {
+    //        ModelState.AddModelError("Email", "Email not found.");
+    //    }
+
+    //    if (ModelState.IsValid)
+    //    {
+    //        string password = hp.RandomPassword();
+
+    //        u!.Hash = hp.HashPassword(password);
+    //        db.SaveChanges();
+
+    //        // Send reset password email
+    //        SendResetPasswordEmail(u, password);
+
+    //        TempData["Info"] = $"Password reset. Check your email.";
+    //        return RedirectToAction();
+    //    }
+
+    //    return View();
+    //}
+
+    private void SendResetPasswordEmail(User u, string password)
 {
     if (u == null) throw new ArgumentNullException(nameof(u));
 

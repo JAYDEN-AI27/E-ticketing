@@ -55,6 +55,7 @@
         }
         @if (User.IsInRole("Admin"))
         {
+            <a href="/UserAdministration/askAM">User Administration</a>
             <a href="/Ticket/Ticket">Ticket Maintenance</a>
             <a href="/Product/OrderHistory">Order History</a>
         }
@@ -65,7 +66,6 @@
         @if (User.Identity.IsAuthenticated)
         {
             <a href="/Account/Logout">Logout</a>
-            <a href="/Account/UpdatePassword">Reset Password</a>
         }
         else
         {
@@ -79,7 +79,6 @@
 
         @if (User.IsInRole("Admin"))
         {
-            <a href="/UserAdministration/askAM">User Administration</a>
             <a href="/Account/UpdateProfile">Update Profile</a>
         }
 

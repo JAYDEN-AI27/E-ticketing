@@ -8,6 +8,7 @@ builder.Services.AddSqlServer<DB>($@"
     AttachDbFilename={builder.Environment.ContentRootPath}\E-ticketing.mdf;
 ");
 builder.Services.AddScoped<Helper>();
+builder.Services.AddScoped<EmailService>();
 builder.Services.AddAuthentication().AddCookie();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddSession();

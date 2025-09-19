@@ -92,9 +92,18 @@ public class UpdateProfileVM
 
 public class ResetPasswordVM
 {
-    [Required, EmailAddress]
-    [Display(Name = "Email")]
-    public string Email { get; set; } = "";
+    [Required(ErrorMessage = "New password is required.")]
+    [DataType(DataType.Password)]
+    [MinLength(6, ErrorMessage ="Password must be at least 6 characters.")]
+    public string NewPassword { get; set; } = string.Empty;
+
+    [Required(ErrorMessage ="Please confirm new password.")]
+    [DataType(DataType.Password)]
+    [Compare("NewPassword", ErrorMessage ="Password do not match.")]
+    public string ConfirmPassword { get; set; } = string.Empty;
+
+    [Required]
+    public string Token { get; set; } = string.Empty;
 }
 
 public class EmailVM

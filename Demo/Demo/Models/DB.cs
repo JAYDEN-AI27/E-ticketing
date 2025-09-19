@@ -19,6 +19,8 @@ public class DB : DbContext
     public DbSet<OrderLine> OrderLines { get; set; }
     public DbSet<Payment> Payments { get; set; }
     public DbSet<Location> Locations { get; set; }
+    public DbSet<PasswordResetToken> PasswordResetTokens { get; set; }
+
 }
 
 // Entity Classes -------------------------------------------------------------
@@ -133,6 +135,14 @@ public class Location
     public double Latitude { get; set; }
     public double Longitude { get; set; }
     public List<Ticket> Tickets { get; set; } = [];
+}
+
+public class PasswordResetToken
+{
+    public int Id { get; set; }
+    public string Email { get; set; } = string.Empty;
+    public string Token { get; set; } = string.Empty;
+    public DateTime Expiry { get; set; }
 }
 
 
