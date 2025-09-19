@@ -3,7 +3,7 @@
 @model IPagedList<Admin>
 
 @{
-    string[] fields = ["Profile photo", "Id", "Name", "Email"];
+    string[] fields = ["Profile photo", "Id", "Name", "Email", "Additional"];
 }
 
 <button data-get="/UserAdministration/InsertAdmin">Insert</button>
@@ -66,6 +66,10 @@
                         Active
                     </button>
                 }
+
+                <button class="emergency-button"
+                        data-post="/UserAdministration/DeleteAdmin/?email=@m.Email">Delete</button>
+
             </td>
         </tr>
     }
@@ -85,6 +89,11 @@
         LoadingElementId = "#loader",
     };
 }
+
+<button onclick="location.href='@Url.Action("MTable", "UserAdministration")'">
+    View Members?
+</button>
+
 
 @Html.PagedListPager(
 Model,

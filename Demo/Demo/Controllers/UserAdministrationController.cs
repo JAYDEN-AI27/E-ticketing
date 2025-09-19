@@ -333,5 +333,41 @@ public class UserAdministrationController : Controller
         return View(vm);
     }
 
+    // POST: Home/Delete Member
+    [HttpPost]
+    public IActionResult DeleteMember(string? email)
+    {
+        var m = db.Members.Find(email);
+
+        if (m != null)
+        {
+            // TODO
+            db.Members.Remove(m);
+            db.SaveChanges();
+
+            TempData["Info"] = "Record deleted.";
+        }
+
+        return RedirectToAction("MTable");
+    }
+
+    // POST: Home/Delete Admin
+    [HttpPost]
+    public IActionResult DeleteAdmin(string? email)
+    {
+        var a = db.Admins.Find(email);
+
+        if (a!= null)
+        {
+            // TODO
+            db.Admins.Remove(a);
+            db.SaveChanges();
+
+            TempData["Info"] = "Record deleted.";
+        }
+
+        return RedirectToAction("ATable");
+    }
+
 }
 

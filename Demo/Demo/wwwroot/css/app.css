@@ -308,6 +308,20 @@ button {
         background: #2980b9;
     }
 
+.emergency-button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .emergency-button:hover {
+     background: #c0392b;
+    }
+
 /* Photo Upload */
 .upload img {
     display: block;

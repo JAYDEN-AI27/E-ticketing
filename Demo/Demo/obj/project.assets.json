@@ -4801,23 +4801,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tanju\\.nuget\\packages\\": {},
+    "C:\\Users\\lizhe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\Demo\\Demo.csproj",
-      "packagesPath": "C:\\Users\\tanju\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tanju\\OneDrive\\Desktop\\inter\\E-ticketing\\Demo\\Demo\\obj\\",
+      "projectPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
+      "packagesPath": "C:\\Users\\lizhe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tanju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lizhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

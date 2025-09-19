@@ -351,7 +351,6 @@ C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\De
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
 C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\ref\Demo.dll
 C:\Users\User\GitHub\E-ticketing\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-hoybx1bus6.gz
-C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-hoybx1bus6.gz
 C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\bin\Debug\net9.0\appsettings.json
 C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\bin\Debug\net9.0\libman.json
@@ -528,3 +527,4 @@ C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\obj\Debug\net9.0\ref
 C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\obj\Debug\net9.0\Demo.pdb
 C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
 C:\Users\tanju\OneDrive\Desktop\inter\E-ticketing\Demo\Demo\obj\Debug\net9.0\ref\Demo.dll
+C:\Users\lizhe\OneDrive\桌面\WebMobileAssignment\Demo\Demo\obj\Debug\net9.0\compressed\moxlhvdfuc-bi3qtroe1p.gz

@@ -6,9 +6,10 @@
     "\\Demo\\Demo\\Controllers",
     "\\Demo\\Demo\\Views",
     "\\Demo\\Demo\\Views\\Home",
+    "\\Demo\\Demo\\Views\\Product",
     "\\Demo\\Demo\\Views\\Shared",
     "\\Demo\\Demo\\Views\\UserAdministration"
   ],
-  "SelectedNode": "\\Demo\\Demo\\Controllers\\UserAdministrationController.cs",
+  "SelectedNode": "\\Demo\\Demo\\Views\\Product\\_Order.cshtml",
   "PreviewInSolutionExplorer": false
 }

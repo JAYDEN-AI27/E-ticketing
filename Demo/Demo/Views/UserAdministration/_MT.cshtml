@@ -3,7 +3,7 @@
 @model IPagedList<Member>
 
 @{
-    string[] fields = ["Profile photo", "Id", "Name", "Email"];
+    string[] fields = ["Profile photo", "Id", "Name", "Email", "Additional"];
 }
 
 @Html.Hidden("sort", "", new { form = "f" })
@@ -65,6 +65,10 @@
                         Active
                     </button>
                 }
+
+                <button class="emergency-button" 
+                    data-post="/UserAdministration/DeleteMember/?email=@m.Email">Delete</button>
+
             </td>
         </tr>
     }
@@ -84,6 +88,10 @@
         LoadingElementId = "#loader",
     };
 }
+
+<button onclick="location.href='@Url.Action("ATable", "UserAdministration")'">
+    View Admins?
+</button>
 
 @Html.PagedListPager(
 Model,
