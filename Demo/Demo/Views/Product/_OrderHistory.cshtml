@@ -1,0 +1,98 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<Order>
+
+@{
+    string[] fields = new[] { "OrderID", "UserEmail", "Date", "Paid", "Quantity", "Total" };
+}
+
+@Html.Hidden("sort", "", new { form = "f" })
+@Html.Hidden("dir", "", new { form = "f" })
+
+<p class="text-muted">
+    Showing <strong>@Model.Count()</strong> of <strong>@Model.TotalItemCount</strong> record(s) |
+    Page <strong>@Model.PageNumber</strong> of <strong>@Model.PageCount</strong>
+</p>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-primary">
+        <tr>
+            @foreach (var f in fields)
+            {
+                string d = "asc";
+                string c = "";
+
+                if (f == ViewBag.Sort)
+                {
+                    d = ViewBag.Dir == "desc" ? "asc" : "desc";
+                    c = ViewBag.Dir; // highlight current sort direction
+                }
+
+                <th>
+                    <a data-ajax="true"
+                       data-ajax-update="#target"
+                       data-ajax-loading="#loader"
+                       href="?search=@ViewBag.Search&sort=@f&dir=@d"
+                       class="@c">
+                        @f
+                    </a>
+                </th>
+            }
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model.Any())
+        {
+            @foreach (var o in Model)
+            {
+                <tr>
+                    <td>@o.OrderID</td>
+                    <td>@o.UserEmail</td>
+                    <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
+                    <td>@(o.Paid ? "Paid" : "Unpaid")</td>
+                    <td>@o.OrderLines.Sum(ol => ol.Quantity)</td>
+                    <td>@o.OrderLines.Sum(ol => ol.Price * ol.Quantity).ToString("F2")</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary"
+                                data-get="/Product/OrderDetail/@o.OrderID">
+                            Detail
+                        </button>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="@(fields.Length + 1)" class="text-center text-muted">
+                    No orders found.
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var options = PagedListRenderOptions.ClassicPlusFirstAndLast;
+    options.LinkToFirstPageFormat = "First";
+    options.LinkToLastPageFormat = "Last";
+    options.LinkToPreviousPageFormat = "Previous";
+    options.LinkToNextPageFormat = "Next";
+
+    var ajaxOptions = new AjaxOptions
+    {
+        HttpMethod = "get",
+        UpdateTargetId = "target",
+        LoadingElementId = "loader"
+    };
+}
+
+<div class="d-flex justify-content-center">
+    @Html.PagedListPager(
+    Model,
+    p => $"?search={ViewBag.Search}&sort={ViewBag.Sort}&dir={ViewBag.Dir}&page={p}",
+    PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(options, ajaxOptions)
+        )
+</div>

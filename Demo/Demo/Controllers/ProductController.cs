@@ -1,6 +1,7 @@
 ﻿using Azure;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using X.PagedList.Extensions;
@@ -210,6 +211,58 @@ public class ProductController : Controller
             return PartialView("_Order", paged);
 
         return View(paged);
+    }
+
+    // GET: Product/OrderHistory
+    [Authorize(Roles = "Admin")]
+    public IActionResult OrderHistory(string? search, string? sort, string? dir, int page = 1, int pageSize = 10)
+    {
+        // Get base query
+        var query = db.Orders
+            .Include(o => o.OrderLines)
+                .ThenInclude(ol => ol.Ticket)
+            .Include(o => o.User)
+            .AsQueryable();
+
+        
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            query = query.Where(o =>
+                o.OrderID.ToString().Contains(search) ||
+                o.User.Email.Contains(search));
+        }
+
+       
+        sort ??= "OrderID";
+        dir ??= "asc";
+
+        query = sort switch
+        {
+            "OrderID" => dir == "desc" ? query.OrderByDescending(o => o.OrderID) : query.OrderBy(o => o.OrderID),
+            "UserEmail" => dir == "desc" ? query.OrderByDescending(o => o.User.Email) : query.OrderBy(o => o.User.Email),
+            "Date" => dir == "desc" ? query.OrderByDescending(o => o.OrderDate) : query.OrderBy(o => o.OrderDate),
+            "Paid" => dir == "desc" ? query.OrderByDescending(o => o.Paid) : query.OrderBy(o => o.Paid),
+            "Quantity" => dir == "desc"
+                ? query.OrderByDescending(o => o.OrderLines.Sum(ol => ol.Quantity))
+                : query.OrderBy(o => o.OrderLines.Sum(ol => ol.Quantity)),
+            "Total" => dir == "desc"
+                ? query.OrderByDescending(o => o.OrderLines.Sum(ol => ol.Price * ol.Quantity))
+                : query.OrderBy(o => o.OrderLines.Sum(ol => ol.Price * ol.Quantity)),
+            _ => query.OrderBy(o => o.OrderID)
+        };
+
+        
+        var pagedOrders = query.ToPagedList(page, pageSize);
+
+        // Pass extra info to view
+        ViewBag.Search = search;
+        ViewBag.Sort = sort;
+        ViewBag.Dir = dir;
+
+        if (Request.IsAjax())
+            return PartialView("_OrderHistory", pagedOrders);
+
+        return View(pagedOrders);
     }
 
 
