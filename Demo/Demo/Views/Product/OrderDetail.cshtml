@@ -26,7 +26,7 @@
 </form>
 
 <p>
-    <button data-get="/Product/Order">Back</button>
+   
     @if(Model.Status == true)
     {
         <button data-post="/Product/ChangeStatus/@Model.OrderID">Cancel Order</button>

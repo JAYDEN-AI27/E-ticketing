@@ -174,7 +174,6 @@ public class ProductController : Controller
     }
 
     // GET: Product/Order
-    [Authorize(Roles = "Member")]
     public IActionResult Order(string? search, string? sort = "Order ID", string? dir = "desc", int page = 1)
     {
         var query = db.Orders
@@ -248,6 +247,7 @@ public class ProductController : Controller
             "Total" => dir == "desc"
                 ? query.OrderByDescending(o => o.OrderLines.Sum(ol => ol.Price * ol.Quantity))
                 : query.OrderBy(o => o.OrderLines.Sum(ol => ol.Price * ol.Quantity)),
+            "Status" => dir == "desc" ? query.OrderByDescending(o => o.Status) : query.OrderBy(o => o.Status),
             _ => query.OrderBy(o => o.OrderID)
         };
 
@@ -268,14 +268,12 @@ public class ProductController : Controller
 
 
     // GET: Product/OrderDetail
-    [Authorize(Roles = "Member")]
     public IActionResult OrderDetail(int id)
     {
         var m = db.Orders
             .Include(o => o.OrderLines)
             .ThenInclude(ol => ol.Ticket)
-            .FirstOrDefault(o => o.OrderID == id &&
-                                 o.UserEmail == User.Identity!.Name);
+            .FirstOrDefault(o => o.OrderID == id);
 
         if (m == null) return RedirectToAction("Order");
 

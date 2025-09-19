@@ -42,7 +42,7 @@ public class HomeController : Controller
         .Select(a => new SelectListItem
         {
             Value = a.Email,
-            Text = $"{a.Name} ({a.Email})"
+            Text = a.Email
         })
         .ToList();
 
