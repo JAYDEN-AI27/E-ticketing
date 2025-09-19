@@ -245,7 +245,7 @@ public class AccountController : Controller
         return RedirectToAction("Login");
     }
 
-    [HttpGet]
+    // GET: Account/Reset Password
     public IActionResult ResetPassword(string token)
     {
         var reset = db.PasswordResetTokens.FirstOrDefault(t => t.Token == token && t.Expiry > DateTime.UtcNow);
@@ -257,10 +257,16 @@ public class AccountController : Controller
 
         return View(new ResetPasswordVM { Token = token });
     }
-
+    
+    //POST: Account//Reset Password
     [HttpPost]
     public IActionResult ResetPassword(ResetPasswordVM vm)
     {
+        if (!ModelState.IsValid)
+        {
+            return View(vm);
+        }
+
         var reset = db.PasswordResetTokens.FirstOrDefault(t => t.Token == vm.Token && t.Expiry > DateTime.UtcNow);
         if (reset == null)
         {
@@ -283,40 +289,6 @@ public class AccountController : Controller
         TempData["Info"] = "Password reset successful. Please login.";
         return RedirectToAction("Login");
     }
-
-    //// GET: Account/ResetPassword
-    //public IActionResult ResetPassword()
-    //{
-    //    return View();
-    //}
-
-    //// POST: Account/ResetPassword
-    //[HttpPost]
-    //public IActionResult ResetPassword(ResetPasswordVM vm)
-    //{
-    //    var u = db.Users.Find(vm.Email);
-
-    //    if (u == null)
-    //    {
-    //        ModelState.AddModelError("Email", "Email not found.");
-    //    }
-
-    //    if (ModelState.IsValid)
-    //    {
-    //        string password = hp.RandomPassword();
-
-    //        u!.Hash = hp.HashPassword(password);
-    //        db.SaveChanges();
-
-    //        // Send reset password email
-    //        SendResetPasswordEmail(u, password);
-
-    //        TempData["Info"] = $"Password reset. Check your email.";
-    //        return RedirectToAction();
-    //    }
-
-    //    return View();
-    //}
 
     private void SendResetPasswordEmail(User u, string password)
 {

@@ -95,15 +95,15 @@ public class ResetPasswordVM
     [Required(ErrorMessage = "New password is required.")]
     [DataType(DataType.Password)]
     [MinLength(6, ErrorMessage ="Password must be at least 6 characters.")]
-    public string NewPassword { get; set; } = string.Empty;
+    public string NewPassword { get; set; }
 
     [Required(ErrorMessage ="Please confirm new password.")]
     [DataType(DataType.Password)]
     [Compare("NewPassword", ErrorMessage ="Password do not match.")]
-    public string ConfirmPassword { get; set; } = string.Empty;
+    public string ConfirmPassword { get; set; }
 
     [Required]
-    public string Token { get; set; } = string.Empty;
+    public string Token { get; set; }
 }
 
 public class EmailVM
