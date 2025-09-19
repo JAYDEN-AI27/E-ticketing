@@ -239,7 +239,18 @@ public class AccountController : Controller
 
         // Send email
         es.SendEmail(email, "Password Reset",
-            $"Click <a href='{resetLink}'>here</a> to reset your password.");
+        $@"
+            <img src='cid:photo' 
+                 style='width: 200px; height: 200px; border: 1px solid #333'>
+
+            <p>Dear User,</p>
+
+            Click <a href='{resetLink}'>here</a> to reset your password.
+
+            <h1 style='color: Green'>Thank You</h1>
+
+            <p>From, 🐱 Super Admin</p>
+        ");
 
         TempData["Info"] = "Reset link sent. Please check your email.";
         return RedirectToAction("Login");
@@ -289,55 +300,6 @@ public class AccountController : Controller
         TempData["Info"] = "Password reset successful. Please login.";
         return RedirectToAction("Login");
     }
-
-    private void SendResetPasswordEmail(User u, string password)
-{
-    if (u == null) throw new ArgumentNullException(nameof(u));
-
-    var mail = new MailMessage
-    {
-        Subject = "Reset Password",
-        IsBodyHtml = true
-    };
-
-    mail.To.Add(new MailAddress(u.Email ?? throw new ArgumentNullException(nameof(u.Email)), u.Name));
-
-    // (1) Url
-    var url = Url.Action("Login", "Account", null, "https");
-
-    // (2) Path (
-    string? path = u switch
-    {
-        Admin => Path.Combine(en.WebRootPath ?? string.Empty, "photos", "admin.jpg"),
-        Member m when !string.IsNullOrWhiteSpace(m.PhotoURL)
-            => Path.Combine(en.WebRootPath ?? string.Empty, "photos", m.PhotoURL),
-        _ => null
-    };
-
-    if (!string.IsNullOrEmpty(path) && System.IO.File.Exists(path))
-    {
-        var att = new Attachment(path);
-        att.ContentId = "photo";
-        mail.Attachments.Add(att);
-    }
-
-    // (3) Body
-    mail.Body = $@"
-        <img src='cid:photo' style='width: 200px; height: 200px;
-                                    border: 1px solid #333'>
-        <p>Dear {u.Name},<p>
-        <p>Your password has been reset to:</p>
-        <h1 style='color: red'>{password}</h1>
-        <p>
-            Please <a href='{url}'>login</a>
-            with your new password.
-        </p>
-        <p>From, 🐱 Super Admin</p>
-    ";
-
-    // (4) Send
-    hp.SendEmail(mail);
-}
 
     [HttpPost]
     public IActionResult ChangeUserStatus(string? email)

@@ -11,6 +11,6 @@
     "\\Demo\\Demo\\Views\\Shared",
     "\\Demo\\Demo\\Views\\UserAdministration"
   ],
-  "SelectedNode": "\\Demo\\Demo\\Models\\ViewModels.cs",
+  "SelectedNode": "\\Demo\\Demo\\Views\\Product\\Order.cshtml",
   "PreviewInSolutionExplorer": false
 }
