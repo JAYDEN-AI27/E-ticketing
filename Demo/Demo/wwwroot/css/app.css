@@ -1,4 +1,5 @@
-﻿/* Font */
+﻿
+/* Font */
 body, input, select, textarea, button {
     font: 16px Arial, sans-serif;
 }
@@ -30,7 +31,7 @@ header {
         flex: 1;
         margin: 0;
         padding-left: 40px;
-        background: url(/images/Logo.png) no-repeat left / 32px;
+        background: url(/images/favicon.png) no-repeat left / 32px;
         color: white;
     }
 
@@ -304,23 +305,9 @@ button {
     transition: background 0.3s;
 }
 
-    button:hover {
+/*    button:hover {
         background: #2980b9;
-    }
-
-.emergency-button {
-    background: #e74c3c;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-    .emergency-button:hover {
-     background: #c0392b;
-    }
+    }*/
 
 /* Photo Upload */
 .upload img {
@@ -379,3 +366,60 @@ button {
     }
 }
 
+/* PayPal Container */
+.paypal-container {
+    width: 420px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+    /* Title */
+    .paypal-container h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+    }
+
+/* Labels */
+.paypal-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Input */
+.paypal-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* PayPal button container spacing */
+#paypal-button-container {
+    margin-top: 20px;
+}
+
+/* PayPal Button Container */
+#paypal-button-container {
+    width: 100%; /* Take full width of the parent */
+    max-width: 420px; /* Limit max width */
+    margin: 20px auto; /* Center horizontally with spacing above/below */
+    padding: 20px; /* Inner padding */
+    background: #ffffff; /* White background */
+    border: 1px solid #d0d0d0; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1); /* Soft shadow */
+    display: flex; /* Center the button */
+    justify-content: center;
+}

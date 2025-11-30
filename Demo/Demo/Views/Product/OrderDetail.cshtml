@@ -38,7 +38,7 @@
 
     @if (Model.Status == true && User.IsInRole("Member"))
     {
-        <button data-post="/Product/ChangeStatus/@Model.OrderID">Cancel Order</button>
+        <button class="badge-danger" data-post="/Product/ChangeStatus/@Model.OrderID">Cancel Order</button>
     }
 </p>
 

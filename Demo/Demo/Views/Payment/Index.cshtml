@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "Paypal Payment";
+
+}
+<script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId&currency=MYR&components=buttons"></script>
+
+
+
+<div class="paypal-container">
+
+    <h2>Complete your order</h2>
+
+    <p>Order ID: <strong>@ViewBag.OrderId</strong></p>
+    <p>Total Amount: <strong>MYR @ViewBag.TotalAmount.ToString("F2")</strong></p>
+
+    <input type="hidden" id="totalAmount" value="@ViewBag.TotalAmount" />
+    <input type="hidden" id="orderId" value="@ViewBag.OrderId" />
+
+    <div id="notification-container"></div>
+
+    <div id="paypal-button-container"></div>
+
+</div>
+
+
+
+
+<script>
+    paypal.Buttons({
+
+    async createOrder() {
+
+        const response = await fetch("@Url.ActionLink("CreatePayment", "Payment")", {
+
+    method: "POST",
+
+    headers: {
+
+    "Content-Type": "application/json",
+
+    },
+    body: JSON.stringify({
+        amount: document.getElementById("totalAmount").value
+    })
+    });
+
+    const order = await response.json();
+
+    return order.id;
+    },
+
+        async onApprove(data) {
+                // Capture the funds from the transaction.
+                const response = await fetch("@Url.ActionLink("CompletePaypalOrder", "Payment")", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                    },
+                  body: JSON.stringify({
+                    id: data.orderID,
+                    email: "@User.Identity?.Name",
+                    orderId: document.getElementById("orderId").value
+                  })
+                })
+
+                const result = await response.json();
+
+                if (result.status === "success") {
+                    // Redirect to order complete page
+                    window.location.href = result.redirectUrl;
+                } else {
+                    // Show error message
+                    alert("Payment failed: " + (result.message || "Unknown error"));
+                }
+            },
+
+        onCancel (data) {
+
+        document.getElementById("notification-container").innerHTML = `
+
+        <div class='alert alert-danger alert-dismissible fade show' role='alert'>
+
+        <strong>Payment Canceled!</strong>
+
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+
+        </div>
+            `;
+
+        },
+
+
+        onError(err) {
+
+        document.getElementById("notification-container").innerHTML = `
+
+        <div class='alert alert-danger alert-dismissible fade show' role='alert'>
+
+        <strong>An error occured! Please retry later.</strong>
+
+        <button type='button' class='btn-close' data-bs-dismiss="alert" aria-label='Close'></button>
+
+        </div>
+            `;
+        }
+
+        }).render('#paypal-button-container');
+
+</script>

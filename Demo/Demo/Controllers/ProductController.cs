@@ -135,8 +135,8 @@ public class ProductController : Controller
         {
             OrderDate = DateTime.Today.ToDateOnly(),
             Paid = false,
-            Status = true,
             UserEmail = User.Identity!.Name!,
+            Status = true
         };
         db.Orders.Add(order);
 
@@ -147,9 +147,11 @@ public class ProductController : Controller
             var p = db.Tickets.Find(TicketId);
             if (p == null) continue;
 
+
             p.Stock -= quantity;
             p.Sales += quantity;
-            
+
+
             order.OrderLines.Add(new()
             {
                 Price = p.UnitPrice,
@@ -158,18 +160,29 @@ public class ProductController : Controller
             });
         }
 
-        // 4. Save changes + clear shopping cart
-
+        // 4. Save changes and clear cart
         db.SaveChanges();
         hp.SetCart();
 
-        // Continue with other processing
-        return RedirectToAction("ChooseCard", "Payment", new { orderId = order.OrderID });
+        // Redirect to PayPal payment page with order ID
+        return RedirectToAction("Index", "Payment", new { orderId = order.OrderID });
     }
 
-    public IActionResult OrderComplete(int id)
+    [Authorize(Roles = "Member")]
+    public IActionResult OrderComplete(string e, int id)
     {
+        // Verify the order belongs to the current user
+        var order = db.Orders.FirstOrDefault(o => o.OrderID == id && o.UserEmail == User.Identity!.Name);
+
+        if (order == null)
+        {
+            return RedirectToAction("Order");
+        }
+
         ViewBag.Id = id;
+        var o = db.Orders.Find(id);
+        var u = db.Users.Find(e);
+
         return View();
     }
 

@@ -164,34 +164,34 @@ public class CartItem
 }
 
 //Payment
-public class PaymentVM
-{
-    public int PaymentID { get; set; }
+//public class PaymentVM
+//{
+//    public int PaymentID { get; set; }
 
-    [Display(Name = "Card Number")]
-    [Required(ErrorMessage = "Card number is required")]
-    [StringLength(16, MinimumLength = 16, ErrorMessage = "Card number must be exactly 16 digits")]
-    [RegularExpression(@"^\d{16}$", ErrorMessage = "Card number must contain exactly 16 digits")]
-    public string cardNum { get; set; }
+//    [Display(Name = "Card Number")]
+//    [Required(ErrorMessage = "Card number is required")]
+//    [StringLength(16, MinimumLength = 16, ErrorMessage = "Card number must be exactly 16 digits")]
+//    [RegularExpression(@"^\d{16}$", ErrorMessage = "Card number must contain exactly 16 digits")]
+//    public string cardNum { get; set; }
 
-    [Display(Name = "CCV")]
-    [Required(ErrorMessage = "CCV is required")]
-    [StringLength(3, MinimumLength = 3, ErrorMessage = "CCV must be exactly 3 digits")]
-    [RegularExpression(@"^\d{3}$", ErrorMessage = "CCV must contain exactly 3 digits")]
-    public string ccv { get; set; }
+//    [Display(Name = "CCV")]
+//    [Required(ErrorMessage = "CCV is required")]
+//    [StringLength(3, MinimumLength = 3, ErrorMessage = "CCV must be exactly 3 digits")]
+//    [RegularExpression(@"^\d{3}$", ErrorMessage = "CCV must contain exactly 3 digits")]
+//    public string ccv { get; set; }
 
-    [Display(Name = "Expired Month")]
-    [Range(1, 12)]
-    public int expire_month { get; set; }
+//    [Display(Name = "Expired Month")]
+//    [Range(1, 12)]
+//    public int expire_month { get; set; }
 
-    [Display(Name = "Expired Year")]
-    [Range(25, 60)]
-    public int expire_year { get; set; }
+//    [Display(Name = "Expired Year")]
+//    [Range(25, 60)]
+//    public int expire_year { get; set; }
 
-}
+//}
 
-public class ChooseCardVM
-{
-    public int SelectedPaymentId { get; set; }
-    public List<Payment> Payments { get; set; } = new();
-}
+//public class ChooseCardVM
+//{
+//    public int SelectedPaymentId { get; set; }
+//    public List<Payment> Payments { get; set; } = new();
+//}
