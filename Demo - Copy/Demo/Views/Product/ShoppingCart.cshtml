@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Product | Shopping Cart";
+}
+
+
+<div id="target">
+    <partial name="_ShoppingCart">
+</div>
+
+@section foot {
+    <script>
+        $(document).on('change','select',e=>{
+            $(e.target.form).submit()
+        });
+    </script>
+}

@@ -1,0 +1,63 @@
+﻿@* @{
+    ViewBag.Title = "Home | Demo 1 - Formatting";
+    DateTime now  = DateTime.Now;
+}
+
+<table class="table">
+    <tr>
+        <th>Method</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>ToString()</td>
+        <td>@now.ToString()</td>
+    </tr>
+    <tr>
+        <td>ToShortDateString()</td>
+        <td>@now.ToShortDateString()</td>
+    </tr>
+    <tr>
+        <td>ToLongDateString()</td>
+        <td>@now.ToLongDateString()</td>
+    </tr>
+    <tr>
+        <td>ToShortTimeString()</td>
+        <td>@now.ToShortTimeString()</td>
+    </tr>
+    <tr>
+        <td>ToLongTimeString()</td>
+        <td>@now.ToLongTimeString()</td>
+    </tr>
+    <tr>
+        <td>ToString("dd-MM-yyyy")</td>
+        <td>@now.ToString("dd-MM-yyyy")</td>
+    </tr>
+    <tr>
+        <td>ToString("dd-MMM-yyyy")</td>
+        <td>@now.ToString("dd-MMM-yyyy")</td>
+    </tr>
+    <tr>
+        <td>ToString("dd-MMMM-yyyy")</td>
+        <td>@now.ToString("dd-MMMM-yyyy")</td>
+    </tr>
+    <tr>
+        <td>ToString("dd-MMMM-yyyy (dddd)")</td>
+        <td>@now.ToString("dd-MMMM-yyyy (dddd)")</td>
+    </tr>
+    <tr>
+        <td>ToString("hh:mm:ss tt")</td>
+        <td>@now.ToString("hh:mm:ss tt")</td>
+    </tr>
+    <tr>
+        <td>ToString("HH:mm")</td>
+        <td>@now.ToString("HH:mm")</td>
+    </tr>
+</table>
+
+<ul>
+    <li><a href="https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c" target="_blank">Windows Culture Table</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings" target="_blank">C# Standard Date and Time Format Strings</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings" target="_blank">C# Custom Date and Time Format Strings</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-timespan-format-strings" target="_blank">C# Standard TimeSpan Format Strings</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings" target="_blank">C# Custom TimeSpan Format Strings</a></li>
+</ul> *@

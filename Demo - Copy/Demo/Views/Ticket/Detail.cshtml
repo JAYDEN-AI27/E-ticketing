@@ -1,0 +1,68 @@
+﻿@model Ticket
+
+@{
+    ViewBag.Title = "Ticket Detail";
+}
+
+
+<table class="table detail">
+    <tr>
+        <th>Id</th>
+        <td>@Model.TicketID</td>
+    </tr>
+    <tr>
+        <th>Type</th>
+        <td>@Model.Type</td>
+    </tr>
+    <tr>
+        <th>Unit Price</th>
+        <td>@Model.UnitPrice</td>
+    </tr>
+    <tr>
+        <th>Stock</th>
+        <td>@Model.Stock</td>
+    </tr>
+    <tr>
+        <th>Depature Time</th>
+        <td>@Model.DepartureTime</td>
+    </tr>
+    <tr>
+        <th>Source</th>
+        <td>@Model.Source</td>
+    </tr>
+    <tr>
+        <th>Destination</th>
+        <td>@Model.Destination</td>
+    </tr>
+    <tr>
+        <th>Source Location</th>
+        <td> <div id="map" style="height:300px; width:300px; border: 1px solid #ccc;"></div></td>
+    </tr>
+</table>
+
+<p>
+    <button data-get="Ticket">Back</button>
+</p>
+
+<script>
+
+    function initMap() {
+
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 12,
+            center: { lat: @Model.Location.Latitude , lng: @Model.Location.Longitude },
+        });
+
+        const marker = new google.maps.Marker({
+            position: { lat: @Model.Location.Latitude, lng: @Model.Location.Longitude },
+            map: map,
+        });
+
+    }
+</script>
+
+
+<!-- Load Google Maps JavaScript API -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXwE8UL4vwfkLDRSKxNWPNffzv0-MGcfo&callback=initMap">
+</script>

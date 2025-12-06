@@ -1,0 +1,31 @@
+﻿@model PaymentVM
+
+@{
+    ViewBag.Title = "Payment Method | Insert";
+}
+
+<form asp-controller="Payment" asp-action="Insert" method="post" class="form">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <label asp-for="cardNum"></label>
+    <input asp-for="cardNum" data-trim>
+    <span asp-validation-for="cardNum"></span>
+
+    <label asp-for="ccv"></label>
+    <input asp-for="ccv" data-trim>
+    <span asp-validation-for="ccv"></span>
+
+    <label asp-for="expire_month"></label>
+    <input asp-for="expire_month" type="number" step="1" min="01" max="12" data-trim>
+    <span asp-validation-for="expire_month"></span>
+
+    <label asp-for="expire_year"></label>
+    <input asp-for="expire_year" type="number" step="1" min="25" max="60" data-trim>
+    <span asp-validation-for="expire_year"></span>
+
+
+    <section>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </section>
+</form>

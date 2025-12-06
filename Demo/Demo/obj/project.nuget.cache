@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6jlhVf+2rU0=",
+  "dgSpecHash": "8gtkh8+sW54=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lizhe\\OneDrive\\桌面\\WebMobileAssignment\\Demo\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\Users\\lizhe\\OneDrive\\Documents\\WebMobileAssignmentDemo\\Demo\\Demo\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lizhe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lizhe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

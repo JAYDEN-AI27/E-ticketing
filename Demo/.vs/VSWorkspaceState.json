@@ -5,8 +5,10 @@
     "\\Demo\\bin",
     "\\Demo\\bin\\Debug",
     "\\Demo\\bin\\Release",
-    "\\Demo\\Controllers"
+    "\\Demo\\Controllers",
+    "\\Demo\\Views",
+    "\\Demo\\Views\\UserAdministration"
   ],
-  "SelectedNode": "\\Demo.sln",
+  "SelectedNode": "\\Demo\\Views\\UserAdministration\\_MT.cshtml",
   "PreviewInSolutionExplorer": false
 }

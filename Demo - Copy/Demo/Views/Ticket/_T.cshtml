@@ -1,0 +1,98 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<Ticket>
+
+@{
+    string[] fields = ["TicketID", "Type", "UnitPrice", "Stock", "DepartureTime", "Source", "Destination"];
+}
+
+@Html.Hidden("sort", "", new { form = "f" })
+@Html.Hidden("dir", "", new { form = "f" })
+
+<p>
+    @Model.Count() of @Model.TotalItemCount record(s) |
+    Page @Model.PageNumber of @Model.PageCount
+</p>
+<button data-get="/Ticket/Insert">Insert</button>
+
+<table class="table">
+    <tr>
+        @foreach (var f in fields)
+        {
+            string d = "asc";
+            string c = "";
+
+            if (f == ViewBag.Sort)
+            {
+                d = ViewBag.Dir == "des" ? "asc" : "des";
+                c = ViewBag.Dir;
+            }
+
+            <th>
+                <a data-ajax="true"
+                   data-ajax-update="#target"
+                   data-ajax-loading="#loader"
+                   href="?name=@ViewBag.Name&sort=@f&dir=@d" class="@c">@f</a>
+            </th>
+        }
+        <th></th>
+    </tr>
+
+    @if (Model.Any())
+    {
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.TicketID</td>
+                <td>@s.Type</td>
+                <td>@s.UnitPrice</td>
+                <td>@s.Stock</td>
+                <td>@s.DepartureTime</td>
+                <td>@s.Source</td>
+                <td>@s.Destination</td>
+
+                <td>
+                    <button data-get="/Ticket/Detail/@s.TicketID">Detail</button>
+                    <button data-get="/Ticket/Update/@s.TicketID">Update</button>
+                    @if(s.Status == true)
+                    {
+                        <button data-post="/Ticket/ChangeStatus/@s.TicketID">Deactive</button>
+                    }
+                    else
+                    {
+                        <button data-post="/Ticket/ChangeStatus/@s.TicketID">Active</button>
+                    }
+                </td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+            <td colspan="@(fields.Length + 1)" class="text-center text-muted">
+                No records found.
+            </td>
+        </tr>
+    }
+</table>
+
+@{
+    var options = PagedListRenderOptions.ClassicPlusFirstAndLast;
+    options.LinkToFirstPageFormat = "First";
+    options.LinkToLastPageFormat = "Last";
+    options.LinkToPreviousPageFormat = "Previous";
+    options.LinkToNextPageFormat = "Next";
+
+    var ajaxOptions = new AjaxOptions
+    {
+        HttpMethod = "get",
+        UpdateTargetId = "target",
+        LoadingElementId = "#loader",
+    };
+}
+
+@Html.PagedListPager(
+Model,
+p => $"?name={ViewBag.Name}&sort={ViewBag.Sort}&dir={ViewBag.Dir}&page={p}",
+PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(options, ajaxOptions)
+)

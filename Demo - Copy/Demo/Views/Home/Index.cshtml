@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home | Index";
+}
+@model IEnumerable<Ticket>
+
+<h1>Selling Fast</h1>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Avaialble Seat</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in Model)
+            {
+                if (ticket.Sales != 0 && ticket.Status == true)
+                {
+                    <tr>
+                        <td><a href="/Product/ProductDetail/@ticket.TicketID">@ticket.Type</a></td>
+                        <td>
+                            <span class="badge badge-success">@ticket.Stock</span>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No tickets available at the moment.</p>
+}

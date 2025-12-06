@@ -1,0 +1,92 @@
+﻿@model TicketVM
+
+@{
+    ViewBag.Title = "Ticket Insert";
+}
+
+
+<form method="post" class="form">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <label asp-for="TicketID"></label>
+    <input asp-for="TicketID" data-upper autofocus placeholder="TXXX">
+    <span asp-validation-for="TicketID"></span>
+
+    <label asp-for="Type"></label>
+    <input asp-for="Type" data-upper data-trim>
+    <span asp-validation-for="Type"></span>
+
+    <label asp-for="UnitPrice"></label>
+    <input asp-for="UnitPrice" type="number" step="0.01" min="0" max="9999.99">
+    <span asp-validation-for="UnitPrice"></span>
+
+    <label asp-for="Stock"></label>
+    <input asp-for="Stock" type="number" min="0">
+    <span asp-validation-for="Stock"></span>
+
+    <label asp-for="DepartureTime"></label>
+    <input asp-for="DepartureTime" type="datetime-local">
+    <span asp-validation-for="DepartureTime"></span>
+
+    <label asp-for="Source"></label>
+    <input asp-for="Source" data-trim>
+    <span asp-validation-for="Source"></span>
+
+    <label asp-for="Destination"></label>
+    <input asp-for="Destination" data-trim>
+    <span asp-validation-for="Destination"></span>
+
+    <label asp-for="Latitude">Latitude</label>
+    <input asp-for="Latitude" id="lat" readonly />
+    <br>
+
+    <label asp-for="Longitude">Longitude</label>
+    <input asp-for="Longitude" id="lng" readonly />
+    <br>
+
+    <div id="map" style="height:300px; width:300px; border: 1px solid #ccc;"></div>
+
+
+    <section>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </section>
+</form>
+
+<script>
+    let map;
+    let marker;
+
+    function initMap() {
+        // Default center (Kuala Lumpur)
+        const defaultLocation = { lat: 3.1390, lng: 101.6869 };
+
+        map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 12,
+            center: defaultLocation,
+        });
+
+        marker = new google.maps.Marker({
+            position: defaultLocation,
+            map: map,
+            draggable: true,
+        });
+
+        // Initialize input values
+        document.getElementById("lat").value = marker.getPosition().lat();
+        document.getElementById("lng").value = marker.getPosition().lng();
+
+        // Update lat/lng on drag
+        google.maps.event.addListener(marker, "dragend", function () {
+            document.getElementById("lat").value = marker.getPosition().lat();
+            document.getElementById("lng").value = marker.getPosition().lng();
+        });
+    }
+</script>
+
+
+<!-- Load Google Maps JavaScript API -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXwE8UL4vwfkLDRSKxNWPNffzv0-MGcfo&callback=initMap">
+</script>
+
