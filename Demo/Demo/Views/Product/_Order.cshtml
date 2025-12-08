@@ -3,7 +3,7 @@
 @model IPagedList<Order>
 
 @{
-    string[] fields = ["OrderID", "Date", "Paid", "Quantity", "Total"];
+    string[] fields = ["OrderID", "Date", "Order Status","Payment Status", "Quantity", "Total"];
 }
 
 @Html.Hidden("sort", "", new { form = "f" })
@@ -42,7 +42,8 @@
         <tr>
             <td>@o.OrderID</td>
             <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
-            <td>@(o.Paid ? "Yes" : "No")</td>
+            <td>@(o.Status ? "Success" : "Cancelled")</td>
+            <td>@(o.Paid ? "Success" : "Cancelled")</td>
             <td>@o.OrderLines.Sum(ol => ol.Quantity)</td>
             <td>@o.OrderLines.Sum(ol => ol.Price * ol.Quantity)</td>
             <td>
