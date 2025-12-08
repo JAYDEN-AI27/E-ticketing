@@ -132,31 +132,17 @@ namespace Demo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("CardNum")
-                        .IsRequired()
-                        .HasMaxLength(16)
-                        .HasColumnType("nvarchar(16)");
-
-                    b.Property<string>("Ccv")
-                        .IsRequired()
-                        .HasMaxLength(3)
-                        .HasColumnType("nvarchar(3)");
-
-                    b.Property<int>("Expired_month")
-                        .HasMaxLength(2)
+                    b.Property<int>("OrderID")
                         .HasColumnType("int");
 
-                    b.Property<int>("Expired_year")
-                        .HasMaxLength(2)
-                        .HasColumnType("int");
-
-                    b.Property<string>("MemberEmail")
+                    b.Property<string>("PaypalCaptureId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MemberEmail");
+                    b.HasIndex("OrderID")
+                        .IsUnique();
 
                     b.ToTable("Payments");
                 });
@@ -297,13 +283,13 @@ namespace Demo.Migrations
 
             modelBuilder.Entity("Demo.Models.Payment", b =>
                 {
-                    b.HasOne("Demo.Models.Member", "Member")
-                        .WithMany()
-                        .HasForeignKey("MemberEmail")
+                    b.HasOne("Demo.Models.Order", "Order")
+                        .WithOne("Payment")
+                        .HasForeignKey("Demo.Models.Payment", "OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Member");
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("Demo.Models.Ticket", b =>
@@ -325,6 +311,8 @@ namespace Demo.Migrations
             modelBuilder.Entity("Demo.Models.Order", b =>
                 {
                     b.Navigation("OrderLines");
+
+                    b.Navigation("Payment");
                 });
 
             modelBuilder.Entity("Demo.Models.Ticket", b =>

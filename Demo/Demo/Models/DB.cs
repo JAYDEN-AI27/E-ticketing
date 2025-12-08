@@ -67,6 +67,7 @@ public class Order
     public bool Status { get; set; }
     public string UserEmail { get; set; }
     public User User { get; set; }
+    public Payment? Payment { get; set; }
     public List<OrderLine> OrderLines { get; set; } = [];
 }
 
@@ -114,17 +115,11 @@ public class Payment
 {
     [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
-    [MaxLength(16)]
-    public string CardNum { get; set; }
-    [MaxLength(3)]
-    public string Ccv { get; set; }
-    [MaxLength(2)]
-    public int Expired_year { get; set; }
-    [MaxLength(2)]
-    public int Expired_month { get; set; }
 
-    public string MemberEmail { get; set; }
-    public Member Member { get; set; }
+    public string PaypalCaptureId { get; set; }
+
+    public int OrderID { get; set; }
+    public Order Order { get; set; }
 
 }
 

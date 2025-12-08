@@ -39,6 +39,7 @@
     @if (Model.Status == true && User.IsInRole("Member"))
     {
         <button class="badge-danger" data-post="/Product/ChangeStatus/@Model.OrderID">Cancel Order</button>
+        <button class="badge-warning" data-post="/Payment/RefundPaypalOrder/@Model.OrderID">Refund</button>
     }
 </p>
 
