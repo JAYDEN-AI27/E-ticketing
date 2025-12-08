@@ -56,12 +56,12 @@
                     <button data-get="/Ticket/Update/@s.TicketID">Update</button>
                     @if(s.Status == true)
                     {
-                        <button class="badge-danger"
+                        <button class="btn btn-danger"
                             data-post="/Ticket/ChangeStatus/@s.TicketID">Deactive</button>
                     }
                     else
                     {
-                        <button class="badge-success"
+                        <button class="btn btn-success"
                             data-post="/Ticket/ChangeStatus/@s.TicketID">Active</button>
                     }
                 </td>
