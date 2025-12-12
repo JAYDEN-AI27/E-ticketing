@@ -4,11 +4,13 @@
     "\\Demo",
     "\\Demo\\Demo",
     "\\Demo\\Demo\\Controllers",
+    "\\Demo\\Demo\\Models",
     "\\Demo\\Demo\\Views",
     "\\Demo\\Demo\\Views\\Home",
+    "\\Demo\\Demo\\Views\\Payment",
     "\\Demo\\Demo\\Views\\Shared",
     "\\Demo\\Demo\\Views\\UserAdministration"
   ],
-  "SelectedNode": "\\Demo\\Demo\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\Demo\\Demo\\Models\\ViewModels.cs",
   "PreviewInSolutionExplorer": false
 }

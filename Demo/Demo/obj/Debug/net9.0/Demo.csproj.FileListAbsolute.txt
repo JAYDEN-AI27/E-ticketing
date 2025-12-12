@@ -528,3 +528,6 @@ C:\Users\lizhe\OneDrive\Documents\WebMobileAssignmentDemo\Demo\Demo\obj\Debug\ne
 C:\Users\lizhe\OneDrive\Documents\WebMobileAssignmentDemo\Demo\Demo\obj\Debug\net9.0\Demo.pdb
 C:\Users\lizhe\OneDrive\Documents\WebMobileAssignmentDemo\Demo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
 C:\Users\lizhe\OneDrive\Documents\WebMobileAssignmentDemo\Demo\Demo\obj\Debug\net9.0\ref\Demo.dll
+C:\Users\user\Documents\MiniProject1\Demo\Demo\obj\Debug\net9.0\Demo.dll
+C:\Users\user\Documents\MiniProject1\Demo\Demo\obj\Debug\net9.0\refint\Demo.dll
+C:\Users\user\Documents\MiniProject1\Demo\Demo\obj\Debug\net9.0\Demo.pdb
